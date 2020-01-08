@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="demo">
-      <change afterPath="$PROJECT_DIR$/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/99.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/BienKieuDuLieuToanTu/2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/BienKieuDuLieuToanTu/5.html" beforeDir="false" afterPath="$PROJECT_DIR$/555.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/BienKieuDuLieuToanTu/CraF.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/CraF.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/BienKieuDuLieuToanTu/bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -195,7 +182,7 @@
       <workItem from="1578362873927" duration="15932000" />
       <workItem from="1578406650567" duration="95000" />
       <workItem from="1578445223927" duration="5585000" />
-      <workItem from="1578451389722" duration="6005000" />
+      <workItem from="1578451389722" duration="6791000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -278,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35557000" />
+    <option name="totallyTimeSpent" value="36343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
