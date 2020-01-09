@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="demo">
-      <change afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/33.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dmel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dmeo90.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kick.html" afterDir="false" />
+    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/555.html" beforeDir="false" afterPath="$PROJECT_DIR$/555.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twt.html" beforeDir="false" afterPath="$PROJECT_DIR$/twt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module1_Nguyen_Duc_Thong/NhapMonLapTrinhCanBan/bai_tap/~$ng_lap.docx" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/555.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="119">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -40,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+              <caret line="12" column="107" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="12" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -134,8 +126,8 @@
         <option value="$PROJECT_DIR$/demo6.html" />
         <option value="$PROJECT_DIR$/twt.html" />
         <option value="$PROJECT_DIR$/dmel.html" />
-        <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/kick.html" />
+        <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/555.html" />
       </list>
     </option>
@@ -225,7 +217,7 @@
       <workItem from="1578406650567" duration="95000" />
       <workItem from="1578445223927" duration="5585000" />
       <workItem from="1578451389722" duration="10801000" />
-      <workItem from="1578532037297" duration="7318000" />
+      <workItem from="1578532037297" duration="7586000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -304,17 +296,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578390452460</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test">
+      <created>1578539747191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578539747191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47671000" />
+    <option name="totallyTimeSpent" value="47939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.11160714" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.11160714" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.24330357" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.24330357" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -367,7 +366,8 @@
     <MESSAGE value="&#10;10" />
     <MESSAGE value="&#10;1" />
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../module1/NhapMonLapTrinhCanBan/1.html" />
@@ -482,20 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twt.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -503,10 +489,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="107" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="12" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kick.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/555.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="62" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
         </state>
       </provider>
     </entry>
