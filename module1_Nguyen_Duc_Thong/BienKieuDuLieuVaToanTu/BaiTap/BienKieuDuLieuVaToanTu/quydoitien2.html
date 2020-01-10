@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quy doi tien</title>
+</head>
+<body>
+<script>
+    function f() {
+
+
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        var c = document.getElementById("c").value;
+        var d = document.getElementById("d");
+        if (b == "VND" && c == "USD"){
+            (d.value = a / 23000)}
+        else{
+            if (b =="USD" && c == "VND")
+            {(d.value = a * 23000)}
+        else{d.value="vui lon chon lai menh gia";}
+        }
+
+    }
+</script>
+<input type="text"id="a"value=""/>
+<select id="b">
+    <option value="VND"onclick="f()">VND</option>
+    <option value="USD"onclick="f()">USD</option>
+</select>
+<select id="c">
+    <option value="VND"onclick="f()">VND</option>
+    <option value="USD"onclick="f()">USD</option>
+
+</select>
+<button type="button"  onclick="f()"> Quy Doi</button>
+<input type="text" id="d"value=""/>
+</body>
+</html>
