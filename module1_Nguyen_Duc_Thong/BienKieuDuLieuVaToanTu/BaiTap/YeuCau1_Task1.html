@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap Thong Tin</title>
+</head>
+<body>
+<script>
+    let namecustomer = prompt("Enter Name Customer: ");
+    let idcard= prompt("enter ID Card customer: ");
+    let birtdaycustomer=prompt("Enter birtday Customer(dd/MM/YYYY): ");
+    let emailcustomer=prompt("Enter Email Customer: ");
+    let addresscustomer=prompt("Enter address Customer: ");
+    let typecustomer=prompt("Enter customer : ");
+    let discuont=prompt("Enter Discount");
+    let numberOfAccomanying=prompt("Enter Number Of Accomanying: ");
+    let typeroom=prompt("Enter Type Room : ");
+    let rentdays=prompt("Enter Rent Days: ");
+    let typeService=prompt("Enter Type Service: ");
+    let totalpays=500*Number.parseFloat(rentdays)*(1-Number.parseFloat(discuont)/100);
+    // hien thi thong in
+    alert("information of customer: \n"+
+            "Name: "+ namecustomer+
+            "\nId Card: "+idcard+
+             "\nBirtday: "+ birtdaycustomer+
+            "\nEmail: "+emailcustomer+
+            "\naddresscustomer : "+addresscustomer+
+            "\nType Customer: "+typecustomer+
+            "\ndiscount: "+discuont+
+            "\nNumber Od Accomanying: "+numberOfAccomanying+
+            "\nType Room : "+typeroom+
+            "\nRentdays: "+rentdays+
+            "\nType Service: "+typeService+
+            "\nTotalpays"+totalpays)
+</script>
+
+</body>
+</html>
