@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>do</title>
+    <title>doC Sang doF</title>
 </head>
 <body>
+<script>
+    function f() {
+        var a= document.getElementById("a");
+        var b= document.getElementById("b");
+        var c= 4.5*parseFloat(a.value)+32;
+        if (!Number.isNaN(c))
+            (b.value=c);
+        else (b.value= "vui long nhao so");
+    }
+
+</script>
+nhap do c = <input type="text" id="a" value=""onkeyup="f()"/>
+do F tuong ung = <input type="text" id="b" value=""/>
+
+
 
 </body>
 </html>

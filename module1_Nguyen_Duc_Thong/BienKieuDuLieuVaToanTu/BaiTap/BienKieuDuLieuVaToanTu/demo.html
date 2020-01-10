@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   function f() {
+       var a= document.getElementById("a");
+       var b= document.getElementById("b");
+       var c=parseFloat(a.value)*4.5+32;
+       if (!Number.isNaN(c))(b.value=c);
+       else (b.value="vui long nhao so")
+
+
+   }
+   </script>
+do C <input type="text" id="a" value="" onkeyup="f()"/>
+do F <input type="text" id="b" value=""/>
+
+</body>
+</html>
