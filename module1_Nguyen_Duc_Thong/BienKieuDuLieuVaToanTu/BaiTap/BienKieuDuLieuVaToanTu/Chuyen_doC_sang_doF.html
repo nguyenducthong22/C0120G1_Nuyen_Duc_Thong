@@ -9,7 +9,7 @@
     function f() {
         var a= document.getElementById("a");
         var b= document.getElementById("b");
-        var c= 4.5*parseFloat(a.value)+32;
+        var c= parseFloat(a.value)4.5*+32;
         if (!Number.isNaN(c))
             (b.value=c);
         else (b.value= "vui long nhao so");
