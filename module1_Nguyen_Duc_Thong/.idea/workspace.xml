@@ -2,7 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/.idea/BienKieuDuLieuVaToanTu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/Chuvihinhtron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/Chuyen_doC_sang_doF.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/DienTichHinhTron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/NhapDiemVaTinhDiem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/quydoitien2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/them.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/BaiTap/the.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/ThucHanh/KhaiBaoVaSuDungBien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BienKieuDuLieuVaToanTu/ThucHanh/SuDungToanTu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Kiem_Tra_Dang_Nhap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Kiem_Tra_Nam_Nhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LuyenTapVoiToanTu_Bai1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LuyenTapVoiToanTu_Bai2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienchuot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Untitled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/ex01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/.idea/NhapMonLapTrinhCanBan.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/bai_tap/diemtrungbinh.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/bai_tap/quydoitiente.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/bai_tap/timsolonnhat.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/bai_tap/vong_lap.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/bai_tap/xet_loai.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/CraF.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/bai1.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,85 +51,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Kiem_Tra_Nam_Nhuan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Kiem_Tra_Dang_Nhap.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/ex01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LuyenTapVoiToanTu_Bai2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Untitled.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -152,17 +111,6 @@
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
-              <item name="CauTrucDieuKien" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
-              <item name="CauTrucDieuKien" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -215,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578292615813</updated>
       <workItem from="1578292616938" duration="2634000" />
-      <workItem from="1578888813254" duration="12540000" />
+      <workItem from="1578888813254" duration="12762000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -301,15 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578910038312</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mk">
+      <created>1578910181183</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910181183</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15174000" />
+    <option name="totallyTimeSpent" value="15396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -420,10 +374,10 @@
     <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Untitled.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html">
+    <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienchuot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="289">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
         </state>
       </provider>
     </entry>
