@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Yeu cau 1 Task2</title>
+</head>
+<body>
+<script>
+    var a;
+    
+    let namecustomer = prompt("Enter Name Customer: ");
+    let idcard= prompt("enter ID Card customer: ");
+    let birtdaycustomer=prompt("Enter birtday Customer(dd/MM/YYYY): ");
+    let emailcustomer=prompt("Enter Email Customer: ");
+    let addresscustomer=prompt("Enter address Customer: ");
+    let typecustomer=prompt("Enter customer : ");
+    let discuont=prompt("Enter Discount");
+    let numberOfAccomanying=prompt("Enter Number Of Accomanying: ");
+    let typeroom=prompt("Enter Type Room : ");
+    let rentdays=prompt("Enter Rent Days: ");
+    let typeService=prompt("Enter Type Service: ");
+
+     switch (typeService) {
+         case "villa" : a = 500; break;
+         case "house" : a = 300;break;
+         case "room " : a = 100;break;
+     }
+
+    let totalpays=parseFloat(a)*Number.parseFloat(rentdays)*(1-Number.parseFloat(discuont)/100);
+
+         
+
+    alert("information of customer: \n"+
+        "Name: "+ namecustomer+
+        "\nId Card: "+idcard+
+        "\nBirtday: "+ birtdaycustomer+
+        "\nEmail: "+emailcustomer+
+        "\naddresscustomer : "+addresscustomer+
+        "\nType Customer: "+typecustomer+
+        "\ndiscount: "+discuont+
+        "\nNumber Od Accomanying: "+numberOfAccomanying+
+        "\nType Room : "+typeroom+
+        "\nRentdays: "+rentdays+
+        "\nType Service: "+typeService+
+        "\nTotalpays"+totalpays)
+</script>
+</body>
+</html>
