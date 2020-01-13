@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Untitled.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -83,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+            <state relative-caret-position="393">
+              <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -217,7 +215,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578292615813</updated>
       <workItem from="1578292616938" duration="2634000" />
-      <workItem from="1578888813254" duration="11978000" />
+      <workItem from="1578888813254" duration="12540000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -289,11 +287,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578906509634</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mk">
+      <created>1578909621800</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578909621800</updated>
+    </task>
+    <task id="LOCAL-00012" summary="mk">
+      <created>1578910038312</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578910038312</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14612000" />
+    <option name="totallyTimeSpent" value="15174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -331,7 +343,8 @@
     <MESSAGE value="9" />
     <MESSAGE value="5" />
     <MESSAGE value="," />
-    <option name="LAST_COMMIT_MESSAGE" value="," />
+    <MESSAGE value="mk" />
+    <option name="LAST_COMMIT_MESSAGE" value="mk" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/3.html" />
@@ -409,8 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="393">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
