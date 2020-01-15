@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy Tính</title>
+    <style>
+        button {
+            font-size: 28px;
+            width: 80px;
+            height: 40px;
+            margin-top: 5px;
+            color: red;
+        }
+        button:hover{
+            background: aqua;
+        }
+        input{
+            font-size: 29px
+        ;   color: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+<input type="text" id="manhinh" style="width: 330px"><br/>
+
+<button id="1" onclick="nhap('1')">1</button>
+<button  id="2" onclick="nhap('2')">2</button>
+<button id="3" onclick="nhap('3')">3</button>
+<button id="+" onclick="nhap('+')">+</button><br/>
+<button id="4" onclick="nhap('4')">4</button>
+<button id="5" onclick="nhap('5')">5</button>
+<button id="6" onclick="nhap('6')">6</button>
+<button id="-" onclick="nhap('-')">-</button><br/>
+<button id="7" onclick="nhap('7')">7</button>
+<button id="8" onclick="nhap('8')">8</button>
+<button id="9" onclick="nhap('9')">9</button>
+<button id="*" onclick="nhap('*')">*</button><br/>
+<button id="xoa" onclick="xoa()">C</button>
+<button id="0" onclick="nhap('0')">0</button>
+<button id="=" onclick="tinhToan()">=</button>
+<button id="/" onclick="nhap('/')">/</button>
+<script>
+    function nhap(a) {
+        document.getElementById("manhinh").value+=a;
+    }
+    function tinhToan() {
+        let manhinh = document.getElementById("manhinh");
+        manhinh.value = eval(manhinh.value);}
+    function xoa() {
+        document.getElementById("manhinh").value="";
+    }
+</script>
+
+
+
+</body>
+</html>
