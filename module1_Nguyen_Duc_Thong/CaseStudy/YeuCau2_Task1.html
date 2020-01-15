@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let namecustomer = prompt("Enter Name Customer: ");
+    let idcard= prompt("enter ID Card customer: ");
+    let birtdaycustomer=prompt("Enter birtday Customer(dd/MM/YYYY): ");
+    let emailcustomer=prompt("Enter Email Customer: ");
+    let addresscustomer=prompt("Enter address Customer: ");
+    let typecustomer=prompt("Enter customer : ");
+    let discuont=prompt("Enter Discount");
+    let numberOfAccomanying=prompt("Enter Number Of Accomanying: ");
+    let typeroom=prompt("Enter Type Room : ");
+    let rentdays=prompt("Enter Rent Days: ");
+    let typeService=prompt("Enter Type Service: ");
+
+    let  menu;
+    let totalDiscount;
+
+    id="";
+    namecustomer="";
+    idCard="";
+    while (1) {
+        menu = prompt(
+            "1. show information Customer\n" +
+            "2. add information customer\n" +
+            "3. Edit information customer\n" +
+            "4. show the amount to be paid after discount\n"+
+            "Chọn menu:"
+        );
+        if (menu === "1") {
+            show();
+        }else
+        if (menu === "2") {
+            add();
+        }else
+        if (menu === "3") {
+            edit();
+        }else
+        if (menu === "4") {
+            amount();
+        }else menu="";
+    }
+    function show(){
+        alert("Information of Customer: \n"+
+            "\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone: " + "\n4. Birthday: " +  birtdaycustomer +
+            "\n5. Email: " +  emailcustomer + "\n6. Address: " +  addresscustomer + "\n7. TypeCustomer: " +  typecustomer
+            + "\n8. Discount: " + discuont+ "\n9. Accompanying: " +numberOfAccomanying + "\n10. RentDay: " +rentdays
+            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom);
+    }
+</script>
+
+</body>
+</html>
