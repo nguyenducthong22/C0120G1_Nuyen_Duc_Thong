@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/BangCuuChuong.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_CauLenhLap/ThucHanh/demmt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/4_CauLenhLap/BaiTap/BangCuuChuong.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,18 +27,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/4_CauLenhLap/ThucHanh/demmt.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -47,10 +36,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CaseStudy/BangCuuChuong.html">
+        <entry file="file://$PROJECT_DIR$/4_CauLenhLap/BaiTap/BangCuuChuong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="408">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -202,30 +191,13 @@
             <path>
               <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
-              <item name="3_CauTrucDieuKien" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
-              <item name="3_CauTrucDieuKien" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_Tap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
-              <item name="3_CauTrucDieuKien" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="4_CauLenhLap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="4_CauLenhLap" type="462c0819:PsiDirectoryNode" />
-              <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
@@ -254,6 +226,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\4_CauLenhLap\BaiTap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\1_NhapMonLapTrinhCanBan\CauLenhLap\ThucHanh" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien\ThucHanh" />
     </key>
@@ -287,7 +260,7 @@
       <workItem from="1578292616938" duration="2634000" />
       <workItem from="1578888813254" duration="12762000" />
       <workItem from="1578963087063" duration="26448000" />
-      <workItem from="1579051044496" duration="16633000" />
+      <workItem from="1579051044496" duration="16909000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -485,15 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579080572363</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="11">
+      <created>1579081860611</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1579081860611</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58477000" />
+    <option name="totallyTimeSpent" value="58753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23958333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -555,7 +534,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="may tinh" />
     <MESSAGE value="9999" />
-    <option name="LAST_COMMIT_MESSAGE" value="9999" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/3.html" />
@@ -752,10 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CaseStudy/BangCuuChuong.html">
+    <entry file="file://$PROJECT_DIR$/4_CauLenhLap/BaiTap/BangCuuChuong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
