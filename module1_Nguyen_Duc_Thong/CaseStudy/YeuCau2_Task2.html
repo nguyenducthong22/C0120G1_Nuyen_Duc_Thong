@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YeuCau2 Task2</title>
+</head>
+<body>
+<script>
+
+    let namecustomer = prompt("Enter Name Customer: ");
+    let idcard= prompt("enter ID Card customer: ");
+    let birtdaycustomer=prompt("Enter birtday Customer(dd/MM/YYYY): ");
+    let emailcustomer=prompt("Enter Email Customer: ");
+    let addresscustomer=prompt("Enter address Customer: ");
+    let typecustomer=prompt("Enter customer : ");
+    let discuont=prompt("Enter Discount");
+    let numberOfAccomanying=prompt("Enter Number Of Accomanying: ");
+    let typeroom=prompt("Enter Type Room : ");
+    let rentdays=prompt("Enter Rent Days: ");
+    let typeService=prompt("Enter Type Service(villa,house,room): ");
+    let  menu;
+    let phone="";
+    let repair
+    switch (typeService) {
+        case "villa" : a = 500; break;
+        case "house" : a = 300;break;
+        case "room" : a = 100;break;
+    }
+    let totalpays=parseFloat(a)*Number.parseFloat(rentdays)*(1-Number.parseFloat(discuont)/100);
+    while (1) {
+        menu = prompt(
+            "1. show information Customer\n" +
+            "2. add information customer\n" +
+            "3. Edit information customer\n" +
+            "4. show the amount to be paid after discount\n"+
+            "Chọn menu:"
+        );
+        if (menu === "1") {
+            show();
+        }else
+        if (menu === "2") {
+            add();
+        }else
+        if (menu === "3") {
+            edit();
+        }else
+        if (menu === "4") {
+            amount();
+        }else menu="";
+    }
+    function show(){
+        alert("Information of Customer: \n"+
+            "\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone number: "+ phone + "\n4. Birthday: " +  birtdaycustomer +
+            "\n5. Email: " +  emailcustomer + "\n6. Address: " +  addresscustomer + "\n7. TypeCustomer: " +  typecustomer
+            + "\n8. Discount: " + discuont+ "\n9. Accompanying: " +numberOfAccomanying + "\n10. RentDay: " +rentdays
+            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom+"\n13.  totalpays"+totalpays);
+    }
+    function add() {
+     phone= prompt("phone number: ")
+    }
+
+    function edit() {
+        let dkChay =true;
+        while (dkChay) {
+        repair=parseFloat(prompt("Select the information you want to change:                              (13.exit) \n"+"\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone number: "+ phone + "\n4. Birthday: " +  birtdaycustomer +
+            "\n5. Email: " +  emailcustomer + "\n6. Address: " +  addresscustomer + "\n7. TypeCustomer: " +  typecustomer
+            + "\n8. Discount: " + discuont+ "\n9. Accompanying: " +numberOfAccomanying + "\n10. RentDay: " +rentdays
+            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom+"\n13.  totalpays"+totalpays));
+        switch (repair) {
+            case 1:namecustomer= prompt("Enter new name: ");
+                break;
+            case 2:idcard=prompt("Enter new id card: ");
+                break;
+            case 3:phone=prompt("Enter phone number: ");
+                break;
+            case 4 : birtdaycustomer=prompt("Enter new birtdaycustomer: ");
+                break;
+            case 5 : emailcustomer=prompt("Enter new email: ");
+                break;
+            case 6 :addresscustomer=prompt("Enter new addresscustomer: ");
+                break;
+            case 7 : typecustomer =prompt("Enter new typecustomer: ");
+                break;
+            case 8 : discuont=prompt("Enter new discuont: ");
+                break;
+            case 9 : numberOfAccomanying=prompt("Enter new numberOfAccomanying: ");
+                break;
+            case 10 : rentdays =prompt("Enter new rentdays: ");
+                break;
+            case 11 : typeService=prompt("Enter new typeService(villa,house,room): ");
+                break;
+            case 12 : typeroom=prompt("Enter new typeroom: ");
+                break;
+            case 13 :
+                dkChay=false;break;
+        }
+        }
+
+    }
+</script>
+
+</body>
+</html>
