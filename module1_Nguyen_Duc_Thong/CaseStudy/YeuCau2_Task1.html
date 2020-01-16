@@ -18,14 +18,14 @@
     let typeroom=prompt("Enter Type Room : ");
     let rentdays=prompt("Enter Rent Days: ");
     let typeService=prompt("Enter Type Service: ");
-
     let  menu;
-    let totalDiscount;
-
-    id="";
-    namecustomer="";
-    idCard="";
-    while (0) {
+    switch (typeService) {
+        case "villa" : a = 500; break;
+        case "house" : a = 300;break;
+        case "room" : a = 100;break;
+    }
+    let totalpays=parseFloat(a)*Number.parseFloat(rentdays)*(1-Number.parseFloat(discuont)/100);
+    while (1) {
         menu = prompt(
             "1. show information Customer\n" +
             "2. add information customer\n" +
@@ -51,7 +51,11 @@
             "\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone: " + "\n4. Birthday: " +  birtdaycustomer +
             "\n5. Email: " +  emailcustomer + "\n6. Address: " +  addresscustomer + "\n7. TypeCustomer: " +  typecustomer
             + "\n8. Discount: " + discuont+ "\n9. Accompanying: " +numberOfAccomanying + "\n10. RentDay: " +rentdays
-            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom);
+            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom+"\n13.  totalpays"+totalpays);
+    }
+    function add() {
+        prompt("phon number: ")
+
     }
 </script>
 
