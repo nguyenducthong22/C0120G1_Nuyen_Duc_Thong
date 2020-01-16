@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CaseStudy/YeuCau2_Task2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/YeuCau2_Task2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="529">
+              <caret line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau1_Task1.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau2_Task2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -122,6 +136,7 @@
         <option value="$PROJECT_DIR$/4_CauLenhLap/ThucHanh/SuDungVongLapLongNhau.html" />
         <option value="$PROJECT_DIR$/CaseStudy/YeuCau1_Task2.html" />
         <option value="$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html" />
+        <option value="$PROJECT_DIR$/CaseStudy/YeuCau2_Task2.html" />
       </list>
     </option>
   </component>
@@ -232,7 +247,7 @@
       <workItem from="1578888813254" duration="12762000" />
       <workItem from="1578963087063" duration="26448000" />
       <workItem from="1579051044496" duration="17745000" />
-      <workItem from="1579136460513" duration="3212000" />
+      <workItem from="1579136460513" duration="12295000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -451,17 +466,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579139646284</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="yeu cau 2 task 1">
+      <created>1579139689891</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1579139689892</updated>
+    </task>
+    <task id="LOCAL-00033" summary="ok">
+      <created>1579145825854</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1579145825854</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62801000" />
+    <option name="totallyTimeSpent" value="71884000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23958333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24617738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -505,10 +534,11 @@
     <MESSAGE value="11" />
     <MESSAGE value="m" />
     <MESSAGE value="yeu cau 2 task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="yeu cau 2 task 1" />
+    <MESSAGE value=" 333" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/3.html" />
     <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/2.html" />
     <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/1.html" />
     <entry file="file://$PROJECT_DIR$/NhapMonLapTrinhCanBan/10/8.html" />
@@ -670,8 +700,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau2_Task1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="529">
+          <caret line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau1_Task1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau2_Task2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
         </state>
       </provider>
     </entry>

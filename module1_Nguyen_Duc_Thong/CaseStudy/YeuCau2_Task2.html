@@ -12,10 +12,10 @@
     let birtdaycustomer=prompt("Enter birtday Customer(dd/MM/YYYY): ");
     let emailcustomer=prompt("Enter Email Customer: ");
     let addresscustomer=prompt("Enter address Customer: ");
-    let typecustomer=prompt("Enter customer : ");
+    let typecustomer=prompt("Enter typecustomer(diamond,platium,gold,silver,member) : ");
     let discuont=prompt("Enter Discount");
     let numberOfAccomanying=prompt("Enter Number Of Accomanying: ");
-    let typeroom=prompt("Enter Type Room : ");
+    let typeroom=prompt("Enter Type Room(vip,business,normal) : ");
     let rentdays=prompt("Enter Rent Days: ");
     let typeService=prompt("Enter Type Service(villa,house,room): ");
     let  menu;
@@ -25,6 +25,7 @@
         case "villa" : a = 500; break;
         case "house" : a = 300;break;
         case "room" : a = 100;break;
+        default:a=50;
     }
     let totalpays=parseFloat(a)*Number.parseFloat(rentdays)*(1-Number.parseFloat(discuont)/100);
     while (1) {
@@ -62,10 +63,10 @@
     function edit() {
         let dkChay =true;
         while (dkChay) {
-        repair=parseFloat(prompt("Select the information you want to change:                              (13.exit) \n"+"\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone number: "+ phone + "\n4. Birthday: " +  birtdaycustomer +
+        repair=parseFloat(prompt("Select the information you want to change:                              (0.exit) \n"+"\n1. Name: " + namecustomer + "\n2. Id card: " + idcard + "\n3. Phone number: "+ phone + "\n4. Birthday: " +  birtdaycustomer +
             "\n5. Email: " +  emailcustomer + "\n6. Address: " +  addresscustomer + "\n7. TypeCustomer: " +  typecustomer
             + "\n8. Discount: " + discuont+ "\n9. Accompanying: " +numberOfAccomanying + "\n10. RentDay: " +rentdays
-            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom+"\n13.  totalpays"+totalpays));
+            + "\n11. ServiceType: " + typeService +"\n12. roomtype: "+ typeroom));
         switch (repair) {
             case 1:namecustomer= prompt("Enter new name: ");
                 break;
@@ -91,11 +92,11 @@
                 break;
             case 12 : typeroom=prompt("Enter new typeroom: ");
                 break;
-            case 13 :
+            case 0 :
+                dkChay="";
                 dkChay=false;break;
+            default: alert('falied');}
         }
-        }
-
     }
 </script>
 
