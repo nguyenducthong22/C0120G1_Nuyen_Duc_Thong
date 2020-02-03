@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi Kieu Chu </title>
+</head>
+<body>
+<script>
+    var chuthaydoi = prompt("nhap chu de thay doi kieu");
+    var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
+    var lower = 'abcdefghijklmnopqrstuvxyz';
+    var result = [];
+    for (var x = 0;x<chuthaydoi.length;x++){
+        if (UPPER.indexOf(chuthaydoi[x])!== -1){
+            result.push(chuthaydoi[x].toLowerCase());
+        }
+        else if (lower.indexOf(chuthaydoi[x])!== -1){
+            result.push(chuthaydoi[x].toUpperCase());
+        }
+        else {result.push(chuthaydoi[x]);}
+    }
+    alert(result.join(''));
+</script>
+
+
+</body>
+</html>
