@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap Va Chen</title>
+</head>
+<body>
+<script>
+    let num= window.prompt("nhap day so ");
+    let chuoi=num.toString();
+    let result=[chuoi[0]];
+    for(let x=1;x<chuoi.length;x++){
+        if ((chuoi[x-1]%2===0)&&chuoi[x]%2===0){
+            result.push('-',chuoi[x]);
+        }
+        else {result.push(chuoi[x]);}
+    }
+    console.log(result.join(''));
+    alert(result)
+</script>
+
+</body>
+</html>
