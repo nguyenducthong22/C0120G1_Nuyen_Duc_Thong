@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b50bdc37-0940-4c21-be27-50156df514b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BaiTap/TuDien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThucHanh/CaroGameSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,13 +25,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="529">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
               <folding>
-                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BaiTap/TuDien.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -82,7 +83,6 @@
         <option value="$PROJECT_DIR$/ThucHanh/TimGiaTriTrongMang.html" />
         <option value="$PROJECT_DIR$/ThucHanh/TimGiaTriLonNhat.html" />
         <option value="$PROJECT_DIR$/ThucHanh/CaroameSimple.html" />
-        <option value="$PROJECT_DIR$/ThucHanh/CaroGameSimple.html" />
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San.html" />
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai!.html" />
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai1.html" />
@@ -91,6 +91,7 @@
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai2.html" />
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai3.html" />
         <option value="$PROJECT_DIR$/BaiTap/TuDien.html" />
+        <option value="$PROJECT_DIR$/ThucHanh/CaroGameSimple.html" />
       </list>
     </option>
   </component>
@@ -145,6 +146,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CaseStudy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -172,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580693553576</updated>
-      <workItem from="1580693554701" duration="15924000" />
+      <workItem from="1580693554701" duration="16520000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1580693633726</created>
@@ -216,11 +218,18 @@
       <option name="project" value="LOCAL" />
       <updated>1580717324630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="loloasdlasdasdlasdldid">
+      <created>1580720881631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1580720881631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15924000" />
+    <option name="totallyTimeSpent" value="16520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +274,8 @@
     <MESSAGE value="7" />
     <MESSAGE value="chuoi" />
     <MESSAGE value="gh" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh" />
+    <MESSAGE value="loloasdlasdasdlasdldid" />
+    <option name="LAST_COMMIT_MESSAGE" value="loloasdlasdasdlasdldid" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThucHanh/DaoNguocCacPhanTuTrongMang.html">
@@ -317,16 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -352,6 +352,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
