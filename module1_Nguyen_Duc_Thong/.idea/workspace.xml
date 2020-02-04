@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6_Ham/g.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CaseStudy/nhap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_mang/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5_mang/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CaseStudy/YeuCau3.html" beforeDir="false" afterPath="$PROJECT_DIR$/CaseStudy/YeuCau3.html" afterDir="false" />
-    </list>
+    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -31,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CaseStudy/nhap.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="147" selection-end-column="70" />
+            <state relative-caret-position="399">
+              <caret line="243" column="7" lean-forward="true" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -225,7 +219,7 @@
       <workItem from="1579136460513" duration="14750000" />
       <workItem from="1579164044837" duration="471000" />
       <workItem from="1579223751294" duration="2242000" />
-      <workItem from="1580779807679" duration="17449000" />
+      <workItem from="1580779807679" duration="17692000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -465,11 +459,32 @@
       <option name="project" value="LOCAL" />
       <updated>1579158248093</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="yc3">
+      <created>1580810727560</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1580810727560</updated>
+    </task>
+    <task id="LOCAL-00036" summary="lllll">
+      <created>1580810841941</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1580810841941</updated>
+    </task>
+    <task id="LOCAL-00037" summary="as">
+      <created>1580810876058</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1580810876058</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94501000" />
+    <option name="totallyTimeSpent" value="94744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -498,8 +513,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bai1" />
-    <MESSAGE value="bai2" />
     <MESSAGE value="nam nhuan" />
     <MESSAGE value="&#10;n" />
     <MESSAGE value="9" />
@@ -522,7 +535,10 @@
     <MESSAGE value=" 333" />
     <MESSAGE value="ok" />
     <MESSAGE value="okkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="okkk" />
+    <MESSAGE value="yc3" />
+    <MESSAGE value="lllll" />
+    <MESSAGE value="as" />
+    <option name="LAST_COMMIT_MESSAGE" value="as" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/Kiem_Tra_Dang_Nhap.html" />
@@ -727,15 +743,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CaseStudy/nhap.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="147" selection-end-column="70" />
+        <state relative-caret-position="399">
+          <caret line="243" column="7" lean-forward="true" selection-start-line="243" selection-start-column="7" selection-end-line="243" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="119">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
