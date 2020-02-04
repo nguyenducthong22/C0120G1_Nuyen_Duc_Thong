@@ -1,12 +1,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-​
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-​
 <body>
 <h3>Game caro phiên bản lỗi</h3>
 <p id="caro"></p>
@@ -35,14 +33,12 @@
                 if(checkWin1()) {
                     alert("Người chơi 1 win")
                 }
-
             } else if(!checkNguoiChoi && checkDaNhap(x,y)){
                 mang[x][y] = "O";
                 checkNguoiChoi = true;
                 if(checkWin2()) {
                     alert("Người chơi 2 win")
                 }
-
             }
             displayCaro();
         }
@@ -92,7 +88,6 @@
     displayCaro();
 </script>
 </body>
-​
 </html>
 
 

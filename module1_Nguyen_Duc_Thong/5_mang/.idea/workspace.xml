@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b50bdc37-0940-4c21-be27-50156df514b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ThucHanh/CaroGameSimple.html" beforeDir="false" afterPath="$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html" beforeDir="false" afterPath="$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
+            <state relative-caret-position="153">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
               </folding>
@@ -92,6 +92,7 @@
         <option value="$PROJECT_DIR$/BaiTap/Su_Dung_Ham_Co_San/Bai3.html" />
         <option value="$PROJECT_DIR$/BaiTap/TuDien.html" />
         <option value="$PROJECT_DIR$/ThucHanh/CaroGameSimple.html" />
+        <option value="$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html" />
       </list>
     </option>
   </component>
@@ -174,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580693553576</updated>
-      <workItem from="1580693554701" duration="16520000" />
+      <workItem from="1580693554701" duration="17983000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1580693633726</created>
@@ -225,11 +226,25 @@
       <option name="project" value="LOCAL" />
       <updated>1580720881631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="x">
+      <created>1580721393625</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580721393625</updated>
+    </task>
+    <task id="LOCAL-00009" summary="x">
+      <created>1580722433887</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580722433887</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16520000" />
+    <option name="totallyTimeSpent" value="17983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,7 +256,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -275,7 +290,8 @@
     <MESSAGE value="chuoi" />
     <MESSAGE value="gh" />
     <MESSAGE value="loloasdlasdasdlasdldid" />
-    <option name="LAST_COMMIT_MESSAGE" value="loloasdlasdasdlasdldid" />
+    <MESSAGE value="x" />
+    <option name="LAST_COMMIT_MESSAGE" value="x" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ThucHanh/DaoNguocCacPhanTuTrongMang.html">
@@ -357,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ThucHanh/CaroGameSimple(Coppy).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
           </folding>
