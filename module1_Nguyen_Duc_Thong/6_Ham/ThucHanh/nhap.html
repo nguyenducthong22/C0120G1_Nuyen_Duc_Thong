@@ -2,17 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Gia Tri Nho Nhat</title>
+    <style>
+        input{margin-left: 20px;
+            margin-top: 25px;
+            width: 400px;
+            height: 33px;
+           border-color: gray;
+        }
+        button{ font-size: 17px;
+            margin-left: 8px;
+            width: 100px;
+            height: 34px;
+            border-color: gray;
+        }
+    </style>
 </head>
 <body>
-do F <input type="number" placeholder="NHap do F quy doi" oninput="hamtinh(this.value)">
-<p>do C : <span id = "hienthiKetqua"></span></p>
+<h3><input id ="nhap" type="number" placeholder="  Nhap cac so cach nhau boi dau phay" ><button onclick="minArr()">So sanh</button> <span id = "hienthiKetqua"></span></h3>
 <script>
-    function hamtinh(so) {
-        document.getElementById("hienthiKetqua").innerHTML=(so-32)/1.8;
-        if (so===""){
-            document.getElementById("hienthiKetqua").innerHTML=""
+    let arr1 = [0,8,9,6,-5];
+    let arr2 = [0,8,6,-9];
+    let arr3 = [ ];
+    let arr4 = [-1];
+    let minArr1 = minArr(arr1);
+    let minArr2 = minArr(arr2);
+    let minArr3 = minArr(arr3);
+    let minArr4 = minArr(arr4);
+    function minArr(arr) {
+        if (arr.length ===0){
+            return -1
         }
+        let min = arr[0];
+        for(
+            var i = 1; i < arr.length; i++){
+            if(arr[i] < min){
+                min = arr[i];
+            }
+        }
+        return min;
     }
-</script></body>
+    alert(minArr4 +" "+minArr3);
+</script>
+</body>
 </html>
