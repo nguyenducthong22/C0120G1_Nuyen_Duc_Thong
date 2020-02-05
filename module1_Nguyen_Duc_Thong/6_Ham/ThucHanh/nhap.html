@@ -5,30 +5,32 @@
     <title>Gia Tri Nho Nhat</title>
     <style>
         input{margin-left: 20px;
-            margin-top: 25px;
+            margin-top: 20px;
             width: 400px;
-            height: 33px;
+            height: 26px;
            border-color: gray;
         }
-        button{ font-size: 17px;
-            margin-left: 8px;
+        button{ font-size: 20px;
+            margin-top: 25px;
+            margin-left:8px;
             width: 100px;
-            height: 34px;
+            height: 32px;
             border-color: gray;
         }
+        span { font-size: 25px;
+               margin-left:8px;
+               margin-top: 30px}
     </style>
 </head>
-<body>
-<h3><input id ="nhap" type="number" placeholder="  Nhap cac so cach nhau boi dau phay" ><button onclick="minArr()">So sanh</button> <span id = "hienthiKetqua"></span></h3>
+<input id="nhap" type="text" value="" placeholder=" Nhap cac so cach nhau boi dau phay"/>
+<button onclick="minArr(arr)">So sanh</button>
+<span id = "hienthiKetqua"></span>
 <script>
-    let arr1 = [0,8,9,6,-5];
-    let arr2 = [0,8,6,-9];
-    let arr3 = [ ];
-    let arr4 = [-1];
-    let minArr1 = minArr(arr1);
-    let minArr2 = minArr(arr2);
-    let minArr3 = minArr(arr3);
-    let minArr4 = minArr(arr4);
+    let cacSo = document.getElementById("nhap").value;
+    let ketQua = "";
+    // for (let i=0;i < cacso.length;i++){}
+    let arr1 = [5,2,3];
+    // let min = minArr(arr);
     function minArr(arr) {
         if (arr.length ===0){
             return -1
@@ -42,7 +44,8 @@
         }
         return min;
     }
-    alert(minArr4 +" "+minArr3);
+    ketQua= "So nho nhat trong day la: "+min ;
+    document.getElementById("hienthiKetqua").innerHTML= ketQua;
 </script>
 </body>
 </html>
