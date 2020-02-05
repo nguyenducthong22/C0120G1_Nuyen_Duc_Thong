@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doi do F sang do C</title>
+</head>
+<body>
+do F   <input id = "nhap" type="number" placeholder="Nhap do F quy doi" oninput="hamtinh(this.value)">
+<p>do C : <span id ="hienthi"></span></p>
+<script>
+    function hamtinh(so){
+        coSo = parseFloat(so);
+        document.getElementById("hienthi").innerHTML= (coSo -32)/1.8;
+        if (so === ""){document.getElementById("hienthi").innerHTML=""}
+    }
+</script>
+</body>
+</html>
