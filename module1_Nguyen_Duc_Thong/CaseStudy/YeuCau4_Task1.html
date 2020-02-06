@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yeu CAu 4</title>
+</head>
+<body>
+<script>
+    let arrNameCustomer=[];
+    let choose = prompt("1.Add new Customer."+"\n2.Delete Customer.");
+    switch (choose) {
+        case "1":
+            let arrLength = prompt("Nhap So luong khach hang muon them");
+            for (var i =0;i<arrLength;i++){
+                arrNameCustomer.push(prompt("nhap ten khach hang thu "+(i+1)));
+            }
+            arrNameCustomer.sort();
+            let result ="";
+                for (var i =0 ; i<arrNameCustomer.length; i++){
+                    result+="\n"+(i+1)+". "+arrNameCustomer[i];
+                }
+            alert(result);
+            break;
+        case "2":
+            break;
+        default:
+            alert("Failed")
+            break;
+    }
+</script>
+
+</body>
+</html>
