@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra So Nguyen To</title>
+    <h2>
+        kiem tra so nay phai so nguyen to khong
+    </h2>
+
+</head>
+<body>
+<input id ="nhap" value="" type="text" placeholder="Nhap so nguyen khong am ">
+<button onclick="kiemtra()">Kiem Tra</button>
+<span id = "hienthi"></span>
+<script>
+let flage = true;
+let n = "";
+
+function kiemtra() {
+    let n = parseInt(document.getElementById("nhap").value);
+    var flag = true;
+    // Nếu n bé hơn 2 tức là không phải số nguyên tố
+    if (n < 2){
+        flag = false;
+    }
+    else{
+        // lặp từ 2 tới n-1
+        for (var i = 2; i < n-1; i++)
+        {
+            if (n % i == 0){
+                flag = false;
+                break;
+            }
+        }
+    }
+    // Kiểm tra biến flag
+    if (flag == true){
+        document.getElementById("hienthi").innerHTML=n + " là số nguyên tố <br/>";
+    }
+    else{
+        document.getElementById("hienthi").innerHTML=n + " không phải là số nguyên tố <br/>";
+    }
+}
+
+
+</script>
+</body>
+</html>
