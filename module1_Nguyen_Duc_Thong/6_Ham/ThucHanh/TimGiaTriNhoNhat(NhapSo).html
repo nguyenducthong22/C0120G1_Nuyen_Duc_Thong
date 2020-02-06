@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gia Tri Nho Nhat</title>
+    <h2>Nhap va So Sanh Tim So Nho Nhat</h2>
+    <style>
+        input{margin-left: 20px;
+            margin-top: 20px;
+            width: 400px;
+            height: 26px;
+           border-color: gray;
+        }
+        button{ font-size: 20px;
+            margin-left:20px;
+            width: 100px;
+            height: 32px;
+            border-color: gray;
+        }
+        span { font-size: 25px;
+               margin-left:8px;
+               margin-top: 30px}
+    </style>
+</head>
+
+<input id="nhap" type="text" value="" placeholder=" Nhap lan luot cac so "/>
+<button id = "add" value="add" onclick="add_Array()"> Add </button>
+<button id="hienthi" value="Display" onclick="display_array()">Hien Thi</button>
+<button onclick="soSanh()">So sanh</button>
+<span id = "hienthiKetqua"></span>
+<p id = "hienthiLen" style="font-size: 20px"></p>
+
+<script>
+    let arr = [];
+    let x="";
+    function add_Array() {
+        let x=parseFloat(document.getElementById("nhap").value);
+        arr.push(x);
+        nhap.value="";}
+    function display_array() {
+        let dong = "<hr/>";
+        for (var i=0;i<arr.length;i++) {
+            dong += "so thu "+(i+1)+" la : "+arr[i]+"<br/>";
+        }
+        hienthiLen.innerHTML=dong;
+    }
+    let min =arr[0];
+    function soSanh() {
+        let min = arr[0];
+        for (var i = 1; i < arr.length; i++) {
+            if (arr[i] < min) {
+                min = arr[i];
+            }
+        }
+        hienthiKetqua.innerHTML = "So nho nhat trong day la: "+ min;
+    }
+</script>
+</body>
+</html>
