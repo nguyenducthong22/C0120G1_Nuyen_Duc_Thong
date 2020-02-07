@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tang Gia tri len 1</title>
+</head>
+<body>
+<h3>
+    Tăng giá trị lên 1
+</h3>
+<input id = "nhap" type="text"/>
+<button type="button" onclick="tang1(parseFloat(document.getElementById('nhap').value))" >Cộng 1</button>
+<span id ="hienthi"></span>
+<script>
+    function tang1(t) {
+        t = t+1;
+        document.getElementById("hienthi").innerHTML=t;
+    }
+</script>
+</body>
+</html>

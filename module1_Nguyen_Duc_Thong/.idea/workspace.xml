@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/QuyDoiMeters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai1_TaoHam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai2_TaoHam2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai3_TaoHamKiemTra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/nhap.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html" beforeDir="false" afterPath="$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,50 +22,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_Ham/ThucHanh/TimGiaTriNhoNhat(NhapSo).html">
+        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai1_TaoHam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/KiemTraCoPhaiSoNguyenTo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+            <state relative-caret-position="238">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/QuyDoiMeters.html">
+        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#option#0;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#option#1;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html">
+        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai3_TaoHamKiemTra.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai2_TaoHam2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -87,12 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai2.html" />
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LuyenTapVoiToanTu_Bai1.html" />
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LamQuenSwitchCase_Bai3.html" />
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/LuyenTapVoiToanTu_Bai2.html" />
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/ex01.html" />
-        <option value="$PROJECT_DIR$/CauTrucDieuKien/ThucHanh/SuKienBanPhim.html" />
         <option value="$PROJECT_DIR$/g.html" />
         <option value="$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/ChiSoCanNang.html" />
         <option value="$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/TinhSoNgay.html" />
@@ -138,6 +136,12 @@
         <option value="$PROJECT_DIR$/CaseStudy/YeuCau4_Ták2.html" />
         <option value="$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html" />
         <option value="$PROJECT_DIR$/6_Ham/BaiTap/QuyDoiMeters.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai1_TaoHam.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai3_TaoHamKiemTra.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai4.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai2_TaoHam2.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/nhap.html" />
+        <option value="$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html" />
       </list>
     </option>
   </component>
@@ -218,6 +222,12 @@
               <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="5_mang" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
+              <item name="5_mang" type="462c0819:PsiDirectoryNode" />
               <item name="ThucHanh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,6 +240,13 @@
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="6_Ham" type="462c0819:PsiDirectoryNode" />
               <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
+              <item name="6_Ham" type="462c0819:PsiDirectoryNode" />
+              <item name="BaiTap" type="462c0819:PsiDirectoryNode" />
+              <item name="LuyenTapTaoVaSuDungHam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
@@ -263,15 +280,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\4_CauLenhLap\BaiTap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\1_NhapMonLapTrinhCanBan\CauLenhLap\ThucHanh" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien\ThucHanh" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,7 +334,7 @@
       <workItem from="1580865825125" duration="5869000" />
       <workItem from="1580876747365" duration="14637000" />
       <workItem from="1580952407613" duration="14947000" />
-      <workItem from="1581038202025" duration="10280000" />
+      <workItem from="1581038202025" duration="18357000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -627,11 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1581041014257</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="sad">
+      <created>1581048670328</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1581048670328</updated>
+    </task>
+    <task id="LOCAL-00046" summary="kl">
+      <created>1581050615665</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1581050615665</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140566000" />
+    <option name="totallyTimeSpent" value="148643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,7 +677,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20758928" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20758928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -688,8 +719,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="so ngay" />
-    <MESSAGE value="lenh lap for" />
     <MESSAGE value="lenh lap while" />
     <MESSAGE value="1" />
     <MESSAGE value="3" />
@@ -713,47 +742,11 @@
     <MESSAGE value="df" />
     <MESSAGE value="ngueynto'" />
     <MESSAGE value="dsa" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsa" />
+    <MESSAGE value="sad" />
+    <MESSAGE value="kl" />
+    <option name="LAST_COMMIT_MESSAGE" value="kl" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/panda_swap_part2x1.jpg" />
-    <entry file="file://$PROJECT_DIR$/3_CauTrucDieuKien/ThucHanh/SuKienchuot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/thuc_hanh/BienKieuDuLieuToanTu/2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/ThucHanh/SuDungToanTu.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/Gamepuzzle.html" />
-    <entry file="file://$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/DoYouLoveMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="71" lean-forward="true" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/Gamepuzzle(Chua_Duoc).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="69" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="69" />
-          <folding>
-            <element signature="n#style#0;n#button#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/4_CauLenhLap/ThucHanh/SuDungVongLapFor.html" />
     <entry file="file://$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/4_CauLenhLap/ThucHanh/SuDungCauLenhWhile1.html" />
     <entry file="file://$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/4_CauLenhLap/ThucHanh/SuDungCauLenhWhile2.html" />
@@ -916,16 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_Ham/ThucHanh/TimGiaTriNhoNhat(NhapSo).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5_mang/ThucHanh/TaoVaThaoTacVoiMang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -954,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/KiemTraCoPhaiSoNguyenTo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_BienKieuDuLieuVaToanTu/BaiTap/BienKieuDuLieuVaToanTu/QuyDoiTien.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
@@ -968,9 +944,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/KiemTraCoPhaiSoNguyenTo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="11" column="78" lean-forward="true" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/QuyDoiMeters.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
+        <state relative-caret-position="258">
           <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -978,9 +961,71 @@
             <element signature="n#style#0;n#option#0;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#option#1;n#select#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/ThucHanh/TimGiaTriNhoNhat(NhapSo).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/nhap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai1_TaoHam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5_mang/BaiTap/TuDien.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai2_TaoHam2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai3_TaoHamKiemTra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

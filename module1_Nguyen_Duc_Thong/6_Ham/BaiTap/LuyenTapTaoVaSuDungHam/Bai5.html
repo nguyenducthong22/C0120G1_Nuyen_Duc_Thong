@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 5</title>
+</head>
+<body>
+<h3> Tra cứu thủ đô </h3>
+<input id="nhap" type="text" placeholder="Nhâp tên quốc gia cần tìm thủ đô" style="width: 230px;height: 20px"/>
+<button onclick="tim()" style="height: 28px"> Tìm thủ đô </button>
+<script>
+    function tim() {
+        let nhap = document.getElementById("nhap").value;
+        let dieukien="";
+        let quocGia = ["china","japan","korea","campuchia","spain","france","italia","cannada","viet nam"];
+        let thuDo = ["Bắc Kinh","Tokyo","Seoul","Phnôm Pênh","Madrid","Paris","Roma","Ottawa","Hà Nội"];
+        for( var i = 0;i<quocGia.length;i++){
+            if(nhap===quocGia[i]){dieukien=i;}
+        }
+        if (dieukien!==""){
+            alert("thu do cua "+quocGia[dieukien]+" la: "+thuDo[dieukien]);
+        }
+        else {alert("khong tim thay quoc gia nay !");}
+    }
+</script>
+</body>
+</html>

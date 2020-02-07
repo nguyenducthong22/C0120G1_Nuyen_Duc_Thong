@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem tra 2 so</title>
+</head>
+<body>
+So thu 1 <input id ="so1" type="text"/><br>
+So thu 2 <input  id="so2" type="text "/><br>
+<button onclick="kiemtra()">Kiem tra</button>
+<script>
+    function kiemtra() {
+        var so1 = (document.getElementById("so1").value)*1;
+        var so2 = (document.getElementById("so2").value)*1;
+        if (so1>so2){
+            alert("So thu nhat lon hon so thu hai")
+        }
+        else {alert("So thu hai lon hon so thu nhat va tong 2 so la: "+ (so1+so2))}
+    }
+</script>
+</body>
+</html>
