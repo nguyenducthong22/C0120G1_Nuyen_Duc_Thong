@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quy Doi Meters </title>
+    <h3> Quy Đổi Đơn Vị Đo </h3>
+</head>
+<body>
+<input type="text" id="nhap" style="height: 25px" placeholder="Nhap so can quy doi"/>
+<select id = "donvichon" style="height: 28px;width: 60px;margin-left: 2px">
+    <option value="Feet" style="color: blue">Feet</option>
+    <option value="Meters" style="color: red">Meters</option>
+</select>
+<button type="button" onclick="quydoi()" style="margin-top: 10px;height: 28px;margin-left: 2px" >Quy Doi</button>
+<input type="text" id = "hienthi" value="" style="width: 100px;height: 25px" />
+<span id="donvi" style="font-size: 15px;color: red"></span>
+<span id="donvikhac" style="font-size: 15px;color: blue"></span>
+<script>
+    function quydoi() {
+        var nhap =document.getElementById("nhap").value
+        var donvichon = document.getElementById("donvichon").value;
+        var hienthi = document.getElementById("hienthi");
+        if (donvichon ==="Feet"){
+            hienthi.value = 0.305*nhap;
+            document.getElementById("donvikhac").innerHTML="";
+            document.getElementById("donvi").innerHTML="Meters";
+        }
+        else if(donvichon ==="Meters")
+        {
+            hienthi.value =3.279*nhap;
+            document.getElementById("donvi").innerHTML="";
+            document.getElementById("donvikhac").innerHTML="Feet"
+        }
+    }
+
+</script>
+
+
+
+</body>
+</html>
