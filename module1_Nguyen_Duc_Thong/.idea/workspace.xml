@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="68">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -330,6 +330,10 @@
       <workItem from="1580952407613" duration="14947000" />
       <workItem from="1581038202025" duration="18483000" />
       <workItem from="1581064848487" duration="313000" />
+      <workItem from="1581066462609" duration="300000" />
+      <workItem from="1581068103664" duration="253000" />
+      <workItem from="1581081623917" duration="5000" />
+      <workItem from="1581249962401" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="bai1">
       <created>1578292881053</created>
@@ -660,11 +664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581064436610</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="jjkk">
+      <created>1581066488211</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1581066488211</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149082000" />
+    <option name="totallyTimeSpent" value="150694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +687,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20163691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -720,7 +732,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1" />
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="2" />
@@ -745,7 +756,8 @@
     <MESSAGE value="sad" />
     <MESSAGE value="kl" />
     <MESSAGE value="fvxc" />
-    <option name="LAST_COMMIT_MESSAGE" value="fvxc" />
+    <MESSAGE value="jjkk" />
+    <option name="LAST_COMMIT_MESSAGE" value="jjkk" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/4_CauLenhLap/ThucHanh/SuDungVongLapFor.html" />
@@ -1022,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/6_Ham/BaiTap/LuyenTapTaoVaSuDungHam/Bai5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
