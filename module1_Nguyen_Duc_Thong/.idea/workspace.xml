@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="410">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -345,14 +345,7 @@
       <workItem from="1581249962401" duration="1054000" />
       <workItem from="1581317266418" duration="4011000" />
       <workItem from="1581384578234" duration="8604000" />
-      <workItem from="1581402670103" duration="10834000" />
-    </task>
-    <task id="LOCAL-00010" summary=",">
-      <created>1578906509634</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1578906509634</updated>
+      <workItem from="1581402670103" duration="11139000" />
     </task>
     <task id="LOCAL-00011" summary="mk">
       <created>1578909621800</created>
@@ -690,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581411179328</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="dsf">
+      <created>1581413614502</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1581413614502</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174143000" />
+    <option name="totallyTimeSpent" value="174448000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +751,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="yeu cau 2 task 1" />
     <MESSAGE value=" 333" />
     <MESSAGE value="ok" />
     <MESSAGE value="okkk" />
@@ -776,7 +775,8 @@
     <MESSAGE value="hkk" />
     <MESSAGE value="df" />
     <MESSAGE value="gh" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh" />
+    <MESSAGE value="dsf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dsf" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mang/BaiTap/j.html" />
@@ -1101,8 +1101,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="410">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
         </state>
       </provider>
     </entry>
