@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap so kiem  tra so do chia het cho can bac 2 cua minh ko </title>
+</head>
+<body>
+<script>
+let number = prompt ("nhap so muon kiem tra: ");
+function isMainNumber(number) {
+if (number == 1) {
+return false
+} else {
+if (number % Math.sqrt (number) == 0)
+return true;
+}
+return false;
+}
+
+if (isMainNumber (number))
+alert ("so "+number+" chia het cho can bac hai cua no la "+Math.sqrt (number));
+else  {alert("so "+number+" khong chia het cho can bac hai cua no");}
+
+</script>
+</body>
+</html>

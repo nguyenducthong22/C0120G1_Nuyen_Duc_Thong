@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/nhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -52,11 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/nhap.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nhap/Nhapgiatrichomang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -82,9 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/1.html" />
-        <option value="$PROJECT_DIR$/3_CauTrucDieuKien/Bai_Tap/DoYouLoveMe.html" />
-        <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/BaiTap/SuDungVongLapFor.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenhFor.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenhWhile.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenh2.html" />
@@ -133,6 +139,9 @@
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html" />
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html" />
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/nhap.html" />
+        <option value="$PROJECT_DIR$/nhap/Nhapgiatrichomang.html" />
+        <option value="$PROJECT_DIR$/nhap/NhapSoKiemTraphaisochinhkhong.html" />
+        <option value="$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html" />
       </list>
     </option>
   </component>
@@ -273,6 +282,11 @@
               <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
               <item name="CaseStudy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="module1_Nguyen_Duc_Thong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="module1_Nguyen_Duc_Thong" type="462c0819:PsiDirectoryNode" />
+              <item name="nhap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -295,15 +309,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\nhap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\4_CauLenhLap\BaiTap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\1_NhapMonLapTrinhCanBan\CauLenhLap\ThucHanh" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien\ThucHanh" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,14 +372,7 @@
       <workItem from="1581249962401" duration="1054000" />
       <workItem from="1581317266418" duration="4011000" />
       <workItem from="1581384578234" duration="8604000" />
-      <workItem from="1581402670103" duration="6947000" />
-    </task>
-    <task id="LOCAL-00008" summary="9">
-      <created>1578904986089</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1578904986089</updated>
+      <workItem from="1581402670103" duration="8420000" />
     </task>
     <task id="LOCAL-00009" summary="5">
       <created>1578905512551</created>
@@ -702,11 +710,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581408280019</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="df">
+      <created>1581409836432</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1581409836432</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170256000" />
+    <option name="totallyTimeSpent" value="171729000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -773,7 +788,6 @@
     <MESSAGE value="dcf" />
     <MESSAGE value="v" />
     <MESSAGE value="fds" />
-    <MESSAGE value="df" />
     <MESSAGE value="ngueynto'" />
     <MESSAGE value="dsa" />
     <MESSAGE value="sad" />
@@ -788,10 +802,10 @@
     <MESSAGE value="asd" />
     <MESSAGE value="ds" />
     <MESSAGE value="hkk" />
-    <option name="LAST_COMMIT_MESSAGE" value="hkk" />
+    <MESSAGE value="df" />
+    <option name="LAST_COMMIT_MESSAGE" value="df" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/4_CauLenhLap/ThucHanh/demmt.html" />
     <entry file="file://$PROJECT_DIR$/CaseStudy/2.html" />
     <entry file="file://$PROJECT_DIR$/mang/BaiTap/j.html" />
     <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau1_Task2.html">
@@ -1099,10 +1113,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/nhap.html">
+    <entry file="file://$PROJECT_DIR$/nhap/Nhapgiatrichomang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
