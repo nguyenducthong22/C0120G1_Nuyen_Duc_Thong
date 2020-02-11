@@ -2,24 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Lớp Date</title>
+    <title>Date</title>
 </head>
 <body>
 <script>
-    let person = {
-        name: ['Bob', 'Smith'],
-        age: 32,
-        gender: 'male',
-        interests: ['music', 'skiing'],
-        bio: function() {
-            alert(this.name[0] + ' ' + this.name[1] + ' is ' + this.age + ' years old. He likes ' + this.interests[0] + ' and ' + this.interests[1] + '.');
-        },
-        greeting: function() {
-            alert('Hi! I\'m ' + this.name[0] + '.');
-        }
+    let MyDate = function(day, month, year) {
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    this.getDay = function() {
+        return this.day;
     };
-   person.bio();
-   person.greeting();
+    this.getMonth = function() {
+        return this.month;
+    };
+    this.getYear = function() {
+        return this.year;
+    };
+    this.setDay = function(day) {
+        this.day  = day;
+    };
+    this.setMonth = function(month) {
+        this.month  = month;
+    };
+    this.setYear = function(year) {
+        this.year  = year;
+    }};
+    let date = new MyDate(2, 2, 2007);
+    let day = date.getDay(); // 2
+
+    let month = date.getMonth(); // 2
+
+    let year = date.getYear(); // 2007
+    alert(day+"/"+month+"/"+year)
+
  </script>
 </body>
 </html>
