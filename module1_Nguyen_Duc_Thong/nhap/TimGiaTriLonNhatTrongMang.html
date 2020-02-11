@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tim Gia Tri Lon Nhat</title>
+</head>
+<h3> Tim Gia Tri Lon Nhat </h3>
+<body>
+<span id="hienthi"></span>
+<script>
+
+    let arr=[];
+    let doDaiArray= parseInt(prompt("nhap so cac phan tu : "));
+    let dem=0;
+    themPhantu();
+    function themPhantu() {
+        let phantu="";
+        for(var i=0; i<doDaiArray;i++){
+            let phantu=parseFloat(prompt("nhap phan tu thu "+(i+1)+" : "));
+            arr.push(phantu);
+        }
+    }
+   let max=arr[0];
+    sosanh();
+    function sosanh() {
+
+        for (var i=1; i<arr.length;i++ ){
+            if (max<arr[i]){
+                max=arr[i];
+                dem=i+1;
+            }
+        }
+    }
+    document.getElementById("hienthi").innerHTML="Phan tu lon nhat trong mang la : "+max+"<br/>"
+        +"Ung voi lan nhap thu : "+dem;
+
+
+
+</script>
+</body>
+</html>

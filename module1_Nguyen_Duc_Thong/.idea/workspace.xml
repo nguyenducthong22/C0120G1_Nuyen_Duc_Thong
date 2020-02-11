@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,55 +17,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/6_Ham/ThucHanh/TimGiaTriNhoNhat(NhapSo).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nhap/Nhapgiatrichomang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="187">
+              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="357">
+              <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -91,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenhFor.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenhWhile.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenh2.html" />
         <option value="$PROJECT_DIR$/1_NhapMonLapTrinhCanBan/CauLenhLap/ThucHanh/SuDungCauLenhWhile2.html" />
@@ -142,6 +114,7 @@
         <option value="$PROJECT_DIR$/nhap/Nhapgiatrichomang.html" />
         <option value="$PROJECT_DIR$/nhap/NhapSoKiemTraphaisochinhkhong.html" />
         <option value="$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html" />
+        <option value="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" />
       </list>
     </option>
   </component>
@@ -372,14 +345,7 @@
       <workItem from="1581249962401" duration="1054000" />
       <workItem from="1581317266418" duration="4011000" />
       <workItem from="1581384578234" duration="8604000" />
-      <workItem from="1581402670103" duration="8420000" />
-    </task>
-    <task id="LOCAL-00009" summary="5">
-      <created>1578905512551</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1578905512551</updated>
+      <workItem from="1581402670103" duration="10834000" />
     </task>
     <task id="LOCAL-00010" summary=",">
       <created>1578906509634</created>
@@ -717,11 +683,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581409836432</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="gh">
+      <created>1581411179328</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1581411179328</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171729000" />
+    <option name="totallyTimeSpent" value="174143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -778,7 +751,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="m" />
     <MESSAGE value="yeu cau 2 task 1" />
     <MESSAGE value=" 333" />
     <MESSAGE value="ok" />
@@ -803,10 +775,10 @@
     <MESSAGE value="ds" />
     <MESSAGE value="hkk" />
     <MESSAGE value="df" />
-    <option name="LAST_COMMIT_MESSAGE" value="df" />
+    <MESSAGE value="gh" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CaseStudy/2.html" />
     <entry file="file://$PROJECT_DIR$/mang/BaiTap/j.html" />
     <entry file="file://$PROJECT_DIR$/CaseStudy/YeuCau1_Task2.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1029,16 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5_mang/ThucHanh/TaoVaThaoTacVoiMang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
@@ -1093,10 +1055,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="27" column="59" lean-forward="true" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1115,15 +1094,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nhap/Nhapgiatrichomang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html">
+    <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="308">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
