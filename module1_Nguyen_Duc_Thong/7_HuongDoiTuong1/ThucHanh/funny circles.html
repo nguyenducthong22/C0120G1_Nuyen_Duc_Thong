@@ -36,6 +36,7 @@
         var circle= new Circle(x, y, radius);
         ctx.beginPath();
         ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+        //(toa do x , y,ban kinh ,goc bat dau (so vs truc x) ,goc ket thuc (PI=360 nen luon quay het)(mac dinh theo chieu kim dong ho)
         ctx.fillStyle = color;
         ctx.fill();
     }
