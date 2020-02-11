@@ -5,9 +5,24 @@
     <title>Hinh Chu Nhat</title>
 </head>
 <body>
-<canvas id="myCanvas" width="1500px" height="670px" style="border: 2px solid black"></canvas>
+<p1 id = "hienthi" ></p1><br>
+<p2 id ="hienthi2" ></p2>
+<canvas id="myCanvas" width="1500px" height="600px"style="margin-top: 20px ; border: 2px solid black"></canvas>
 <script>
+let dai =parseFloat(prompt("nhap chieu dai : "));
+let rong=parseFloat(prompt("nhap chieu rong : "));
+document.getElementById("hienthi").innerHTML="chu vi cua hinh: " +(dai+rong)*2;
+document.getElementById("hienthi2").innerHTML="dien tich cua hinh: "+ dai*rong;
 
+ function vehinhCN() {
+     var ve = document.getElementById("myCanvas").getContext("2d");
+         ve.beginPath();
+         ve.fillStyle="yellow";
+         ve.fillRect(500,200,dai,rong);
+
+ }
+
+ vehinhCN()
 </script>
 </body>
 </html>
