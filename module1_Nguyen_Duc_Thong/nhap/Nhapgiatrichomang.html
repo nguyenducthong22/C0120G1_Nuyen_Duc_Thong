@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhap Gia Tri Cho Mang</title>
+</head>
+<body>
+<p id = "hienthi"></p>
+<script>
+    let chieudaimang = parseInt(prompt("nhap chieu dai mang(so nguyen duong) : "));
+    let array=[];
+    let giatri="";
+    for (var i=0;i<chieudaimang;i++){
+        let giatri= prompt("nhap gia tri thu "+(i+1));
+        array.push(giatri);
+    }
+    document.getElementById("hienthi").innerHTML="cac gia tri cua mang vua nhap la: "+array;
+
+</script>
+</body>
+</html>
