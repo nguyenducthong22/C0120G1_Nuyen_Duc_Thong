@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="410">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding>
+                <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,12 +121,12 @@
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/XayDungLopHinhTron.html" />
         <option value="$PROJECT_DIR$/CaseStudy/YeuCau5.html" />
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html" />
-        <option value="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html" />
         <option value="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/nhap.html" />
         <option value="$PROJECT_DIR$/nhap/Nhapgiatrichomang.html" />
         <option value="$PROJECT_DIR$/nhap/NhapSoKiemTraphaisochinhkhong.html" />
         <option value="$PROJECT_DIR$/nhap/Kiemtrasodochiahetchocanbac2cuaminhhaykhong.html" />
         <option value="$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html" />
+        <option value="$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html" />
       </list>
     </option>
   </component>
@@ -345,14 +357,7 @@
       <workItem from="1581249962401" duration="1054000" />
       <workItem from="1581317266418" duration="4011000" />
       <workItem from="1581384578234" duration="8604000" />
-      <workItem from="1581402670103" duration="11139000" />
-    </task>
-    <task id="LOCAL-00011" summary="mk">
-      <created>1578909621800</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1578909621800</updated>
+      <workItem from="1581402670103" duration="11393000" />
     </task>
     <task id="LOCAL-00012" summary="mk">
       <created>1578910038312</created>
@@ -690,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1581413614502</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="cvxxc">
+      <created>1581413893188</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1581413893188</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174448000" />
+    <option name="totallyTimeSpent" value="174702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -751,7 +763,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" 333" />
     <MESSAGE value="ok" />
     <MESSAGE value="okkk" />
     <MESSAGE value="yc3" />
@@ -776,7 +787,8 @@
     <MESSAGE value="df" />
     <MESSAGE value="gh" />
     <MESSAGE value="dsf" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsf" />
+    <MESSAGE value="cvxxc" />
+    <option name="LAST_COMMIT_MESSAGE" value="cvxxc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mang/BaiTap/j.html" />
@@ -1062,16 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/funny circles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -1102,7 +1104,17 @@
     <entry file="file://$PROJECT_DIR$/nhap/TimGiaTriLonNhatTrongMang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7_HuongDoiTuong1/BaiTap/HinhChuNhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
