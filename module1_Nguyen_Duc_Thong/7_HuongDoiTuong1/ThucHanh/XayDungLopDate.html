@@ -27,15 +27,18 @@
     };
     this.setYear = function(year) {
         this.year  = year;
-    }};
+    }
+    };
     let date = new MyDate(2, 2, 2007);
     let day = date.getDay(); // 2
 
     let month = date.getMonth(); // 2
 
     let year = date.getYear(); // 2007
-    alert(day+"/"+month+"/"+year)
-
+    date.setDay(10);
+    date.setMonth(2);
+    date.setYear(2020);
+    alert(day+"/"+month+"/"+year);
  </script>
 </body>
 </html>
