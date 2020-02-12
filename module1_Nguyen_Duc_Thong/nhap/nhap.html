@@ -13,21 +13,19 @@
         this.color = color; // không cần viết hàm set cho thuộc tính này
         this.getType = function () {
             return this.type;
-        }
+        };
         this.getColor = function () {
             return this.color;
-        }
+        };
         this.getInfo = function () {
             return "color : " + this.color + ' type : ' + this.type + ' apple';
         };
-    }
+    };
     // giống cách 1.1
     let apple = new Apple("macintosh", "red"); // đối số
     alert(apple.getInfo());
     alert(apple.getColor());
     alert(apple.getType());
-
-
 
 </script>
 </body>
