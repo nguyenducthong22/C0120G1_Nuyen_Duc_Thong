@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nhap/CongTacVaNut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/batcongtac.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/MoPhongSuHoatDongCuaDenPin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/CongTacVaNut.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nhap/batcongtac.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -114,14 +113,7 @@
       <workItem from="1581493542629" duration="1232000" />
       <workItem from="1581499511944" duration="1783000" />
       <workItem from="1581557152367" duration="8505000" />
-      <workItem from="1581575589757" duration="10688000" />
-    </task>
-    <task id="LOCAL-00015" summary="so ngay">
-      <created>1578969949325</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1578969949325</updated>
+      <workItem from="1581575589757" duration="13035000" />
     </task>
     <task id="LOCAL-00016" summary="1">
       <created>1578986022652</created>
@@ -459,7 +451,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581565928151</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="den">
+      <created>1581586294370</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1581586294370</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -475,7 +474,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="yc3" />
     <MESSAGE value="lllll" />
     <MESSAGE value="dcf" />
     <MESSAGE value="v" />
@@ -500,25 +498,26 @@
     <MESSAGE value="xzczxczzxc" />
     <MESSAGE value="bv" />
     <MESSAGE value="asd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asd" />
+    <MESSAGE value="den" />
+    <option name="LAST_COMMIT_MESSAGE" value="den" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1581499859079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581499859079" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581565927477">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581586293665">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581565927477" />
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581586293665" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1581499778916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581499778916" />
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581565934229">
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581586299150">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581565934229" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581586299150" />
     <state x="490" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581500955346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
