@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhap/CachkhaibaoLopnendung.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhap/CachkhaibaoLopnendung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhap/nhap.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhap/nhap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/XayDungLopHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/XayDungLopHinhTron.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +111,7 @@
       <workItem from="1581493307445" duration="224000" />
       <workItem from="1581493542629" duration="1232000" />
       <workItem from="1581499511944" duration="1783000" />
+      <workItem from="1581557152367" duration="7683000" />
     </task>
     <task id="LOCAL-00014" summary="can nang">
       <created>1578965640222</created>
@@ -502,18 +504,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581499859079" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581499794740">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581501301119">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581499794740" />
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581501301119" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1581499778916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581499778916" />
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581499802376">
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581501306516">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581499802376" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581501306516" />
     <state x="490" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581500955346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -526,5 +528,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="280" y="92" width="1091" height="544" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1581499583746" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1581560374049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581560374049" />
   </component>
 </project>
