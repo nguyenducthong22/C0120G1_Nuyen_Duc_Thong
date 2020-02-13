@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/CongTacVaNut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/batcongtac.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/XayDungLopHinhTron.html" beforeDir="false" afterPath="$PROJECT_DIR$/7_HuongDoiTuong1/ThucHanh/XayDungLopHinhTron.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HuongDoiTuong2/ThucHanh/MoPhongSuHoatDongCuaDenPin.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nhap" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,16 +54,17 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\nhap" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\nhap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\4_CauLenhLap\BaiTap" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\1_NhapMonLapTrinhCanBan\CauLenhLap\ThucHanh" />
       <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien\ThucHanh" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\3_CauTrucDieuKien\Bai_Tap" />
-      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\module1_Nguyen_Duc_Thong\CauTrucDieuKien" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,14 +113,8 @@
       <workItem from="1581493307445" duration="224000" />
       <workItem from="1581493542629" duration="1232000" />
       <workItem from="1581499511944" duration="1783000" />
-      <workItem from="1581557152367" duration="7683000" />
-    </task>
-    <task id="LOCAL-00014" summary="can nang">
-      <created>1578965640222</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1578965640222</updated>
+      <workItem from="1581557152367" duration="8505000" />
+      <workItem from="1581575589757" duration="10688000" />
     </task>
     <task id="LOCAL-00015" summary="so ngay">
       <created>1578969949325</created>
@@ -456,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581499795505</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="asd">
+      <created>1581565928151</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1581565928151</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TodoView">
@@ -488,7 +491,6 @@
     <MESSAGE value="as" />
     <MESSAGE value="af" />
     <MESSAGE value="saczxczxczcc" />
-    <MESSAGE value="asd" />
     <MESSAGE value="ds" />
     <MESSAGE value="hkk" />
     <MESSAGE value="df" />
@@ -497,25 +499,26 @@
     <MESSAGE value="cvxxc" />
     <MESSAGE value="xzczxczzxc" />
     <MESSAGE value="bv" />
-    <option name="LAST_COMMIT_MESSAGE" value="bv" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1581499859079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581499859079" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581501301119">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1581565927477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581501301119" />
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1581565927477" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1581499778916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581499778916" />
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581501306516">
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1581565934229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581501306516" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1581565934229" />
     <state x="490" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581500955346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
