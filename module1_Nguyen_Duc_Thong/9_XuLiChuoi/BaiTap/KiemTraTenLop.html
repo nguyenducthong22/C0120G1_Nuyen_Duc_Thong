@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ten Lop</title>
+</head>
+<body>
+<script>
+    let check=false;
+    let validateTenLop=/^(A|C|P)[0-9]{4}[G-M]$/;
+    do {
+    let a=prompt("Nhap ten lop (Vd:C0120G ) : ");
+    if(validateTenLop.test(a)){
+        alert("Ten lop hop le");check=true;
+    }
+    else {alert("Ten lop khong hop le")}
+    }
+    while (!check);
+</script>
+
+</body>
+</html>
