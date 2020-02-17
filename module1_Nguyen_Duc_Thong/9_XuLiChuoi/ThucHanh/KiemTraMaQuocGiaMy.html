@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra Ma</title>
+</head>
+<body>
+<script>
+function is_usZipCode(str) {
+regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+if (regexp.test(str)) {
+document.write("Ma Dung");
+} else {
+document.write("Ma sai");
+}
+}
+
+var zipcode1 ="03201-2150";
+is_usZipCode(zipcode1);
+document.write("<br />");
+var zipcode2 ="7892";
+is_usZipCode(zipcode2);
+</script>
+</body>
+</html>
