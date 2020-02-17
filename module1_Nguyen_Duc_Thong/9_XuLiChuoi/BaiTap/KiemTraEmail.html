@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra Email</title>
+</head>
+<body>
+<input id="nhap" style="height: 30px; width: 250px"  placeholder="Nhap Email muon kiem tra dinh dang "/>
+<button id="kiemtra" style="height: 40px" onclick="Kiemtra()">Kiem Tra</button>
+<p id ="result"></p>
+<script>
+    let validateEmail=/^[A-Za-z0-9\_\.]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+    let nhap="" ;
+    let e ="";
+function Kiemtra() {
+    nhap =document.getElementById("nhap").value;
+        if (validateEmail.test(nhap)){
+            e = "Email : "+nhap +" la email hop le ";
+        }
+        else {
+            e ="Email : "+nhap + "la email khong hop le";
+        }
+        document.getElementById("result").innerHTML=e;
+    }
+
+</script>
+</body>
+</html>
