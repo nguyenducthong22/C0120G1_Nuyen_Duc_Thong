@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinh Dang Nam Sinh </title>
+</head>
+<body>
+<p id ="hienthi"></p>
+<script>
+    let validateBirthday=/^((0)[1-9]|[12][0-9]|(3)[01])(\/)((0)[1-9]|(1)[0-2])(\/)\d{4}$/;
+    let check=false;
+    do {
+        nhap=prompt("Nhap ngay thang nam sinh (dd/mm/yyyy) : ");
+        if (validateBirthday.test(nhap)){
+            document.getElementById("hienthi").innerHTML="Ngay sinh  : "+nhap.substr(0,2)+"<br/>"+
+                                                      "Thang sinh : "+nhap.substr(3,2)+"<br/>"+
+                                                      "Nam sinh   : "+nhap.substr(6,4);
+            check=true;
+        }
+        else {alert("Ngay thang nam sinh chua dung!")}
+    }while (!check);
+</script>
+
+</body>
+</html>
