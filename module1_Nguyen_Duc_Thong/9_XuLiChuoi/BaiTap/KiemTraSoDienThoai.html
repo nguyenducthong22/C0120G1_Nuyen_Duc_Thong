@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Dien Thoai</title>
+</head>
+<body>
+<script>
+    let valiedateSdt=/^[0-9]{2}(\-)(0)[0-9]{9}$/;
+    let check = false;
+    do {
+        nhap = prompt("Nhap So Dien Thoai (Vd: 84-0905253308) : ");
+        if (valiedateSdt.test(nhap)){
+            alert("So dien thoai "+nhap+" hop le ");
+            check=true;
+        }
+        else {alert("So dien thoai "+nhap+" khong hop le ")}
+    }while (!check);
+
+</script>
+</body>
+</html>
