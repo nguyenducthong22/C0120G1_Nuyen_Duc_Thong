@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiem Tra Tai Khoan</title>
+</head>
+<body>
+<script>
+    let check=false
+    let validateAccount=/^[_a-z0-9]{6,}$/;
+    do {
+    let nhap= prompt("Nhap tai khoan ") ;
+    if(validateAccount.test(nhap)){
+        alert("Ten tai khoan hop le");
+        check=true;
+    }
+    else {alert("Ten tai khoan khong hop le");
+    }
+    }while (!check)
+</script>
+</body>
+</html>
