@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SDT Viettel</title>
+</head>
+<body>
+<script>
+    let arr = ["0905253308","0122655958","01222604655","0903366666","123456789","09205665995"];
+    let sdtViettel=[];
+    let validateViettel=/^(0)(9)(0)[0-9]{7}$/;
+    for (let i=0;i<arr.length;i++){
+        if (validateViettel.test(arr[i])){
+            sdtViettel.push(arr[i])
+        }
+    }
+    document.write("So dien thoai cua Viettel la : "+sdtViettel)
+</script>
+</body>
+</html>

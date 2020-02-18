@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Doan So (Tim Kiem Nhi Phan)</title>
+</head>
+<body>
+<script>
+    let check= false;
+    let count=0;
+    let num= Math.floor(Math.random()*100);
+    do {
+        let nhap = parseInt(prompt("Co mot so bi an (trong khoang 0 den 100). Hay tim so do ! " + "\n" +
+            "Moi ban nhap so ban doan: "));
+        count++;
+
+        if (nhap > num) {
+            alert("So ban doan lon hon so bi an")
+        } else if (nhap < num) {
+            alert("So ban doan nho hon so bi an")
+        } else {
+            alert("Chuc mung ban da tim ra so bi an la "+num + "\n" + "Sau " + count   + " lan tim"); check=true
+        }
+    }while (!check)
+</script>
+
+</body>
+</html>
