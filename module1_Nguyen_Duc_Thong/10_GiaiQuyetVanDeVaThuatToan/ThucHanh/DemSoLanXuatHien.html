@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Lan Xuat Hien</title>
+    <h4 id="hienthi"></h4>
+</head>
+<body>
+<script>
+    let count=0;
+    let arr=[];
+    let num=[];
+    let nhap =parseInt(prompt("Nhap so can tim"));
+    let nhapso=parseInt(prompt("Nhap so lan lay so ngau nhien"));
+    for (let i=0;i<nhapso;i++){
+        num[i]=Math.floor(Math.random()*100);
+    }
+    function timSo(arr) {
+    for (let i=0;i<arr.length;i++){
+        if (arr[i]===nhap){
+            count++;
+        }
+    }
+    return count;
+    }
+    let soLan=timSo(num);
+    document.getElementById("hienthi").innerHTML="So "+nhap+" xuat hien "+soLan+" lan trong "+nhapso+" lan lay so ngau nhien (so ngau nhien lay tu 0 den 100 )"+"<br/>"
+    +"Voi xac suat xuat hien la "+ (soLan/nhapso)+" %"
+</script>
+</body>
+</html>
