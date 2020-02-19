@@ -5,15 +5,13 @@
     <title>Title</title>
 </head>
 <body>
+<input id="nhap" onclick="f()" >
 <script>
-    var number = 6;
-
-    if( number++ > 5 ){
-        number += 1;
-    }else{
-        number -= 1;
-    }
-    alert(number)
+    let a= document.getElementById("nhap");
+  function f() {
+        a.value*100;
+        alert(a)
+  }
 </script>
 
 </body>

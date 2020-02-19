@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cong tac</title>
+</head>
+<body>
+<img id ="anhden" src="tat.png" width="250px" height="300px">
+<button id="anhnut" onclick="thaydoi()" style="width: 40px ;height: 80px"> <img style="height: 80px; width: 40px" src="batcongtac.png"></button>
+<script>
+    let Lamp= function () {
+        this.turnOn=function () {
+        this.status=true;
+        };
+        this.turnOff=function () {
+        this.status=false;
+        };
+        this.light=function () {
+            if(this.status){
+                document.getElementById("anhden").src="bat.png";
+                document.getElementById("anhnut").src="batcongtac.png"
+            }
+            else {
+                document.getElementById("anhden").src="tat.png";
+                document.getElementById("anhnut").src="batcongtac.png"
+            }
+        }
+    };
+    let lamp=new Lamp();
+   function thaydoi() {
+       if (lamp.status){
+           lamp.turnOff();lamp.light();
+       }
+       else {lamp.turnOn();lamp.light()}
+   }
+
+</script>
+</body>
+</html>

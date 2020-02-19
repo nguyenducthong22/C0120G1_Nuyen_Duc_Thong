@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<img src="images.jpg" id="anhden" >
+<button  onclick="kich()" style="margin-top: 10px; width: 60px;height: 100px "> <img style="width: 60px;height: 100px" src="tat.png" id ="anhnut "></button>
+<body>
+<script>
+    let Battery = function () {
+        this.getPin=function () {
+            return this.pin ;
+        };
+        this.setPin=function (pin) {
+            this.pin = pin;
+        };
+    };
+    let Lamp = function () {
+        this.setLamp=function (battery) {
+            this.battery = battery;
+        };
+        this.getLamp=function () {
+            return this.battery.getPin();
+        };
+        this.turnOff= function () {
+            this.status=false;
+        };
+        this.turnOn=function () {
+            this.status=true;
+        };
+        this.light=function () {
+            if (this.status && this.getLamp()>0 ){
+                document.getElementById("anhden").src="images.jpg";
+                document.getElementById("anhnut").src=" bat.png";
+                alert("den sang");
+            }
+            else {
+                document.getElementById("anhden").src="images (1).jpg";
+                document.getElementById("anhnut").src="tat.png";
+                alert("khong sang");}
+        }
+    };
+    let battery = new Battery();
+    battery.setPin(100);
+    let lamp= new Lamp();
+    lamp.setLamp(battery);
+function kich(){
+    if(lamp.status){
+        lamp.turnOff();lamp.light();
+    }
+    else {lamp.turnOn();lamp.light()};
+}
+
+
+</script>
+</body>
+</html>
