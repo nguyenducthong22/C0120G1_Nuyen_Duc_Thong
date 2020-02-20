@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Employee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/DoiXung.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/SoHoanHao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/cdsff.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,14 +123,10 @@
       <workItem from="1581989639709" duration="3864000" />
       <workItem from="1581999795189" duration="5740000" />
       <workItem from="1582075663772" duration="4364000" />
-      <workItem from="1582161603488" duration="10642000" />
-    </task>
-    <task id="LOCAL-00026" summary="2">
-      <created>1579076903564</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1579076903564</updated>
+      <workItem from="1582161603488" duration="11706000" />
+      <workItem from="1582181934580" duration="1299000" />
+      <workItem from="1582185170955" duration="754000" />
+      <workItem from="1582186364577" duration="190000" />
     </task>
     <task id="LOCAL-00027" summary="may tinh">
       <created>1579077488224</created>
@@ -476,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582015451042</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="ok">
+      <created>1582180699695</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1582180699696</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView">
@@ -492,7 +487,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="jjkk" />
     <MESSAGE value="dfvdv" />
     <MESSAGE value="day" />
     <MESSAGE value="as" />
@@ -517,17 +511,18 @@
     <MESSAGE value="jk" />
     <MESSAGE value="akmfkl" />
     <MESSAGE value="dsfasdasasdassassdssasad" />
-    <option name="LAST_COMMIT_MESSAGE" value="dsfasdasasdassassdssasad" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1581499859079">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1581499859079" />
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1582015450565">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1582180698986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582015450565" />
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582180698986" />
     <state width="1345" height="201" key="GridCell.Tab.0.bottom" timestamp="1581992362311">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -592,14 +587,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="201" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1581992362312" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1581647051914">
+    <state x="184" y="8" key="SettingsEditor" timestamp="1582186553466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581647051914" />
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1582015454041">
+    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582186553466" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2" timestamp="1582180703181">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582015454041" />
+    <state x="275" y="94" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582180703181" />
     <state x="490" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581500955346">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
