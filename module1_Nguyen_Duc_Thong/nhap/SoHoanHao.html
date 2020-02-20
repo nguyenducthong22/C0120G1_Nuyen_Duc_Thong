@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So Hoan Hao</title>
+</head>
+<body>
+<script>
+function findPerfectNumbers(upperLimit, currentTry = 2) {
+let perfectNumbers = [];
+let divisor;
+let sum;
+
+if (typeof upperLimit !== 'number' || isNaN(upperLimit) ||
+upperLimit < 2) {
+throw new TypeError('First parameter is expected to a ' +
+'number larger then 1 which is not NaN.');
+}
+
+while (currentTry <= upperLimit) { // <------- Start outer loop
+divisor = 2;
+sum = 0;
+
+while (currentTry >= divisor) {  // <------- Start inner loop
+let fraction = currentTry / divisor;
+let leftOver = currentTry % divisor;
+
+if (leftOver === 0) {
+sum += fraction;
+}
+
+divisor++;
+}                 // <-------- End inner loop
+
+if (sum === currentTry) {
+perfectNumbers.push(currentTry);
+}
+
+currentTry++;
+}                  // <-------- End outer loop
+
+return perfectNumbers;
+}
+
+// ------------ Demo ... --------------------------
+console.log(findPerfectNumbers(1000));        // Returns : [6, 28, 496]
+console.log(findPerfectNumbers(8140, 8100));     // [8128]
+console.log(findPerfectNumbers(33550340, 33550335)); // [33550336]
+</script>
+</body>
+</html>

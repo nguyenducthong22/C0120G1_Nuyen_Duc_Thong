@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/10_GiaiQuyetVanDeVaThuatToan/BaiTap/Debug.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Cau4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KiemTraMoudel1/Employee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/DoiXung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/SoHoanHao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nhap/cdsff.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nhap/dfs.html" beforeDir="false" afterPath="$PROJECT_DIR$/nhap/dfs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="XHTML File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -124,7 +130,8 @@
       <workItem from="1581902523982" duration="21115000" />
       <workItem from="1581989639709" duration="3864000" />
       <workItem from="1581999795189" duration="5740000" />
-      <workItem from="1582075663772" duration="3354000" />
+      <workItem from="1582075663772" duration="4364000" />
+      <workItem from="1582161603488" duration="10642000" />
     </task>
     <task id="LOCAL-00026" summary="2">
       <created>1579076903564</created>
@@ -605,10 +612,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="280" y="92" width="1091" height="544" maximized="true" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1581669973807" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1581914882213">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1582171478475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1581914882213" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1582171478475" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582014981132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

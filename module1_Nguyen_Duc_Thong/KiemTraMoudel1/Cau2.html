@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cau 2</title>
+</head>
+<body>
+<script>
+    let nhap = prompt("nhap so co 4 chu so nguyen khong am( khong bat dau bang 0): ");
+    let validateNhap=/^[1-9][0-9]{3}$/;
+    function isNumber() {
+        if (!isNaN(nhap)) {
+            if (validateNhap.test(nhap)) {
+                let so1 = parseInt(nhap.substring(0, 1));
+                let so2 = parseInt(nhap.substring(1, 2));
+                let so3 = parseInt(nhap.substring(2, 3));
+                let so4 = parseInt(nhap.substring(3, 4));
+                if ((so1 + so2) == (so3 - so4)) {
+                    alert("Day so thoa man dieu kien ")
+                } else {
+                    alert("day so khong thoa man dieu kien ")
+                }
+            } else {
+                alert("Failed!(Co 4 chu so va khong bat dau bang 0)  ")
+            }
+        } else {
+            alert("Khong dung dinh dang! Vui long Nhap lai")
+        }
+    }
+    isNumber();
+</script>
+
+</body>
+</html>

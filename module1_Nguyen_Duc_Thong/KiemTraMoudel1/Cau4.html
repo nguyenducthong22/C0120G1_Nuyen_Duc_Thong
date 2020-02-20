@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cau 4</title>
+</head>
+<body>
+<script type="text/javascript" src="Employee.js"></script>
+<script>
+    let checkTong= false;
+    let validateEmail=/^[A-Za-z0-9\_\.]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/;
+while (!checkTong) {
+menu = prompt(
+"1. Login\n" +
+"2. Register\n" +
+"3.Exit \n" +
+"Chọn menu:"
+);
+if (menu==="1"){
+        let check=false;
+        do {
+            let tenDangNhap=prompt("Nhap ten dang nhap: ");
+            let matKhau=prompt("Nhap Mat Khau: ");
+            if (tenDangNhap==="abc"&&matKhau==="123"){
+            alert("Ten dang nhap : abc"+"\n"+"Mat khau : 123");check=true;
+            }
+            else {alert("Ten dang nhap hoac mat khau khong dung")}
+        }while (!check)
+    }
+
+if (menu==="2"){
+    let check=false;
+    do {
+    let email=prompt("Nhap Email : ");
+    if (validateEmail.test(email)){alert("Email hop le: "+email);
+                check=true;
+    }
+    else {alert("Email khong hop le ! Vui long nhap lai ")}
+}while (!check)
+}
+if (menu==="3"){
+    alert("Thoat chuong trinh")
+    checkTong=true;
+}
+}
+</script>
+</body>
+</html>

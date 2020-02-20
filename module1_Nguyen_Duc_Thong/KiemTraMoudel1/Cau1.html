@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset=utf-8 />
+    <title>Mang
+    </title>
+    <style>body {padding-top:0px}</style>
+</head>
+<body>
+<h1 id ="hienthi" >Nhap va Hien Thi</h1>
+<h2></h2>
+<input type="text" id="nhap" placeholder="gia tri">
+<input type="button" value="add" onclick="add_Array()">
+<input type="button" value="Display" onclick="display_array()">
+<input type="button" value="SapXep" onclick="sapxep()">
+<p id="result"></p>
+<p id="sapxep"></p>
+<script>
+    let check= false;
+    do {
+        nhap = parseInt(prompt("nhap so phan tu (it nhat 7 phan tu : )"));
+        if (nhap>6){check=true
+        }
+        else {alert("Vui long nhap lai !")}
+    }while (!check);
+    let x=0;
+    let array=Array ();
+    function add_Array() {
+        array[x]=parseInt(document.getElementById("nhap").value);
+        alert("Phan tu thu "+(x+1)+" co gia tri: "+array[x]);
+        x++;
+        document.getElementById("nhap").value="";
+
+    }
+
+    function display_array() {
+        let e ="<hr/>";
+        for (let i=0;i<array.length;i++)
+        {e+= "Phan tu thu "+ (i+1) + " la "+ array[i]+"<br/>";}
+        document.getElementById("result").innerHTML=e
+    }
+    function sapxep() {
+        array.sort(function (a, b) {return  a-b;
+        });
+        document.getElementById("sapxep").innerHTML=array;
+    }
+
+</script>
+</body>
+</html>
