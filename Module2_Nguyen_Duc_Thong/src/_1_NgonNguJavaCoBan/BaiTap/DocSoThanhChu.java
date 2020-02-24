@@ -7,7 +7,6 @@ public class DocSoThanhChu {
             Scanner scanner = new Scanner(System.in);
             System.out.print("Nhap so can doc : ");
             int so = scanner.nextInt();
-            System.out.print(" ");
             if (0<=so&&so <= 10) {
                 switch (so) {
                     case 0:
