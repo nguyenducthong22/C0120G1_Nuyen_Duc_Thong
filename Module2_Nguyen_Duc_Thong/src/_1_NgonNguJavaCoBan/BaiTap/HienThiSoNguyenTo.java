@@ -6,7 +6,7 @@ public class HienThiSoNguyenTo {
         System.out.println("Ban muon hien thi bao nhieu so nguyen to ?");
         System.out.print("So so nguyen to muon hien thi : ");
         int nSo=scanner.nextInt();
-        int layNSo=2;
+        int layNSo=1;
         int n=1;
         while (layNSo<=nSo){
             n++;
