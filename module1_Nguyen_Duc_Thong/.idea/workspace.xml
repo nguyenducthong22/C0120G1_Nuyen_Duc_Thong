@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="" />
+    <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/_1_NgonNguJavaCoBan/BaiTap/ChiSoBMI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/_1_NgonNguJavaCoBan/BaiTap/HienThiCacSoNguyenToNhoHon100.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +130,7 @@
       <workItem from="1582185170955" duration="754000" />
       <workItem from="1582186364577" duration="190000" />
       <workItem from="1582522548605" duration="5000" />
+      <workItem from="1582536264544" duration="1113000" />
     </task>
     <task id="LOCAL-00027" summary="may tinh">
       <created>1579077488224</created>
