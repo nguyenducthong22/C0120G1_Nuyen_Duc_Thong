@@ -2,7 +2,7 @@ package _2_MangVaPhuongThucTrongJava.ThucHanh;
 
 import java.util.Scanner;
 
-public class TimGiaTriLonNhatTrongMang {
+public class TimGiaTriLonNhat {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean check = false;
@@ -31,12 +31,12 @@ public class TimGiaTriLonNhatTrongMang {
         double max = array[0];
         int index = 0;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] > max) {
+            if (array[i] >= max) {
                 max = array[i];
                 index = i + 1;
             }
         }
-        System.out.print("gia tri lon nhat la : "+max+" ung voi phan tu thu "+index);
+        System.out.print("gia tri lon nhat la : "+max+" la phan tu thu "+index);
         return max;
     }
 }
