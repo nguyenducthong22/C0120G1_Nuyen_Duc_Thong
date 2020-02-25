@@ -11,8 +11,8 @@ public class ChenPhanTu {
         do{
             System.out.print("Nhap do dai mang muon tao: ");
             doDai=scanner.nextInt();
-            if (doDai<20&&doDai>0){
                 check=false;
+                if (doDai<20&&doDai>0){
             }else {
                 System.out.print("Failed !!!(Up to 20 elements )");
             }
