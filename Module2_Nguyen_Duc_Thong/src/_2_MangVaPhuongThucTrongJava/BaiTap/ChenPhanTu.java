@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ChenPhanTu {
     public static void main(String[] args) {
-        Scanner scanner=new Scanner(System.in);
+        Scanner scanner =new Scanner(System.in);
         int doDai;
         double arr[];
         boolean check=true;
