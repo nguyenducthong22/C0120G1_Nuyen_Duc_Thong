@@ -25,8 +25,7 @@ public class TimGiaTriLonNhatTrongMang {
             i++;
         } while (i < doDai);
 
-        double[] x=array;
-        timGTLN(x);
+        timGTLN(array);
     }
     static double timGTLN(double[]array) {
         double max = array[0];
