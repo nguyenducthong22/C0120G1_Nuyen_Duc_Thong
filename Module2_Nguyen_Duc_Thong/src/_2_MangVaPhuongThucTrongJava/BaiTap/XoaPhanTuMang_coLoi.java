@@ -2,7 +2,7 @@ package _2_MangVaPhuongThucTrongJava.BaiTap;
 
 import java.util.Scanner;
 
-public class XoaPhanTuMang {
+public class XoaPhanTuMang_coLoi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean check = false;

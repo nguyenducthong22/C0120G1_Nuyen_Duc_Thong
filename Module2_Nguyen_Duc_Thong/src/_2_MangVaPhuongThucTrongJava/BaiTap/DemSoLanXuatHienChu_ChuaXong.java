@@ -2,7 +2,7 @@ package _2_MangVaPhuongThucTrongJava.BaiTap;
 
 import java.util.Scanner;
 
-public class DemSoLanXuatHienChu {
+public class DemSoLanXuatHienChu_ChuaXong {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         String kiTu;
