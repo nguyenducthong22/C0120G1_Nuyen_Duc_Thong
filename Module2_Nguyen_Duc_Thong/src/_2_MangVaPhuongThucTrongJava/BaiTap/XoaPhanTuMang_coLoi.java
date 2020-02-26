@@ -18,7 +18,7 @@ public class XoaPhanTuMang_coLoi {
                 System.out.print("Khong hop le !!!");
             }
         } while (!check);
-        array = new double[doDai];
+        array = new double[doDai+1];
         int i = 0;
         do {
             System.out.print("Gia tri phan tu thu " + (i + 1) + " : ");
@@ -34,20 +34,24 @@ public class XoaPhanTuMang_coLoi {
         boolean check2=false;
         double delete;
         do {
+            int soDelete=0;
             int demDelete=0;
             System.out.print("Chon gia tri muon xoa: ");
             delete=scanner.nextDouble();
-            for (int j=0;j<array.length-1;j++){
+            for (int j=0;j<array.length-demDelete;j++){
                 if (delete==array[j]){
-                        array[j]=array[j+1];
-                        demDelete++;
+                    demDelete++;
+                    for (int k=j;k<array.length-demDelete;k++) {
+                        array[k] = array[k + 1];
+                    }
                 }
             }
             if (demDelete==0){
                 System.out.println("Khong co gia tri nay tong mang ");
             }
-            System.out.print("mang vua nhap : ");
-            for (int l = 0; l < doDai-demDelete; l++) {
+            System.out.print("mang hien tai  : ");
+            soDelete+=demDelete;
+            for (int l = 0; l < doDai-soDelete; l++) {
                 System.out.print(array[l] + " ");
             }
         }while (!check2);
