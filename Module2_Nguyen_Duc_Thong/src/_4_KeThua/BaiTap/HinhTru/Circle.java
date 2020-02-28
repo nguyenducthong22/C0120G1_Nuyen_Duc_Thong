@@ -1,4 +1,4 @@
-package _4_KeThua.BaiTap.HinhTron;
+package _4_KeThua.BaiTap.HinhTru;
 
 public class Circle {
     private double radius;

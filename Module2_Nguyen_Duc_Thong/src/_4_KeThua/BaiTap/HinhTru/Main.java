@@ -1,8 +1,4 @@
-package _4_KeThua.BaiTap.HinhTron.HinhTru;
-
-import _4_KeThua.BaiTap.HinhTron.Circle;
-import _4_KeThua.BaiTap.HinhTron.Cylinder;
-import _4_KeThua.ThucHanh.Hinh.Cricle;
+package _4_KeThua.BaiTap.HinhTru;
 
 public class Main {
     public static void main(String[] args) {

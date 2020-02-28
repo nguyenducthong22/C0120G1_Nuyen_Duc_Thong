@@ -1,6 +1,6 @@
-package _4_KeThua.BaiTap.HinhTron;
+package _4_KeThua.BaiTap.HinhTru;
 
-public class Cylinder extends Circle{
+public class Cylinder extends Circle {
     private double radius=1.0;
     private double height=1.0;
     String color="white";
