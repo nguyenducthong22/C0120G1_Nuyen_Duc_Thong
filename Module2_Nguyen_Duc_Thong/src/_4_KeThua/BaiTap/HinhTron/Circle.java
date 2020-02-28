@@ -4,20 +4,20 @@ public class Circle {
     private double radius;
     private String color;
 
-    public Circle(){
+    public Circle() {
     }
 
-    public Circle(double radius,String color){
-        this.color=color;
-        this.radius=radius;
+    public Circle(double radius, String color) {
+        this.color = color;
+        this.radius = radius;
     }
 
-    public double getRadius(){
+    public double getRadius() {
         return this.radius;
     }
 
     public void setRadius(double radius) {
-        this.radius=radius;
+        this.radius = radius;
     }
 
     public String getColor() {
@@ -28,11 +28,12 @@ public class Circle {
         this.color = color;
     }
 
-    public double getArea(){
-        return this.radius*this.radius*Math.PI;
+    public double getArea() {
+        return this.radius * this.radius * Math.PI;
     }
 
-    public String toString(){
-        return "Circle has radius is "+this.getRadius()+"\n"+"Area is "+this.getArea();
+    public String toString() {
+        return "Circle " + "\n" + "Color is " + this.getColor() + " and radius is " + this.getRadius() + "\n" + "Area is " + this.getArea();
     }
 }
+

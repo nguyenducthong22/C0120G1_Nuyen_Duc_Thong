@@ -16,7 +16,8 @@ class CreatRandom {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);        System.out.println("Nhap phan tu muon tim : ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhap phan tu muon tim : ");
         try {
             int nhap=scanner.nextInt();
             CreatRandom creatRandom=new CreatRandom();
