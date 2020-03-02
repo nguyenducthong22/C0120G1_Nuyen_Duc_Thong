@@ -1,6 +1,6 @@
-package _4_KeThua.ThucHanh.Hinh;
+package _4_KeThua.ThucHanh.Hinh.HinhHoc;
 
-import _4_KeThua.ThucHanh.Hinh.Shape;
+import _4_KeThua.ThucHanh.Hinh.HinhHoc.Shape;
 
 public class Square extends Shape {
     private double size=1.0;

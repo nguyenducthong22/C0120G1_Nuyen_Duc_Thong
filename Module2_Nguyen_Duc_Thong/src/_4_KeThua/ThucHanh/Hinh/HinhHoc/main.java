@@ -1,4 +1,4 @@
-package _4_KeThua.ThucHanh.Hinh;
+package _4_KeThua.ThucHanh.Hinh.HinhHoc;
 
 public class main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package _4_KeThua.ThucHanh.Hinh;
+package _4_KeThua.ThucHanh.Hinh.HinhHoc;
 
 public class Cricle extends Shape {
     private double radius=1.0;

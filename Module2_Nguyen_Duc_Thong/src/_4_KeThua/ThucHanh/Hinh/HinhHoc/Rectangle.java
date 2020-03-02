@@ -1,4 +1,4 @@
-package _4_KeThua.ThucHanh.Hinh;
+package _4_KeThua.ThucHanh.Hinh.HinhHoc;
 
 public class Rectangle  extends Shape {
     private double width=1.0;

@@ -1,4 +1,4 @@
-package _4_KeThua.ThucHanh.Hinh;
+package _4_KeThua.ThucHanh.Hinh.HinhHoc;
 
 public class Shape{
     private String color="green";
