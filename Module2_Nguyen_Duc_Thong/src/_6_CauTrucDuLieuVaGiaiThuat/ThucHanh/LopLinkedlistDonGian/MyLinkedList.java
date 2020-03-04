@@ -1,13 +1,13 @@
 package _6_CauTrucDuLieuVaGiaiThuat.ThucHanh.LopLinkedlistDonGian;
 
-public class MyLinkedList {
+public class MyLinkedList<E> {
     private Node head;
     private  int numNodes;
     public MyLinkedList(Object data) {
         head = new Node(data);
     }
 
-    private class Node {
+    private static class Node {
         private Node next;
         private Object data;
 
