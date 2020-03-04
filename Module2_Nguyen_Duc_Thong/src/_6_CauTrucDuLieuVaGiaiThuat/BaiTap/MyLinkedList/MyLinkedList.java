@@ -1,8 +1,8 @@
-package _6_CauTrucDuLieuVaGiaiThuat.BaiTap.CaiDatLinkedList;
+package _6_CauTrucDuLieuVaGiaiThuat.BaiTap.MyLinkedList;
 
 
 public class MyLinkedList <E> {
-    private class Node {
+    private  static  class Node {
         private Node next;
         private Object data;
 

@@ -1,4 +1,4 @@
-package _6_CauTrucDuLieuVaGiaiThuat.BaiTap.CaiDatLinkedList;
+package _6_CauTrucDuLieuVaGiaiThuat.BaiTap.MyLinkedList;
 
 public class TestMyLinkedList {
     public static void main(String[] args) {
