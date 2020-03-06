@@ -14,7 +14,7 @@ public class TestTask1 {
         System.out.println("Enter name service :");
         villa.setNameService(scanner.nextLine());
         System.out.println("Enter Area Used : ");
-        villa.setAreUsed(scanner.nextDouble());
+        villa.setAreaUsed(scanner.nextDouble());
         System.out.println("Enter Rental Costs : ");
         villa.setRentCosts(scanner.nextDouble());
         System.out.println("Enter Max Number Of People : ");

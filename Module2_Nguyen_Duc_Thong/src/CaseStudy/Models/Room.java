@@ -23,7 +23,7 @@ public class Room extends Service {
     public String showInfo() {
         return "\nId Service : "+super.getId()+
                 "\nName Service : "+super.getNameService()+
-                "\nArea Used : "+super.getAreUsed()+
+                "\nArea Used : "+super.getAreaUsed()+
                 "\nRental Costs : "+super.getRentCosts()+
                 "\nMax Number Of People : "+super.getMaxNumberOfPeople()+
                 "\nType Rent : "+super.getTypeRent()+

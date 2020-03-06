@@ -2,9 +2,9 @@ package CaseStudy.Views;
 
 import CaseStudy.Controllers.MainControllers;
 
-public class TestTask2 {
+public class TestTask4 {
     public static void main(String[] args) {
         MainControllers.displayMainMenu();
-        // Chay add new villa //
+        // Co validation //
     }
 }

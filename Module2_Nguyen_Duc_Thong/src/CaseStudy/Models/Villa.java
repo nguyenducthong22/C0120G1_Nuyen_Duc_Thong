@@ -9,8 +9,8 @@ public class Villa extends Service {
     public Villa() {
     }
 
-    public Villa(String id, String nameService, double areUsed, double rentCosts, int maxNumberOfPeople, String typeRent, String roomStandard, String convenientDescription, double areaPool, int numberOfFloor) {
-        super(id, nameService, areUsed, rentCosts, maxNumberOfPeople, typeRent);
+    public Villa(String id, String nameService, double areaUsed, double rentCosts, int maxNumberOfPeople, String typeRent, String roomStandard, String convenientDescription, double areaPool, int numberOfFloor) {
+        super(id, nameService, areaUsed, rentCosts, maxNumberOfPeople, typeRent);
         this.roomStandard = roomStandard;
         this.convenientDescription = convenientDescription;
         this.areaPool = areaPool;
@@ -53,7 +53,7 @@ public class Villa extends Service {
     public String showInfo() {
         return "\nId Service : "+super.getId()+
                "\nName Service : "+super.getNameService()+
-               "\nArea Used : "+super.getAreUsed()+
+               "\nArea Used : "+super.getAreaUsed()+
                "\nRental Costs : "+super.getRentCosts()+
                "\nMax Number Of People : "+super.getMaxNumberOfPeople()+
                "\nType Rent : "+super.getTypeRent()+
