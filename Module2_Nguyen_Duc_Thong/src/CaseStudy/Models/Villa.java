@@ -6,7 +6,7 @@ public class Villa extends Service {
     private double areaPool;// dien tich ho boi //
     private int numberOfFloor;// So tang //
 
-    public Villa() {
+    public  Villa() {
     }
 
     public Villa(String id, String nameService, double areaUsed, double rentCosts, int maxNumberOfPeople, String typeRent, String roomStandard, String convenientDescription, double areaPool, int numberOfFloor) {

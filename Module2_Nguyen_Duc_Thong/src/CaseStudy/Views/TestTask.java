@@ -2,9 +2,9 @@ package CaseStudy.Views;
 
 import CaseStudy.Controllers.MainControllers;
 
-public class TestTask3 {
+public class TestTask {
     public static void main(String[] args) {
         MainControllers.displayMainMenu();
-        //Run add new + show info //
+        // Co validation //
     }
 }
