@@ -151,7 +151,7 @@ INSERT INTO kieu_thue VALUES (1,'thuê theo năm',3650),(2,'thuê theo tháng',3
 INSERT INTO loai_dich_vu VALUES (1,'Villa'),(2,'House'),(3,'Room'),(4,'Nhà nghỉ'),(5,'Khách sạn'),(6,'Hotel');
 INSERT INTO loai_khach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member'),(6,'Sắt');
 INSERT INTO dich_vu VALUES (1,'dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'dịch vụ 3',30,15,'3','3',3,3,'trống'),(4,'dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'dịch vụ 6',60,9,'6','6',6,6,'trống');
-INSERT INTO nhan_vien VALUES (1,'Nguyễn Văn A',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','sơn trà đà nẵng'),(2,'Nguyễn Văn B',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','sơn trà đà nẵng'),(3,'Nguyễn Văn C',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','sơn trà đà nẵng'),(4,'Nguyễn Văn D',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','sơn trà đà nẵng'),(5,'K Văn E',5,5,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','sơn trà đà nẵng'),(6,'Võ Minh Hùng',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','sơn trà đà nẵng');
+INSERT INTO nhan_vien VALUES (1,'Nguyễn Văn Thanh',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','sơn trà đà nẵng'),(2,'Nguyễn Văn Dưc',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','sơn trà đà nẵng'),(3,'Hồ Thi Nga',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','sơn trà đà nẵng'),(4,'Nguyễn Văn Dương',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','sơn trà đà nẵng'),(5,'Dương Hông',5,10,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','sơn trà đà nẵng'),(6,'Võ Minh Hùng',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','sơn trà đà nẵng');
 INSERT INTO khach_hang VALUES (1,1,'Nguyễn Anh Đức','2010-11-10','123456781','123456781','hovanquoca@gmail.com','da nang'),(2,2,'Trần Ngọc Tân','1990-11-10','123456721','123456782','hovanquocb@gmail.com','quang tri'),(3,3,'Nguyễn Đức Thông','1900-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Lê Đình Quốc','1990-11-10','123456784','123456784','hovan@gmail.com','quang tri'),(5,5,'Nguyễn Đình Hòa','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'H Văn A','1994-11-10','123123123','123232321','jdsfhsdfj@gmail.com','đồng nai');
 INSERT INTO hop_dong VALUES (1,1,1,1,'2020-03-12','2021-03-12',10,1000),(2,2,2,2,'2019-03-12','2019-04-12',22,1000),(3,3,3,3,'2021-03-12','2019-09-12',23,2000),(4,4,4,4,'2017-03-12','2018-03-12',43,3000),(5,5,5,5,'2018-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-03-12',43,4444);
 INSERT INTO hop_dong_chi_tiet VALUES (1,1,1,2),(2,2,2,4),(3,3,3,2),(4,4,4,3),(5,5,5,4),(6,6,6,6);
@@ -164,7 +164,7 @@ WHERE
     (ho_ten_nhan_vien LIKE 'H%'
         OR ho_ten_nhan_vien LIKE 'T%'
         OR ho_ten_nhan_vien LIKE 'K%')
-        AND LENGTH(ho_ten_nhan_vien) < 15;
+        AND LENGTH(ho_ten_nhan_vien) < 30;
 -- task 3  
 -- Lệnh truy xuất
 SELECT 
