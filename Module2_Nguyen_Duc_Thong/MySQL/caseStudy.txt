@@ -1,0 +1,220 @@
+drop database if exists furama_resort_NguyenDucThong;
+create database furama_resort_NguyenDucThong;
+use furama_resort_NguyenDucThong;
+-- Task 1:Tạo Bảng
+CREATE TABLE vi_tri (
+  id_vi_tri int NOT NULL AUTO_INCREMENT,
+  ten_vi_tri varchar(30) NOT NULL,
+  PRIMARY KEY (id_vi_tri),
+  UNIQUE KEY id_vi_tri (id_vi_tri)
+) ;
+CREATE TABLE bo_phan (
+  id_bo_phan int NOT NULL AUTO_INCREMENT,
+  ten_bo_phan varchar(30) NOT NULL,
+  PRIMARY KEY (id_bo_phan),
+  UNIQUE KEY id_bo_phan (id_bo_phan)
+
+);
+CREATE TABLE trinh_do (
+  id_trinh_do int NOT NULL AUTO_INCREMENT,
+  ten_trinh_do varchar(30) NOT NULL,
+  PRIMARY KEY (id_trinh_do),
+  UNIQUE KEY id_trinh_do (id_trinh_do)
+) ;
+CREATE TABLE dich_vu_di_kem (
+  id_dich_vu_di_kem int NOT NULL AUTO_INCREMENT,
+  ten_dich_vu_di_kem varchar(50) NOT NULL,
+  gia int NOT NULL,
+  don_vi int NOT NULL,
+  trang_thai_kha_dung varchar(30) NOT NULL,
+  PRIMARY KEY (id_dich_vu_di_kem),
+  UNIQUE KEY id_dich_vu_di_kem (id_dich_vu_di_kem)
+) ;
+CREATE TABLE kieu_thue (
+  id_kieu_thue int NOT NULL AUTO_INCREMENT,
+  ten_kieu_thue varchar(30) NOT NULL,
+  gia int NOT NULL,
+  PRIMARY KEY (id_kieu_thue),
+  UNIQUE KEY id_kieu_thue (id_kieu_thue)
+) ;
+
+CREATE TABLE loai_dich_vu (
+  id_loai_dich_vu int NOT NULL AUTO_INCREMENT,
+  ten_loai_dich_vu varchar(45) NOT NULL,
+  PRIMARY KEY (id_loai_dich_vu),
+  UNIQUE KEY id_loai_dich_vu (id_loai_dich_vu)
+) ;
+
+CREATE TABLE loai_khach (
+  id_loai_khach int NOT NULL AUTO_INCREMENT,
+  ten_loai_khach varchar(30) NOT NULL,
+  PRIMARY KEY (id_loai_khach),
+  UNIQUE KEY id_loai_khach (id_loai_khach)
+) ;
+
+CREATE TABLE dich_vu (
+  id_dich_vu int NOT NULL AUTO_INCREMENT,
+  ten_dich_vu varchar(30) NOT NULL,
+  dien_tich int NOT NULL,
+  so_tang int NOT NULL,
+  so_nguoi_toi_da varchar(30) NOT NULL,
+  chi_phi_thue varchar(30) NOT NULL,
+  id_kieu_thue int NOT NULL,
+  id_loai_dich_vu int NOT NULL,
+  trang_thai varchar(30) NOT NULL,
+  PRIMARY KEY (id_dich_vu),
+  UNIQUE KEY id_dich_vu (id_dich_vu),
+  KEY id_kieu_thue (id_kieu_thue),
+  KEY id_loai_dich_vu (id_loai_dich_vu),
+  CONSTRAINT dich_vu_ibfk_1 FOREIGN KEY (id_kieu_thue) REFERENCES kieu_thue (id_kieu_thue) on delete cascade,
+  CONSTRAINT dich_vu_ibfk_2 FOREIGN KEY (id_loai_dich_vu) REFERENCES loai_dich_vu (id_loai_dich_vu)
+    on delete cascade
+) ;
+
+CREATE TABLE nhan_vien (
+  id_nhan_vien int NOT NULL AUTO_INCREMENT,
+  ho_ten_nhan_vien varchar(30) NOT NULL,
+  id_vi_tri int NOT NULL,
+  id_trinh_do int NOT NULL,
+  id_bo_phan int NOT NULL,
+  ngay_sinh_nhan_vien date NOT NULL,
+  so_CMND_nhan_vien varchar(20) NOT NULL,
+  luong_nhan_vien varchar(30) NOT NULL,
+  SDT_nhan_vien varchar(30) NOT NULL,
+  email_nhan_vien varchar(30) NOT NULL,
+  dia_chi_nhan_vien varchar(30) NOT NULL,
+  PRIMARY KEY (id_nhan_vien),
+  UNIQUE KEY id_nhan_vien (id_nhan_vien),
+  UNIQUE KEY id_vi_tri (id_vi_tri),
+  UNIQUE KEY id_trinh_do (id_trinh_do),
+  UNIQUE KEY id_bo_phan (id_bo_phan),
+  CONSTRAINT nhan_vien_ibfk_1 FOREIGN KEY (id_vi_tri) REFERENCES vi_tri (id_vi_tri) on delete cascade,
+  CONSTRAINT nhan_vien_ibfk_2 FOREIGN KEY (id_trinh_do) REFERENCES trinh_do (id_trinh_do) on delete cascade,
+  CONSTRAINT nhan_vien_ibfk_3 FOREIGN KEY (id_bo_phan) REFERENCES bo_phan (id_bo_phan) on delete cascade
+) ;
+
+CREATE TABLE khach_hang (
+  id_khach_hang int NOT NULL AUTO_INCREMENT,
+  id_loai_khach int NOT NULL,
+  ho_ten_khach_hang varchar(30) NOT NULL,
+  ngay_sinh_khach_hang date NOT NULL,
+  so_CMND_khach_hang varchar(30) NOT NULL,
+  SDT_khach_hang varchar(30) NOT NULL,
+  email_khach_hang varchar(30) NOT NULL,
+  dia_chi_khach_hang varchar(30) NOT NULL,
+  PRIMARY KEY (id_khach_hang),
+  UNIQUE KEY id_khach_hang (id_khach_hang),
+  UNIQUE KEY id_loai_khach (id_loai_khach),
+  CONSTRAINT khach_hang_ibfk_1 FOREIGN KEY (id_loai_khach) REFERENCES loai_khach (id_loai_khach) on delete cascade
+) ;
+
+CREATE TABLE hop_dong (
+  id_hop_dong int NOT NULL AUTO_INCREMENT,
+  id_nhan_vien int NOT NULL,
+  id_khach_hang int NOT NULL,
+  id_dich_vu int NOT NULL,
+  ngay_lam_hop_dong date NOT NULL,
+  ngay_ket_thuc date NOT NULL,
+  tien_dat_coc int NOT NULL,
+  tong_tien int NOT NULL,
+  PRIMARY KEY (id_hop_dong),
+  UNIQUE KEY id_hop_dong (id_hop_dong),
+  UNIQUE KEY id_nhan_vien (id_nhan_vien),
+  UNIQUE KEY id_khach_hang (id_khach_hang),
+  UNIQUE KEY id_dich_vu (id_dich_vu),
+  CONSTRAINT hop_dong_ibfk_1 FOREIGN KEY (id_nhan_vien) REFERENCES nhan_vien (id_nhan_vien) on delete cascade,
+  CONSTRAINT hop_dong_ibfk_2 FOREIGN KEY (id_khach_hang) REFERENCES khach_hang (id_khach_hang) on delete cascade,
+  CONSTRAINT hop_dong_ibfk_3 FOREIGN KEY (id_dich_vu) REFERENCES dich_vu (id_dich_vu) on delete cascade
+) ;
+CREATE TABLE hop_dong_chi_tiet (
+  id_hop_dong_chi_tiet int NOT NULL AUTO_INCREMENT,
+  id_hop_dong int NOT NULL,
+  id_dich_vu_di_kem int NOT NULL,
+  so_luong int NOT NULL,
+  PRIMARY KEY (id_hop_dong_chi_tiet),
+  UNIQUE KEY id_hop_dong_chi_tiet (id_hop_dong_chi_tiet),
+  UNIQUE KEY id_hop_dong (id_hop_dong),
+  UNIQUE KEY id_dich_vu_di_kem (id_dich_vu_di_kem),
+  CONSTRAINT hop_dong_chi_tiet_ibfk_1 FOREIGN KEY (id_hop_dong) REFERENCES hop_dong (id_hop_dong) on delete cascade,
+  CONSTRAINT hop_dong_chi_tiet_ibfk_2 FOREIGN KEY (id_dich_vu_di_kem) REFERENCES dich_vu_di_kem (id_dich_vu_di_kem) on delete cascade
+);
+
+-- task 2
+-- them du lieu
+-- Lệnh truy xuất
+
+INSERT INTO bo_phan VALUES (1,'bán hàng'),(2,'quản lý'),(3,'bán hàng'),(4,'quản lý'),(5,'quản lý'),(6,'bán hàng'),(7,'bán hàng'),(8,'bảo vệ');
+INSERT INTO vi_tri VALUES (1,'nhân viên bán hàng'),(2,'giám đốc'),(3,'nhân viên bán hàng'),(4,'giám đốc'),(5,'bảo vệ'),(6,'lao công');
+INSERT INTO trinh_do VALUES (1,'đại học'),(2,'cao đẳng'),(3,'đại học'),(4,'cao đẳng'),(5,'thạc sĩ'),(6,'trung cấp');
+INSERT INTO dich_vu_di_kem VALUES (1,'massage',1,1000,'trạng thái không biết'),(2,'karaoke',2,1000,'trạng thái không biết'),(3,'thức ăn',3,1000,'trạng thái không biết'),(4,'nước uống',4,1000,'trạng thái không biết'),(5,'thuê xe di chuyển tham quan resort',5,1000,'trạng thái không biết'),(6,'nothing',6,1000,'trạng thái không biết');
+INSERT INTO kieu_thue VALUES (1,'thuê theo năm',3650),(2,'thuê theo tháng',300),(3,'thuê theo ngày',10),(4,'thuê theo giờ',1),(5,'thuê theo  phút',32),(6,'thuê theo giaay',34);
+INSERT INTO loai_dich_vu VALUES (1,'Villa'),(2,'House'),(3,'Room'),(4,'Nhà nghỉ'),(5,'Khách sạn'),(6,'Hotel');
+INSERT INTO loai_khach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member'),(6,'Sắt');
+INSERT INTO dich_vu VALUES (1,'dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'dịch vụ 3',30,15,'3','3',3,3,'trống'),(4,'dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'dịch vụ 6',60,9,'6','6',6,6,'trống');
+INSERT INTO nhan_vien VALUES (1,'Nguyễn Văn A',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','sơn trà đà nẵng'),(2,'Nguyễn Văn B',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','sơn trà đà nẵng'),(3,'Nguyễn Văn C',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','sơn trà đà nẵng'),(4,'Nguyễn Văn D',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','sơn trà đà nẵng'),(5,'K Văn E',5,5,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','sơn trà đà nẵng'),(6,'Võ Minh Hùng',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','sơn trà đà nẵng');
+INSERT INTO khach_hang VALUES (1,1,'Nguyễn Anh Đức','2010-11-10','123456781','123456781','hovanquoca@gmail.com','da nang'),(2,2,'Trần Ngọc Tân','1990-11-10','123456721','123456782','hovanquocb@gmail.com','quang tri'),(3,3,'Nguyễn Đức Thông','1900-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Lê Đình Quốc','1990-11-10','123456784','123456784','hovan@gmail.com','quang tri'),(5,5,'Nguyễn Đình Hòa','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'H Văn A','1994-11-10','123123123','123232321','jdsfhsdfj@gmail.com','đồng nai');
+INSERT INTO hop_dong VALUES (1,1,1,1,'2020-03-12','2021-03-12',10,1000),(2,2,2,2,'2019-03-12','2019-04-12',22,1000),(3,3,3,3,'2021-03-12','2019-09-12',23,2000),(4,4,4,4,'2017-03-12','2018-03-12',43,3000),(5,5,5,5,'2018-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-03-12',43,4444);
+INSERT INTO hop_dong_chi_tiet VALUES (1,1,1,2),(2,2,2,4),(3,3,3,2),(4,4,4,3),(5,5,5,4),(6,6,6,6);
+
+SELECT 
+    *
+FROM
+    nhan_vien
+WHERE
+    (ho_ten_nhan_vien LIKE 'H%'
+        OR ho_ten_nhan_vien LIKE 'T%'
+        OR ho_ten_nhan_vien LIKE 'K%')
+        AND LENGTH(ho_ten_nhan_vien) < 15;
+-- task 3  
+-- Lệnh truy xuất
+SELECT 
+    *
+FROM
+    khach_hang
+WHERE
+    dia_chi_khach_hang IN ('da nang' , 'quang tri')
+        AND (((YEAR(now()) - YEAR(khach_hang.ngay_sinh_khach_hang)) > 18)
+        and ((YEAR(now()) - YEAR(khach_hang.ngay_sinh_khach_hang)) < 50));
+
+-- task 4
+-- Lệnh hiển thị tất cả thông tin nối các bảng hợp đồng,khách hàng, loại khách
+-- Lệnh truy xuất
+SELECT 
+    khach_hang.ho_ten_khach_hang,
+    count(hop_dong.id_hop_dong) AS so_lan_dat_phong
+FROM
+    khach_hang
+        INNER JOIN
+    hop_dong ON (khach_hang.id_khach_hang = hop_dong.id_khach_hang)
+        INNER JOIN
+    loai_khach ON (khach_hang.id_loai_khach = loai_khach.id_loai_khach)
+WHERE
+    loai_khach.ten_loai_khach = 'Diamond'
+GROUP BY khach_hang.id_khach_hang
+ORDER BY so_lan_dat_phong;
+
+-- task 5 
+-- Lệnh truy xuất
+SELECT 
+    khach_hang.id_khach_hang,
+    khach_hang.ho_ten_khach_hang,
+    loai_khach.ten_loai_khach,
+    hop_dong.id_hop_dong,
+    dich_vu.ten_dich_vu,
+    hop_dong.ngay_lam_hop_dong,
+    hop_dong.ngay_ket_thuc,
+    dich_vu.chi_phi_thue,
+    SUM(dich_vu.chi_phi_thue + hop_dong_chi_tiet.so_luong * dich_vu_di_kem.Gia) AS 'tong tien'
+FROM
+    khach_hang
+        LEFT JOIN
+    loai_khach ON khach_hang.id_loai_khach = loai_khach.id_loai_khach
+        LEFT JOIN
+    hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+        LEFT JOIN
+    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
+        LEFT JOIN
+    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+        LEFT JOIN
+    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+group by hop_dong.id_hop_dong;
