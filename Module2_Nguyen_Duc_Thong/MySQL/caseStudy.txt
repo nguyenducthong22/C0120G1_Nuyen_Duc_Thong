@@ -241,7 +241,7 @@ WHERE
         FROM
             hop_dong
         WHERE
-            (hop_dong.ngay_lam_hop_dong BETWEEN '2019-01-01' AND '2019-03-31')
+            (hop_dong.ngay_lam_hop_dong BETWEEN '2019-03-01' AND '2019-12-31')
                 AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
          
          
