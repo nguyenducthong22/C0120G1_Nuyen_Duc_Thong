@@ -164,7 +164,7 @@ WHERE
     (ho_ten_nhan_vien LIKE 'H%'
         OR ho_ten_nhan_vien LIKE 'T%'
         OR ho_ten_nhan_vien LIKE 'K%')
-        AND LENGTH(ho_ten_nhan_vien) < 30;
+        AND LENGTH(ho_ten_nhan_vien) <= 15;
 -- task 3  
 -- Lệnh truy xuất
 SELECT 
@@ -421,8 +421,124 @@ where not exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong be
 and exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-09-01' and '2020-12-31');
 
 
+-- Task 13
+-- Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng. 
+-- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
 
 
+SELECT 
+    hop_dong.id_hop_dong,
+    loai_dich_vu.ten_loai_dich_vu,
+    dich_vu_di_kem.ten_dich_vu_di_kem,
+    COUNT(hop_dong_chi_tiet.id_dich_vu_di_kem) AS so_lan_su_dung_dich_vu
+FROM
+    hop_dong
+        INNER JOIN
+    dich_vu ON dich_vu.id_dich_vu = hop_dong.id_dich_vu
+        INNER JOIN
+    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
+        INNER JOIN
+    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
+        INNER JOIN
+    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+GROUP BY (dich_vu_di_kem.ten_dich_vu_di_kem)
+HAVING so_lan_su_dung_dich_vu = 1;
+
+
+-- Task 14
+-- Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất.
+-- Thông tin hiển thị bao gồm IDHopDong, TenLoaiDichVu, TenDichVuDiKem, SoLanSuDung.
+
+SELECT 
+    *
+FROM
+    ((dich_vu_di_kem
+    JOIN hop_dong_chi_tiet ON dich_vu_di_kem.id_dich_vu_di_kem = hop_dong_chi_tiet.id_dich_vu_di_kem)
+    JOIN hop_dong ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong)
+        JOIN
+    khach_hang ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+WHERE
+    dich_vu_di_kem.id_dich_vu_di_kem IN (SELECT 
+            id_dich_vu_di_kem
+        FROM
+            hop_dong_chi_tiet
+        GROUP BY id_dich_vu_di_kem
+        HAVING COUNT(id_dich_vu_di_kem) = 1);
 
  
-                
+-- Task 15
+-- Hiển thi thông tin của tất cả nhân viên bao gồm IDNhanVien, HoTen, TrinhDo, TenBoPhan, SoDienThoai, DiaChi mới chỉ lập được tối đa 
+-- 3 hợp đồng từ năm 2018 đến 2019.          
+
+SELECT 
+    nhan_vien.id_nhan_vien,
+    nhan_vien.ho_ten_nhan_vien,
+    bo_phan.ten_bo_phan,
+    nhan_vien.SDT_nhan_vien,
+    nhan_vien.dia_chi_nhan_vien,
+    COUNT(hop_dong.id_nhan_vien) AS so_lan_lap_hop_dong
+FROM
+    nhan_vien
+        INNER JOIN
+    bo_phan ON nhan_vien.id_bo_phan = bo_phan.id_bo_phan
+        INNER JOIN
+    trinh_do ON nhan_vien.id_trinh_do = trinh_do.id_trinh_do
+        INNER JOIN
+    hop_dong ON hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien
+WHERE
+    hop_dong.ngay_lam_hop_dong BETWEEN '2018-01-01' AND '2019-12-31'
+GROUP BY nhan_vien.ho_ten_nhan_vien
+HAVING so_lan_lap_hop_dong < 4;
+
+
+-- Task 16
+ --  Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019.
+      
+ SET SQL_SAFE_UPDATES = 0;
+DELETE FROM nhan_vien 
+WHERE
+    NOT EXISTS( SELECT 
+        nhan_vien.id_nhan_vien
+    FROM
+        hop_dong
+    
+    WHERE
+        hop_dong.ngay_lam_hop_dong BETWEEN '2017-01-01' AND '2019-12-31'
+        AND hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien);
+        SET SQL_SAFE_UPDATES=1;      
+        
+        
+-- 	Task 17
+-- Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, chỉ cập nhật những khách 
+-- hàng đã từng đặt phòng với tổng Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ.
+
+SET SQL_SAFE_UPDATES=0;
+DELETE FROM nhan_vien 
+WHERE
+    id_nhan_vien NOT IN (SELECT 
+        id_nhan_vien
+    FROM
+        hop_dong
+    
+    WHERE
+        YEAR(ngay_lam_hop_dong) BETWEEN 2017 AND 2019);
+ SET SQL_SAFE_UPDATES=1; 
+        
+
+-- Task 18        
+-- Xóa những khách hàng có hợp đồng trước năm 2016 (chú ý ràng buộc giữa các bảng).
+
+DELETE khach_hang,hop_dong,hop_dong_chi_tiet FROM khach_hang inner join hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
+inner join hop_dong_chi_tiet on hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
+where not exists(
+select hop_dong.id_hop_dong where year(hop_dong.ngay_lam_hop_dong)>'2016') and khach_hang.id_khach_hang = hop_dong.id_khach_hang;
+ SET SQL_SAFE_UPDATES=1; 
+
+-- Hiển Thị khách hang có hợp đồng sau 2016
+SELECT 
+    khach_hang.ho_ten_khach_hang,
+    YEAR(hop_dong.ngay_lam_hop_dong) AS Nam_Lam_Hop_Dong
+FROM
+    khach_hang
+        JOIN
+    hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang;
