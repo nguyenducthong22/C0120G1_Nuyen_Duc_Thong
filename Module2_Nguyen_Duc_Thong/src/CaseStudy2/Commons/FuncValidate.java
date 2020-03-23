@@ -18,7 +18,7 @@ public class FuncValidate {
     }
 
     public static boolean checkNameService(String string){
-        regex ="^([A-Z])([a-z]+)$";
+        regex ="^([A-Z]*)$";
         return string.matches(regex);
     }
 

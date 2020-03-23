@@ -1,13 +1,11 @@
 package CaseStudy2.Commons;
 
-import CaseStudy2.Models.Customer;
-import CaseStudy2.Models.House;
-import CaseStudy2.Models.Room;
-import CaseStudy2.Models.Villa;
+import CaseStudy2.Models.*;
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
+
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -21,6 +19,7 @@ public class FuncWriteAndReadFileCSV {
     private static final String pathHouse = "src/CaseStudy2/Data/House.csv";
     private static final String pathRoom = "src/CaseStudy2/Data/Room.csv";
     private static final String pathCustomer="src/CaseStudy2/Data/Customer.csv";
+    private static final String pathEmployee="src/CaseStudy2/Data/Employee.csv";
 
     private static String[] headerRecordVilla= new String[]{
             "id", "nameService", "area", "rentCost", "maxNumberOfPeople", "typeRent",
@@ -35,6 +34,9 @@ public class FuncWriteAndReadFileCSV {
     };
     private static String[] headerRecordCustomer = new String[]{
             "name", "date", "gender",  "passPort", "phoneNumber", "email", "typeCustomer", "address",  "typeService"
+    };
+    private static String[] getHeaderRecordEmployee= new String[]{
+            "name","age","address"
     };
     private static final int NUM_OF_LINE_SKIP = 1;
 
@@ -246,4 +248,53 @@ public class FuncWriteAndReadFileCSV {
         }
         return (ArrayList<Room>) csvToBean.parse();
     }
+
+    public static void writeEmployeeToFileCSV(ArrayList<Employee> arrayList) {
+        try(Writer writer = new FileWriter(pathEmployee);
+            CSVWriter csvWriter = new CSVWriter(writer,
+                    CSVWriter.DEFAULT_SEPARATOR,
+                    CSVWriter.NO_QUOTE_CHARACTER,
+                    CSVWriter.DEFAULT_ESCAPE_CHARACTER,
+                    CSVWriter.DEFAULT_LINE_END)){
+            csvWriter.writeNext(getHeaderRecordEmployee);
+            for (Employee employee : arrayList) {
+                csvWriter.writeNext(new String[]{
+                        employee.getName(),
+                        String.valueOf(employee.getAge()),
+                        employee.getAddress()
+                });
+            }
+        } catch (IOException ex){
+            System.out.print(ex.getMessage());
+        }
+    }
+
+    public static ArrayList<Employee> getEmployeeFromCSV() {
+        Path path = Paths.get(pathEmployee);
+        if (!Files.exists(path)) {
+            try {
+                Writer writer = new FileWriter(pathEmployee);
+            } catch (IOException ex) {
+                System.out.println(ex.getMessage());
+            }
+        }
+        ColumnPositionMappingStrategy<Employee> strategy = new ColumnPositionMappingStrategy<>();
+        strategy.setType(Employee.class);
+        strategy.setColumnMapping(getHeaderRecordEmployee);
+        CsvToBean<Employee> csvToBean = null;
+        try {
+            csvToBean = new CsvToBeanBuilder<Employee>(new FileReader(pathEmployee))
+                    .withMappingStrategy(strategy)
+                    .withSeparator(DEFAULT_SEPARATOR)
+                    .withQuoteChar(DEFAULT_QUOTE)
+                    .withSkipLines(NUM_OF_LINE_SKIP)
+                    .withIgnoreLeadingWhiteSpace(true)
+                    .build();
+        } catch (FileNotFoundException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return (ArrayList<Employee>) csvToBean.parse();
+    }
+
+
 }

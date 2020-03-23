@@ -9,10 +9,6 @@ public class UserException {
         return value.matches(regex);
     }
 
-    public static boolean genderException(String value) {
-        String a="male", b="female",c="unknow";
-        return (value.matches(a) || value.matches(b) || value.matches(c));
-    }
     private static final String FULL_NAME_PATTERN =
             "^^([A-Z][a-z]*)\\ [A-Z][a-z]*$|^([A-Z][a-z]*)\\ [A-Z][a-z]*\\ [A-Z][a-z]*$|^([A-Z][a-z]*)\\ [A-Z][a-z]*\\ [A-Z][a-z]*\\ [A-Z][a-z]*$|^([A-Z][a-z]*)\\ [A-Z][a-z]*\\ [A-Z][a-z]*\\ [A-Z][a-z]*\\ [A-Z][a-z]*$$";
 
@@ -27,29 +23,7 @@ public class UserException {
     }
 
     public static boolean birthdayException (String string){
-        String regex = "^\\d\\d\\d\\d-(0?[1-9]|1[0-2])-(0?[1-9]|[12][0-9]|3[01])$";
+        String regex = "^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$";
         return string.matches(regex);
-    }
-    public static int checkValidNumberInteger(String content, String errMes) {
-        while (true) {
-            try {
-                scanner = new Scanner(System.in);
-                System.out.println(content);
-                return scanner.nextInt();
-            } catch (Exception ex) {
-                System.out.println(errMes);
-            }
-        }
-    }
-    public static double checkValidNumberDouble(String content, String errMes) {
-        while (true) {
-            try {
-                scanner = new Scanner(System.in);
-                System.out.println(content);
-                return scanner.nextDouble();
-            } catch (Exception ex) {
-                System.out.println(errMes);
-            }
-        }
     }
 }

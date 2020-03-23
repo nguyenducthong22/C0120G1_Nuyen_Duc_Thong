@@ -1,11 +1,8 @@
 package CaseStudy2.Controllers;
-import CaseStudy2.Commons.FuncValidate;
-import CaseStudy2.Commons.FuncWriteAndReadFileCSV;
-import CaseStudy2.Commons.UserException;
-import CaseStudy2.Models.*;
 import CaseStudy2.Commons.*;
-import java.util.*;
+import CaseStudy2.Models.*;
 
+import java.util.*;
 public class MainController {
     private static Scanner scanner = new Scanner(System.in);
 
@@ -15,11 +12,12 @@ public class MainController {
                         "\n2.Show Services." +
                         "\n3.Add New Customer" +
                         "\n4.Show Information of Customer" +
-                        "\n5.Add New Booking" +
-                        "\n6.Show Booking Resort" +
+                        "\n5.Add New Booking(ko thu)" +
+                        "(\n6.Show Booking Resort (chua dc ko thu))" +
                         "\n7.Add Employee " +
                         "\n8.Show Information of Employee" +
-                        "\n9.Exit" +
+                        "\n9.Find employee for resume " +
+                        "\n0.Exit" +
                         "\n Please select one function below : ");
         switch (scanner.nextLine()) {
             case "1":
@@ -34,20 +32,25 @@ public class MainController {
             case "4":
                 showInformationCustomer();
                 break;
-            case "5":
-                addNewBooking();
-                break;
-            case "6":
-//                showBookingResort;
+//            case "5":
+//                addNewBooking();
 //                break;
-                break;
+////            case "6":
+////                bookingMovieTicket4D();
+//                break;
             case "7":
-//                addEmployee();
-//                break;
+                addEmployee();
+                break;
+
             case "8":
                 showInformationEmployee();
+                break;
             case "9":
+                findEmployeeFromResume();
+                break;
+            case "0":
                 System.exit(0);
+                break;
             default:
                 System.out.println("\nError.Back To Menu.");
                 backMainMenu();
@@ -91,30 +94,6 @@ public class MainController {
                 System.exit(0);
             default:
                 System.out.println("\nError.Back To Menu.");
-                backMainMenu();
-        }
-    }
-
-    private static void addNewCustomer() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("\n-------------------------------");
-        System.out.println("\nInsert customer information:" +
-                "\n1.Enter new customer." +
-                "\n2.Back to main menu." +
-                "\n3.Exit." +
-                "Please choose one function .");
-        switch (scanner.nextInt()) {
-            case 1:
-                addCustomer();
-                break;
-            case 2:
-                backMainMenu();
-                break;
-            case 3:
-                System.exit(0);
-                break;
-            default:
-                System.out.println("Error !!! Please choose another action!!");
                 backMainMenu();
         }
     }
@@ -226,19 +205,43 @@ public class MainController {
     private static void addNewBooking() {
     }
 
+    private static void addNewCustomer() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\n-------------------------------");
+        System.out.println("\nDisplay customer information :" +
+                "\n1.Enter new customer" +
+                "\n2.Back to main menu" +
+                "\n3.Exit." +
+                "\n Please choose one function below");
+        switch (scanner.nextInt()) {
+            case 1:
+                addCustomer();
+                break;
+            case 2:
+                backMainMenu();
+                break;
+            case 3:
+                System.exit(0);
+                break;
+            default:
+                System.out.println("Error !!! Please try again !");
+                backMainMenu();
+        }
+    }
+
     private static void addCustomer() {
         Scanner scanner = new Scanner(System.in);
         String content = "";
         String errMes = "";
         Customer customer = new Customer();
 
-        System.out.println("Enter name customer:");
+        System.out.println("Enter full name customer:");
         customer.setName(scanner.nextLine());
         while (!UserException.nameException(customer.getName())) {
             System.out.println(" Name customer is invalid (Exam : Nguyen A )!!! Please try again !");
             customer.setName(scanner.nextLine());
         }
-        System.out.println("Enter Date:YYYY-MM-DD");
+        System.out.println("Enter Date(YYYY-MM-DD) :");
         customer.setDate(scanner.nextLine());
         while (!UserException.birthdayException(customer.getDate())) {
             System.out.println("Birth day is invalid !!! Please try again .");
@@ -294,19 +297,13 @@ public class MainController {
     }
 
     private static void showInformationCustomer() {
-        ArrayList<Customer> customers = FuncWriteAndReadFileCSV.getCustomerFromCSV();
-
-        System.out.println("-----------Sorted by age------------");
-        Collections.sort(customers, new AgeComparator());
-        for (Customer st : customers) {
-            System.out.println(st.getPassPort() + " " + st.getName() + " " + st.getDate());
+        ArrayList<Customer> listCustomer = FuncWriteAndReadFileCSV.getCustomerFromCSV();
+        for (Customer customer : listCustomer) {
+            System.out.println("\n------------------------");
+            System.out.println(customer.showInformation());
+            System.out.println("\n------------------------");
         }
-
-        System.out.println("-----------Sorted by name------------");
-        Collections.sort(customers, new NameComparator());
-        for (Customer st : customers) {
-            System.out.println(st.getPassPort() + " " + st.getName() + " " + st.getDate());
-        }
+        backMainMenu();
     }
 
     private static Services addNewServices(Services services) {
@@ -432,5 +429,133 @@ public class MainController {
                 "  Successfully!!!"
         );
         backMainMenu();
+    }
+
+//    private static void bookingMovieTicket4D() {
+//        displayMenuBookingMovieTicket4D();
+//        processMenuBookingMovieTicket4D();
+//    }
+//    private static  void processMenuBookingMovieTicket4D() {
+//        Scanner scanner = new Scanner(System.in);
+//        switch (Integer.parseInt(scanner.nextLine())) {
+//            case 1:
+//                addBookingMovieTicket4D();
+//                break;
+//            case 2:
+//                showBookingMovieTicket();
+//                break;
+//            case 3:
+//                backMainMenu();
+//                break;
+//            case 4:
+//                System.exit(0);
+//            default:
+//                System.out.println("Error !! Back to menu ");
+//                backMainMenu();
+//        }
+//    }
+
+//    private static void addBookingMovieTicket4D() {
+//        try {
+//            ArrayList<Customer> customers = FuncWriteAndReadFileCSV.getCustomerFromCSV();
+//
+//            System.out.println("---Choose customer want booking:----");
+//            int y = 1;
+//            for (Customer st : customers) {
+//                System.out.println("no: "+y);
+//                System.out.println(st.getPassPort() + " " + st.getName() + " " + st.getDate());
+//                y++;
+//            }
+//            Customer customer = customers.get(Integer.parseInt(scanner.nextLine()));
+//            customerQueueBookingTicket.add(customer);
+//            System.out.println("--- add "+customer.getName()+"success");
+//        } catch (IndexOutOfBoundsException ex) {
+//            System.out.println("Customer to booking movie ticket 4D noe exist !! try again");
+//            addBookingMovieTicket4D();
+//        }
+//        backMainMenu();
+//    }
+//    private static void showBookingMovieTicket() {
+//        int i = 1;
+//        System.out.println("------------List----------");
+//        for (Customer customer : customerQueueBookingTicket) {
+//            System.out.println("No:"+i);
+//            System.out.println(customer.showInformation());
+//            i++;
+//            System.out.println("--------------------");
+//        }
+//        backMainMenu();
+//    }
+//    private static void displayMenuBookingMovieTicket4D() {
+//        System.out.println("--------Booking movie ticket 4D menu-----------");
+//        System.out.println("1.Booking movie ticket"+
+//                "\n2.Show customer booking movie ticket"+
+//                "\n3.Back to main menu"+
+//                "\n4.Exit");
+//    }
+    private static void findEmployeeFromResume() {
+        Scanner scanner = new Scanner(System.in);
+        Stack<Employee> employeeStack = Resume.getAllEmployee();
+        System.out.println("Enter key of employee: ");
+        String inputSearch = scanner.nextLine();
+        try {
+            while (true) {
+                boolean foundByAddress = employeeStack.peek().getAddress().contains(inputSearch);
+                if (!foundByAddress) {
+                    employeeStack.pop();
+                } else {
+                    System.out.println("-----found employee below----");
+                    System.out.println(employeeStack.peek().toString());
+                    break;
+                }
+            }
+        } catch (EmptyStackException ex) {
+            System.out.println("Key invalid . please try again");
+            findEmployeeFromResume();
+        }
+        backMainMenu();
+}
+
+    private static void addEmployee(){
+        Scanner scanner = new Scanner(System.in);
+        Employee employee = new Employee();
+        System.out.println("Enter name employee:");
+        employee.setName(scanner.nextLine());
+        System.out.println("Enter age employee:");
+        employee.setAge(Integer.parseInt(scanner.nextLine()));
+        System.out.println("Enter address employee:");
+        employee.setAddress(scanner.nextLine());
+        ArrayList<Employee> employeeList = FuncWriteAndReadFileCSV.getEmployeeFromCSV();
+        employeeList.add(employee);
+        FuncWriteAndReadFileCSV.writeEmployeeToFileCSV(employeeList);
+        System.out.print("\nAdd Employee: "
+                + employee.getName()+
+                "  Successfully!!!"
+        );
+        actionEmployee();
+
+    }
+
+    private static void actionEmployee(){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("\n--------------------------");
+        System.out.println("Choose action with employee:" +
+                "\n1.add new employee." +
+                "\n2.show information employee."+
+                "\n3.back to menu.");
+        switch (Integer.parseInt(scanner.nextLine())) {
+            case 1:
+                addEmployee();
+                break;
+            case 2:
+                showInformationEmployee();
+                break;
+            case 3:
+                backMainMenu();
+                break;
+            default:
+                System.out.println("Enter again to choose action.");
+                backMainMenu();
+        }
     }
 }
