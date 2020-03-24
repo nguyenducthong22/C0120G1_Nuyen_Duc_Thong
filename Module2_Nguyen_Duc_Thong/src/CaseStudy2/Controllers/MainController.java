@@ -15,9 +15,9 @@ public class MainController {
                         "\n5.Add New Booking(ko thu)" +
                         "(\n6.Show Booking Resort (chua dc ko thu))" +
                         "\n7.Add Employee " +
-                        "\n8.Show Information of Employee" +
+                        "\n8.Show Information  All Employee" +
                         "\n0.Exit" +
-                        "\n Please select one function below : ");
+                        "\nPlease select one function below : ");
         switch (scanner.nextLine()) {
             case "1":
                 addNewServices();
@@ -34,7 +34,7 @@ public class MainController {
 //            case "5":
 //                addNewBooking();
 //                break;
-////            case "6":
+////            case "6":K
 ////                bookingMovieTicket4D();
 //                break;
             case "7":
@@ -212,11 +212,7 @@ public class MainController {
             System.out.println("\n------------------------");
         }
         backMainMenu();
-
     }
-//
-//    private static void addNewBooking() {
-//    }
 
     private static void addNewCustomer() {
         Scanner scanner = new Scanner(System.in);
@@ -443,6 +439,9 @@ public class MainController {
         );
         backMainMenu();
     }
+
+//    private static void addNewBooking() {
+//    }
 
 //    private static void bookingMovieTicket4D() {
 //        displayMenuBookingMovieTicket4D();
