@@ -12,7 +12,7 @@ public class MainController {
                         "\n2.Show Services." +
                         "\n3.Add New Customer" +
                         "\n4.Show Information of Customer" +
-                        "\n5.Add New Booking(ko thu)" +
+                        "\n5.Add New Booking( chua duoc ko thu)" +
                         "(\n6.Show Booking Resort (chua dc ko thu))" +
                         "\n7.Add Employee " +
                         "\n8.Show Information  All Employee" +
