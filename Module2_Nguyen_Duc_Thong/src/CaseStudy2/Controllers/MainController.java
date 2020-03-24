@@ -324,7 +324,7 @@ public class MainController {
         System.out.println("Enter name services:");
         services.setNameService(scanner.nextLine());
         while (!FuncValidate.checkNameService(services.getNameService())) {
-            System.out.println("Name service id invalid !!! Please try again");
+            System.out.println("Name service is invalid !!! Please try again");
             System.out.println("Enter name service :");
             services.setNameService(scanner.nextLine());
         }
