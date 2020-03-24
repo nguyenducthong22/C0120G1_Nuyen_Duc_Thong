@@ -38,13 +38,12 @@ public class Employee {
         public void setAddress(String address) {
             this.address = address;
         }
-
-        @Override
-        public String toString() {
-            return "Employee{" +
-                    "name='" + name + '\'' +
-                    ", age=" + age +
-                    ", address='" + address + '\'' +
-                    '}';
-        }
+    @Override
+    public String toString() {
+        return "Employee" +
+                "\nname='" + name  +
+                "\nage=" + age +
+                "\naddress='" + address
+                ;
+    }
 }

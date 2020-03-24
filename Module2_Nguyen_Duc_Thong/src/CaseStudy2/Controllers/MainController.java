@@ -16,7 +16,6 @@ public class MainController {
                         "(\n6.Show Booking Resort (chua dc ko thu))" +
                         "\n7.Add Employee " +
                         "\n8.Show Information of Employee" +
-                        "\n9.Find employee for resume " +
                         "\n0.Exit" +
                         "\n Please select one function below : ");
         switch (scanner.nextLine()) {
@@ -44,9 +43,6 @@ public class MainController {
 
             case "8":
                 showInformationEmployee();
-                break;
-            case "9":
-                findEmployeeFromResume();
                 break;
             case "0":
                 System.exit(0);
@@ -173,8 +169,11 @@ public class MainController {
         ArrayList<Villa> listVilla = FuncWriteAndReadFileCSV.getVillaFromCSV();
         ArrayList<String> nameList = new ArrayList<>();
         for (Villa villa : listVilla) {
+            System.out.println("\n------------------------");
             nameList.add(villa.getNameService());
+            System.out.println(villa.showInformation());
         }
+        System.out.println("\n------------------------");
         nameList.stream().distinct().forEach(System.out::println);
         backMainMenu();
     }
@@ -183,7 +182,10 @@ public class MainController {
         ArrayList<House> listHouse = FuncWriteAndReadFileCSV.getHouseFromCSV();
         ArrayList<String> nameList = new ArrayList<>();
         for (House house : listHouse) {
+            System.out.println("\n------------------------");
             nameList.add(house.getNameService());
+            System.out.println(house.showInformation());
+            System.out.println("\n------------------------");
         }
         nameList.stream().distinct().forEach(System.out::println);
         backMainMenu();
@@ -193,17 +195,28 @@ public class MainController {
         ArrayList<Room> listRoom = FuncWriteAndReadFileCSV.getRoomFromCSV();
         ArrayList<String> nameList = new ArrayList<>();
         for (Room room : listRoom) {
+            System.out.println("\n------------------------");
             nameList.add(room.getNameService());
+            System.out.println(room.showInformation());
+            System.out.println("\n------------------------");
         }
         nameList.stream().distinct().forEach(System.out::println);
         backMainMenu();
     }
 
     private static void showInformationEmployee() {
-    }
+        ArrayList<Employee> listEmployee = FuncWriteAndReadFileCSV.getEmployeeFromCSV();
+        for (Employee employee : listEmployee) {
+            System.out.println("\n------------------------");
+            System.out.println(employee.toString());
+            System.out.println("\n------------------------");
+        }
+        backMainMenu();
 
-    private static void addNewBooking() {
     }
+//
+//    private static void addNewBooking() {
+//    }
 
     private static void addNewCustomer() {
         Scanner scanner = new Scanner(System.in);
@@ -493,28 +506,6 @@ public class MainController {
 //                "\n3.Back to main menu"+
 //                "\n4.Exit");
 //    }
-    private static void findEmployeeFromResume() {
-        Scanner scanner = new Scanner(System.in);
-        Stack<Employee> employeeStack = Resume.getAllEmployee();
-        System.out.println("Enter key of employee: ");
-        String inputSearch = scanner.nextLine();
-        try {
-            while (true) {
-                boolean foundByAddress = employeeStack.peek().getAddress().contains(inputSearch);
-                if (!foundByAddress) {
-                    employeeStack.pop();
-                } else {
-                    System.out.println("-----found employee below----");
-                    System.out.println(employeeStack.peek().toString());
-                    break;
-                }
-            }
-        } catch (EmptyStackException ex) {
-            System.out.println("Key invalid . please try again");
-            findEmployeeFromResume();
-        }
-        backMainMenu();
-}
 
     private static void addEmployee(){
         Scanner scanner = new Scanner(System.in);
