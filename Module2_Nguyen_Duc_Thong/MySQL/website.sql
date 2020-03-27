@@ -75,19 +75,19 @@ foreign key (id_products) references products(id_products) on delete cascade
 );
 
 insert into suppliers values (1,"Sony","d@.com","0112","so1"),(2,"Sam Sung","t@.com","0113","so2"),(3,"Apple","n@.com","0113","so3"),(4,"bon","?@.com","0114","so4");
-insert into categories values (1,"A","a"),(2,"B","b"),(null,"C","c"),(null,"D","d");
-insert into products values (1,"Phone","abc",100000,10,1,1,1,"abc"), (null,"Mouse","def",200000,20,2,2,2,"def"), (null,"Laptop","ghi",300000,30,3,3,3,"ghi"),(null,"USB","lmn",400000,6,6,4,4,"lmn");
-insert into customers values (1,"Cuong","Pham","0311","hai chau","c@.con","1990-03-25"),(null,"Tien","Tong","0312","pho 2","t@.con","2002-02-02"),(null,"Long","Nguyen","0313","pho 3","l@.con","2003-03-03"),(null,"Binh","Doan","0314","pho 4","b@.con","1990-04-04");
-insert into employees values (1,"Hoa","Nguyen","0211","duong 1","h@.con","2001-03-25"),(null,"Tan","Tran","0212","duong 2","t@.con","2002-02-02"),(null,"Hung","Vo","0213","duong 3","h@.con","2003-03-03"),(null,"Co","Co","0214","duong 4","c@.con","2004-04-04");
-insert into orders values (1,"2018-01-01","2020-03-25","Complete","A","Ha Noi","A","Cash",1,1),(null,"2020-03-25","2020-03-25","Canced","B","B","B","Creadit card",2,2),(null,"2018-03-03","2020-03-03","Complete","C","C","C","Cash",3,3),(null,"2017-04-04","2020-04-04","Canced","D","D","D","Creadit card",4,4);
-insert into orderdetails values (1,1,1,1),(null,2,2,2),(null,3,3,3),(null,4,4,4);
+insert into categories values (1,"A","a"),(2,"B","b"),(3,"C","c"),(4,"D","d");
+insert into products values (1,"Phone","abc",100000,10,1,1,1,"abc"), (2,"Mouse","def",200000,20,2,2,2,"def"), (3,"Laptop","ghi",300000,30,3,3,3,"ghi"),(4,"USB","lmn",400000,6,4,4,4,"lmn");
+insert into customers values (1,"Cuong","Pham","0311","hai chau","c@.con","1990-03-25"),(2,"Tien","Tong","0312","pho 2","t@.con","2002-02-02"),(3,"Long","Nguyen","0313","pho 3","l@.con","2003-03-03"),(4,"Binh","Doan","0314","pho 4","b@.con","1990-04-04");
+insert into employees values (1,"Hoa","Nguyen","0211","duong 1","h@.con","2001-03-25"),(2,"Tan","Tran","0212","duong 2","t@.con","2002-02-02"),(3,"Hung","Vo","0213","duong 3","h@.con","2003-03-03"),(4,"Co","Co","0214","duong 4","c@.con","2004-04-04");
+insert into orders values (1,"2018-01-01","2020-03-25","Complete","A","Ha Noi","A","Cash",1,1),(2,"2020-03-25","2020-03-25","Canced","B","B","B","Creadit card",2,2),(3,"2018-03-03","2020-03-03","Complete","C","C","C","Cash",3,3),(4,"2017-04-04","2020-04-04","Canced","D","D","D","Creadit card",4,4);
+insert into orderdetails values (1,1,1,10),(2,2,2,20),(3,3,3,30),(4,4,4,40);
 
 -- Câu 1: Viết câu lệnh UPDATE để cập nhật Price với điều kiện: Các mặt hàng có Price <= 100000 thì tăng thêm 10%
 SET SQL_SAFE_UPDATES = 0;
 update products set price = (((price*10)/100)+price) where price <=100000;
 
 -- Câu 2: Viết câu lệnh UPDATE để cập nhật DISCOUNT với điều kiện: Các mặt hàng có Discount <= 10% thì tăng thêm 5%
-update products set discount = (((discount*5)/100)+discount) where discount <=10;
+update products set discount = discount+5 where discount <=10;
 
 -- Câu 3: Hiển thị tất cả các mặt hàng có giảm giá <= 10%
 select * from products where discount <= 10;
@@ -139,18 +139,20 @@ select* from suppliers where name = "Sony" or name = "Sam Sung" or name = "Apple
  select * from products inner join categories on products.id_categories=categories.id_categories inner join suppliers on products.id_suppliers=suppliers.id_suppliers;
 
 
--- câu 19: Hiển thị tất cả danh mục (Categories) với số lượng hàng hóa trong mỗi danh mục(Viết 2 cách) (edited) 
--- 	Em chưa hiểu để lắm
+-- câu 19: Hiển thị tất cả danh mục (Categories) với số lượng hàng hóa trong mỗi danh mục 
 
--- câu 20: Hiển thị tất cả nhà cung cấp (Suppliers) với số lượng hàng hóa mỗi nhà cung cấp(Viết 2 cách)
--- 	Em chưa hiểu để lắm
+select categories.*,sum(stock) from categories join products on products.id_categories=categories.id_categories group by categories.id_categories; 
+
+-- câu 20 Hiển thị tất cả nhà cung cấp (Suppliers) với số lượng hàng hóa mỗi nhà cung cấp
+
+select suppliers.*,sum(stock) from suppliers join products on suppliers.id_suppliers=products.id_suppliers group by suppliers.id_suppliers;
 
 -- câu 21: Hiển thị tất cả các mặt hàng được bán trong khoảng từ ngày, đến ngày(Khoảng cách ngày các bạn tuỳ chọn theo data phù hợp với mỗi người) (edited) 
 select products.id_products,products.name,products.image_url,products.price from products join orderdetails on products.id_products=orderdetails.id_products
 join orders on orders.id_orders= orderdetails.id_orders where created_date between "2019-01-01"and "2020-12-31";
 
 -- câu 22: Hiển thị tất cả các khách hàng mua hàng trong khoảng từ ngày, đến ngày((Khoảng cách ngày các bạn tuỳ chọn theo data phù hợp với mỗi người)) (edited) 
-select * from  customers join orderdetails on customers.id_customers=orderdetails.id_orderdetails 
+select customers.* from  customers join orderdetails on customers.id_customers=orderdetails.id_orderdetails 
 join orders on orders.id_orders=orderdetails.id_orderdetails where created_date between "2019-01-01"and "2020-12-31";
 
 -- Câu 23: Hiển thị tất cả các khách hàng mua hàng (với tổng số tiền) trong khoảng từ ngày, đến ngày(viêt bằng 2 cách, ngày tuỳ chọn )
@@ -161,12 +163,46 @@ where created_date between "2019-01-01"and "2020-12-31";
 
 -- câu 24: Hiển thị tất cả đơn hàng với tổng số tiền
 select products.id_products, products.name as "name products ",products.image_url,products.image_url,sum(price) as TongTien from  customers join orderdetails on customers.id_customers=orderdetails.id_orderdetails 
-join orders on orders.id_orders=orderdetails.id_orderdetails 
-join products on products.id_products= orderdetails.id_products;
+inner join orders on orders.id_orders=orderdetails.id_orderdetails 
+inner join products on products.id_products= orderdetails.id_products;
 
 -- câu 25: Hiển thị tất cả các nhân viên bán hàng với tổng số tiền bán được
 
-select employees.first_name,employees.last_name,sum(price) from employees
+select employees.first_name,employees.last_name,sum(price) as "Tong tien" from employees
 join orders on employees.id_employees=orders.id_employees
 join orderdetails on orderdetails.id_orders=orders.id_orders
-join products on orderdetails.id_products=products.id_products 
+join products on orderdetails.id_products=products.id_products; 
+
+--  Câu 26: Hiển thị tất cả các mặt hàng không bán được
+
+select * from products where not exists(select products.id_products from orderdetails 
+where products.id_products=orderdetails.id_products);
+
+-- Câu 27: Hiển thị tất cả các nhà cung cấp không bán được trong khoảng từ ngày, đến ngày
+
+select suppliers.* from suppliers 
+where suppliers.id_suppliers not in (select suppliers.id_suppliers from suppliers
+right join products on suppliers.id_suppliers=products.id_suppliers
+left join orderdetails on products.id_products=orderdetails.id_products
+left join orders on orders.id_orders=orderdetails.id_orders 
+where  date(created_date) between '2020-02-15' and '2020-03-03'and status='COMPLETED');
+
+-- Câu 28: Hiển thị top 3 các nhân viên bán hàng với tổng số tiền bán được từ 
+-- cao đến thấp trong khoảng từ ngày, đến ngày
+select employees.first_name,employees.last_name,sum(price),orders.created_date from employees
+join orders on employees.id_employees=orders.id_employees
+join orderdetails on orderdetails.id_orders=orders.id_orders
+join products on orderdetails.id_products=products.id_products where status<>'Canced' 
+and date(created_date) between '2020-01-01' and '2020-12-31' 
+group by employees.id_employees
+order by sum(price) desc limit 3 ;
+
+-- Câu 29: Hiển thị top 5 các khách hàng mua hàng với tổng số tiền 
+-- mua được từ cao đến thấp trong khoảng từ ngày, đến ngày
+
+select customers.first_name,customers.last_name,sum(price) as TongTien,orders.created_date from customers 
+join orders on customers.id_customers=orders.id_customers 
+join orderdetails on orders.id_orders=orderdetails.id_orders
+join products on orderdetails.id_products=products.id_products
+where created_date between '2020-01-01' and '2020-12-31' and status<>'Canced'
+group by customers.id_customers order by TongTien desc limit 5;
