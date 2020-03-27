@@ -542,3 +542,27 @@ FROM
     khach_hang
         JOIN
     hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang;
+
+
+-- Task 19
+-- Cập nhật giá cho các Dịch vụ đi kèm được sử dụng trên 10 lần trong năm 2019 lên gấp đôi.
+SET SQL_SAFE_UPDATES=0; 
+ update dich_vu_di_kem set gia=gia*2
+ where
+ id_dich_vu_di_kem in
+ (select id_dich_vu_di_kem
+ from (hop_dong hd join hop_dong_chi_tiet hdct on hd.id_hop_dong=hdct.id_hop_dong)
+ where year(hd.ngay_lam_hop_dong)=2019 
+ group by id_dich_vu_di_kem
+ having count(hdct.id_dich_vu_di_kem)>2);
+ SET SQL_SAFE_UPDATES=1;  
+ 
+-- task 20 
+-- Hiển thị thông tin của tất cả các Nhân viên và Khách hàng có trong hệ thống, thông tin hiển thị bao gồm 
+-- ID (IDNhanVien, IDKhachHang), HoTen, Email, SoDienThoai, NgaySinh, DiaChi.
+
+select  id_nhan_vien , ho_ten_nhan_vien, email_nhan_vien, SDT_nhan_vien, ngay_sinh_nhan_vien, dia_chi_nhan_vien
+from nhan_vien as Nhan_Vien
+UNION all
+select id_khach_hang, ho_ten_khach_hang, email_khach_hang, SDT_khach_hang, ngay_sinh_khach_hang, dia_chi_khach_hang
+from khach_hang as Khach_hang;
