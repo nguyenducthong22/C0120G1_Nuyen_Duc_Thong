@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "ConverterServlet", urlPatterns = "/convert")
+@WebServlet(name = "convert", urlPatterns = "/convert")
 public class ChuyenDoiTienTe extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         float rate = Float.parseFloat(request.getParameter("rate"));
