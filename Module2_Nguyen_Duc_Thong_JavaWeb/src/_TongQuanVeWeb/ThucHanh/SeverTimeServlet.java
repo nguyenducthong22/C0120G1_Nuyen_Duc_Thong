@@ -1,4 +1,4 @@
-package _1TongQuanVeWeb.ThucHanh;
+package _TongQuanVeWeb.ThucHanh;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Date;
 
-@WebServlet(name = "ServerTimeServlet", urlPatterns = "/time")
+@WebServlet(name = "ServerTimeServlet", urlPatterns = "/index")
 public class SeverTimeServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
@@ -17,9 +17,7 @@ public class SeverTimeServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         PrintWriter writer = response.getWriter();
-        ((PrintWriter) writer).println("<html>");
-        writer.println("<h1>Hello world</h1>");
-        writer.println("</html>");
+        writer.println("<html>");
 
         Date today = new Date();
 
