@@ -1,3 +1,5 @@
+package _TongQuanVeWeb.ThucHanh;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -10,17 +12,17 @@ import java.io.PrintWriter;
 public class Login extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-            String username = request.getParameter("username");
-            String password = request.getParameter("password");
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
 
-            PrintWriter writer = response.getWriter();
-            writer.println("<html>");
+        PrintWriter writer = response.getWriter();
+        writer.println("<html>");
 
-            if("admin".equals(username) && "admin".equals(password)) {
-                response.sendRedirect("Welcome.jsp");
-            } else{
-                response.sendRedirect("index.jsp");
-            }
+        if("admin".equals(username) && "admin".equals(password)) {
+            response.sendRedirect("Welcome.jsp");
+        } else{
+            response.sendRedirect("index.jsp");
+        }
 
     }
 
