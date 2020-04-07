@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88c2a8e3-2953-4877-ad25-1dc44a797de5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/classes/_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/classes/_TongQuanVeWeb/ThucHanh/SeverTimeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/index.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2_Nguyen_Duc_Thong_JavaWeb/_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2_Nguyen_Duc_Thong_JavaWeb/_TongQuanVeWeb/ThucHanh/SeverTimeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ThucHanh.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/artifacts/Login_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/Login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/lib/javax.faces-2.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/classes/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/Welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/out/production/Login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/src/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/web/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/web/Welcome.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeverTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/WEB-INF/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZsKNbNPfh7uGr3xfhE5oOW2V9W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88c2a8e3-2953-4877-ad25-1dc44a797de5" name="Default Changelist" comment="" />
+      <created>1585622322265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585622322265</updated>
+      <workItem from="1585622323889" duration="316000" />
+      <workItem from="1585622684890" duration="67000" />
+      <workItem from="1585622926963" duration="486000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1585623406629">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585623406629" />
+    <state x="65" y="0" key="new project wizard" timestamp="1585623411986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1585623411986" />
+  </component>
+</project>
