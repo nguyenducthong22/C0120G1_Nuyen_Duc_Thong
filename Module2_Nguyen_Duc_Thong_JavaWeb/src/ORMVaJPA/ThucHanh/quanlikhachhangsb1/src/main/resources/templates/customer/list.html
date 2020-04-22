@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List Customer</title>
+</head>
+<style>
+    img {
+        height: 213px;
+        width: 279px;
+    }
+    .tin{
+        width: 281px;
+        height: 330px;
+        float: left;
+        margin-right: 20px;
+
+    }
+    a{
+        text-decoration: none;
+    }
+    .div_but{
+        margin-top: 30px;
+
+    }
+    h3{
+        margin: 0;
+    }
+</style>
+<body>
+<a href="/create-customer">Create new customer</a>
+<h1 style="color: black;text-align: center" > Thong Tin Khach Hang </h1>
+<!--<a th:href="/list-blog"></a>-->
+<th:block th:each="customer:${customers}">
+    <div class="tin">
+
+        title :  <h3 th:text="${customer.firstName}" ></h3>
+        content :  <h3 th:text="${customer.lastName}" ></h3>
+        <div class="div_but">
+            <button><a th:href="@{/edit-customer/__${customer.id}__}">Edit</a></button>
+            <button><a th:href="@{/delete-customer/__${customer.id}__}">Delete</a></button>
+        </div>
+
+    </div>
+</th:block>
+</body>
+</html>
