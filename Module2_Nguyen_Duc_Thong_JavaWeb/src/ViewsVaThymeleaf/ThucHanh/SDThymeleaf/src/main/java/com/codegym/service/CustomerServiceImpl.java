@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public class CustomerServiceImpl implements CustomerService {
-    private  static  Map<Integer, Customer> customers;
+    private static Map<Integer, Customer> customers;
 
     static {
 
@@ -22,29 +22,29 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public List<Customer> findAll(){
+    public List<Customer> findAll() {
         return new ArrayList<>(customers.values());
     }
 
     @Override
-    public void save(Customer customer){
+    public void save(Customer customer) {
 
-        customers.put(customer.getId(),customer);
+        customers.put(customer.getId(), customer);
     }
 
     @Override
-    public Customer findById(int id){
+    public Customer findById(int id) {
         return customers.get(id);
     }
 
     @Override
-    public  void update(int id, Customer customer){
+    public void update(int id, Customer customer) {
         customers.put(id, customer);
 
     }
 
     @Override
-    public void remove(int id){
+    public void remove(int id) {
         customers.remove(id);
     }
 }

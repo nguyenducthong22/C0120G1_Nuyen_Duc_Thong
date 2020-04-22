@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class GreetingController {
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String hello(){
         return "hello";
     }

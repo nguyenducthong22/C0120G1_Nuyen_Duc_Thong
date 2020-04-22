@@ -24,7 +24,7 @@ public class Customer {
         this.id = id;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
@@ -32,16 +32,16 @@ public class Customer {
         this.name = name;
     }
 
-    public String getEmail(){
-        return  email;
+    public String getEmail() {
+        return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
     }
 
-    public String getAddress(){
-        return  address;
+    public String getAddress() {
+        return address;
     }
 
     public void setAddress(String address) {
