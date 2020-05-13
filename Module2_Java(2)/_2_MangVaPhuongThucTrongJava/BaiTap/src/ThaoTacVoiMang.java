@@ -58,7 +58,7 @@ public class ThaoTacVoiMang {
             System.out.print(arrayThem[i]+" ");
         }
         System.out.println();
-        System.out.println("Enter back to menu:");
+        System.out.println("Enter back to menu !!!");
         Scanner scanner=new Scanner(System.in);
         scanner.nextLine();
         System.out.println("---------------------------");
@@ -109,7 +109,7 @@ public class ThaoTacVoiMang {
             System.out.print(array[i]+" ");
         }
         System.out.println();
-        System.out.println("Enter back to menu:");
+        System.out.println("Enter back to menu !!!");
         Scanner scanner=new Scanner(System.in);
         scanner.nextLine();
         System.out.println("---------------------------");
@@ -165,7 +165,7 @@ public class ThaoTacVoiMang {
             System.out.print(array[i]+" ");
         }
         System.out.println();
-        System.out.println("Enter back to menu:");
+        System.out.println("Enter back to menu !!!");
         Scanner scanner=new Scanner(System.in);
         scanner.nextLine();
         System.out.println("---------------------------");
@@ -247,7 +247,7 @@ public class ThaoTacVoiMang {
 
     public static void menu2(int[]array){
         boolean check=false;
-        do {
+       do {
         System.out.println("Menu : ");
         System.out.println("1.Them phan tu ");
         System.out.println("2.Xoa phan tu ");
