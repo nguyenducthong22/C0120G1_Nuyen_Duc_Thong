@@ -33,7 +33,8 @@ private double height=1.0;
 
     @Override
     public String toString() {
-        return "Cylinder : "+" , color "+this.getColor()+"\n"+
+        return "Cylinder "+"\n"+
+                "Color "+this.getColor()+"\n"+
                 "Radius : "+this.getRadius()+"\n"+
                 "Area   : "+this.getArea()+"\n"+
                 "Perimeter : "+this.getPerimeter();

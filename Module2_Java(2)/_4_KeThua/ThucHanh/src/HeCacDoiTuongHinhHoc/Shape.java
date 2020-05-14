@@ -6,7 +6,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "HeCacDoiTuongHinhHoc.Shape{" +
+        return "Shape{" +
                 "color='" + color + '\'' +
                 ", fill=" + fill +
                 '}';

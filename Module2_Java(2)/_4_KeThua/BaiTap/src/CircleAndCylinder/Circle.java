@@ -38,7 +38,8 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "Circle : "+" , color "+this.getColor()+"\n"+
+        return "Circle "+"\n"+
+                "Color "+this.getColor()+"\n"+
                 "Radius : "+this.getRadius()+"\n"+
                 "Area   : "+this.getArea()+"\n"+
                 "Perimeter : "+this.getPerimeter();
