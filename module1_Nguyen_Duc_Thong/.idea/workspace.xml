@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Commons/FunValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Commons/FunValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Commons/FuncWriteAndReadFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Commons/FuncWriteAndReadFileCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Controllers/MainControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Controllers/MainControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Data/Villa.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Data/Villa.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Models/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Models/Villa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Views/TestTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Nguyen_Duc_Thong/src/CaseStudy/Views/TestTask2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +132,7 @@
       <workItem from="1583811792836" duration="185000" />
       <workItem from="1583812136440" duration="410000" />
       <workItem from="1583814220701" duration="565000" />
+      <workItem from="1589611311729" duration="1520000" />
     </task>
     <task id="LOCAL-00027" summary="may tinh">
       <created>1579077488224</created>
