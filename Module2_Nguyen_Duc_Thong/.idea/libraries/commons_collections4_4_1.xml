@@ -6,6 +6,8 @@
       <root url="jar://$PROJECT_DIR$/src/CaseStudy/Libs/opencsv-4.6.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/opencsv-4.6-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

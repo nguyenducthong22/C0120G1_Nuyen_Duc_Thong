@@ -51,15 +51,15 @@ public class House extends Services {
 
     @Override
     public String showInformation() {
-        return "\nId Service:" + super.getId() +
-                "\nName service:" + super.getNameService() +
-                "\nArea used:" + super.getArea() +
-                "\nRental cost:" + super.getRentCost() +
-                "\nMax number people:" + super.getMaxNumberOfPeople() +
-                "\nType rent:" + super.getTypeRent() +
-                "\nRoom standard:" + getRoomStandard() +
-                "\nDescription:" + getDescription() +
-                "\nPool Area:" + getPoolArea() +
-                "\nNumber of floor:" + getFloor();
+            return "\nId Service:" + super.getId() +
+                    "\nName service:" + super.getNameService() +
+                    "\nArea used:" + super.getArea() +
+                    "\nRental cost:" + super.getRentCost() +
+                    "\nMax number people:" + super.getMaxNumberOfPeople() +
+                    "\nType rent:" + super.getTypeRent() +
+                    "\nRoom standard:" + getRoomStandard() +
+                    "\nDescription:" + getDescription() +
+                    "\nPool Area:" + getPoolArea() +
+                    "\nNumber of floor:" + getFloor();
     }
 }

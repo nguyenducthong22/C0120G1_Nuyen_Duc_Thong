@@ -7,13 +7,13 @@ public class MainController {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void displayMainMenu() {
-        System.out.println(
-                "\n1.Add New Services." +
+        System.out.println("Menu :"+
+                "\n1.Add New Servicses." +
                         "\n2.Show Services." +
                         "\n3.Add New Customer" +
                         "\n4.Show Information of Customer" +
                         "\n5.Add New Booking( chua duoc ko thu)" +
-                        "(\n6.Show Booking Resort (chua dc ko thu))" +
+                        "\n6.Show Booking Resort (chua dc ko thu)" +
                         "\n7.Add Employee " +
                         "\n8.Show Information  All Employee" +
                         "\n0.Exit" +
@@ -250,11 +250,11 @@ public class MainController {
             System.out.println(" Name customer is invalid (Exam : Nguyen A )!!! Please try again !");
             customer.setName(scanner.nextLine());
         }
-        System.out.println("Enter Date(YYYY-MM-DD) :");
+
+        System.out.println("Enter Date (DD/MM/YYYY) :");
         customer.setDate(scanner.nextLine());
         while (!UserException.birthdayException(customer.getDate())) {
-            System.out.println("Birth day is invalid !!! Please try again .");
-            customer.setDate(scanner.nextLine());
+            System.out.println("Birth day is invalid ( birth year from 1900 to 2002) !!! Please try again !!!");
         }
 
         boolean check=false;
@@ -269,12 +269,13 @@ public class MainController {
         }while (!check);
 
 
-        System.out.println("Enter passPort:");
+        System.out.println("Enter idCard :");
         customer.setPassPort(scanner.nextLine());
         while (!UserException.idCardException(customer.getPassPort())) {
-            System.out.println("IdCard is invalid !!! Please try again ! ");
+            System.out.println("IdCard is invalid!!!(Exam : 123 456 789 ) Please try again ! ");
             customer.setPassPort(scanner.nextLine());
         }
+
         System.out.println("Enter phoneNumber:");
         customer.setPhoneNumber(scanner.nextLine());
 

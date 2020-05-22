@@ -1,0 +1,5 @@
+id,nameService,area,rentCost,maxNumberOfPeople,typeRent,roomStandard,description,poolArea,floor
+bf86f93db2de4d0fa9a5a7c9de1755b3,Thong,31.0,20.0,1,a,a,a,2.0,2
+249948927aa744c89e167be8c99cfe1d,Ko,36.0,22.0,11,A,B,C,10.0,2
+c455d991bfea4bb69597450f4a4d100d,Villapro,55555.0,55555.0,11,a,a,a,22.0,22
+3b3ed13d529b48ad95b9ebdb37f709ea,Thong,66.0,22.0,11,a,a,a,2.0,2

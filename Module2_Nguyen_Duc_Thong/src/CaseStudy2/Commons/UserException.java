@@ -18,12 +18,12 @@ public class UserException {
     }
 
     public static boolean idCardException(String value) {
-        String regex ="^([0-9]+)$";
+        String regex ="^([0-9]{3})(\\ )([0-9]{3})(\\ )([0-9]{3})$";
         return value.matches(regex);
     }
 
     public static boolean birthdayException (String string){
-        String regex = "^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)\\d{4}$";
+        String regex = "^([0-2][0-9]|(3)[0-1])(\\/)(((0)[0-9])|((1)[0-2]))(\\/)([1][9][0-9][0-9]|(2)[0][0][0-2])$";
         return string.matches(regex);
     }
 }
