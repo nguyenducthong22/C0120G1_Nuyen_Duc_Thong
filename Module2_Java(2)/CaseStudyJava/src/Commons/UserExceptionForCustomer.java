@@ -23,7 +23,7 @@ public class UserExceptionForCustomer {
     }
 
     public static boolean phoneException(String value) {
-        String regex ="^(([0-9]{9})|([0-9]{9})|([0-9]{10})|([0-9]{11}))$";
+        String regex ="^(([0-9]{9})|([0-9]{10})|([0-9]{11}))$";
         return value.matches(regex);
     }
 

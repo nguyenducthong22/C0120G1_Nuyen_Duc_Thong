@@ -2,6 +2,7 @@ package Controllers;
 
 import Commons.*;
 import Models.*;
+import com.sun.javafx.stage.FocusUngrabEvent;
 
 import java.util.*;
 
@@ -646,7 +647,7 @@ private static void showInformationCustomer() {
 }
 
 //(5) add new Booking-------------------------------------------------------------------------------------------------------------
-private static void addNewBooking() {
+private static Customer addNewBooking() {
     int choiceCustomer = 0;
 
     System.out.println("\n---------------------------------------------------------");
@@ -683,18 +684,18 @@ private static void addNewBooking() {
 
     System.out.println();
     System.out.println("You choose customer : "+listCustomers.get(choiceCustomer-1).getName()+". Please choose service !");
-    addCustomerToService();
+    addCustomerToService(listCustomers.get(choiceCustomer-1));
 
+return listCustomers.get(choiceCustomer-1);
 }
 
-private static void addCustomerToService(){
+private static void addCustomerToService(Customer customer){
     System.out.println("Menu service : "+
                     "\n1.Booking villa."+
                     "\n2.Booking house."+
                     "\n3.Booking room."+
-                    "\n0.Back to main menu."+
-                    "\n00.Exit."
-    );
+                    "\n0.Back to main menu.");
+
     System.out.println("Choose service below : ");
     Scanner scanner=new Scanner(System.in);
     switch (scanner.nextLine()){
@@ -726,6 +727,9 @@ private static void addCustomerToService(){
                     System.out.println("Choose type villa is failed!!! Please try again !");
                 }
             }while (!check);
+            Services services=new Villa();
+            services=listVilla.get(choiceVilla-1);
+            FuncWriteAndReadFileCSV.writeBookingToFileCSV(customer,services);
             System.out.println("Add booking villa successfully !!! Enter back to menu add new booking...");
             scanner.nextLine();
             addNewBooking();
@@ -758,6 +762,9 @@ private static void addCustomerToService(){
                     System.out.println("Choose type house is failed!!! Please try again !");
                 }
             }while (!check);
+            Services services1=new House();
+            services1=listHouse.get(choiceHouse-1);
+            FuncWriteAndReadFileCSV.writeBookingToFileCSV(customer,services1);
             System.out.println("Add booking house successfully !!! Enter back to menu add new booking...");
             scanner.nextLine();
             addNewBooking();
@@ -790,6 +797,9 @@ private static void addCustomerToService(){
                     System.out.println("Choose type room is failed!!! Please try again !");
                 }
             }while (!check);
+            Services services2=new Room();
+            services2=listRoom.get(choiceRoom-1);
+            FuncWriteAndReadFileCSV.writeBookingToFileCSV(customer,services2);
             System.out.println("Add booking room successfully !!! Enter back to menu add new booking...");
             scanner.nextLine();
             addNewBooking();
@@ -798,12 +808,9 @@ private static void addCustomerToService(){
             System.out.print("Back to main menu ...");
             backMainMenu();
             break;
-        case "00":
-            System.out.println("Exit !!!");
-            System.exit(0);
         default:
             System.out.println("Choose service is failed !!! Back to menu service ! ");
-            addCustomerToService();
+
     }
 
 }
@@ -835,7 +842,7 @@ private static void  buyCinemaTicket4D(){
     ArrayList<Customer> listCustomers = FuncWriteAndReadFileCSV.getCustomerFromCSV();
     int numberCustomer=listCustomers.size();
 
-    while (numberCustomer!=0) {
+    while (numberCustomer!=1) {
         System.out.println("Buy tickets for row "+row+" ...");
 
         int i = 1;
@@ -863,36 +870,68 @@ private static void  buyCinemaTicket4D(){
 
 
         System.out.println("-----------------------------------------------------");
+        System.out.println("Complete !!!!");
         row++;
         numberCustomer--;
         check=false;
     }
+    queueCustomer.offer(listCustomers.get(0).getName());
     printQueueCustomer(queueCustomer);
 }
 
     //print Queue customer
     private static void printQueueCustomer(Queue<String> queueCustomer){
         int i=1;
+        System.out.println();
+        System.out.println("---------------------- Cinema ------------------------");
+        System.out.println("Position sitting in the movie rap : ");
         while (queueCustomer.size()!=0){
             System.out.println("Row "+i+": "+queueCustomer.peek());
             queueCustomer.poll();
             i++;
         }
-        System.out.println("Wishing customer  fun movie !!! Enter back to menu");
+
+        System.out.println("----------Wishing customer fun movie ----------------");
+        System.out.println();
+        System.out.print("Back to main menu !!! Enter to continue ...");
         Scanner scanner=new Scanner(System.in);
         scanner.nextLine();
         displayMainMenu();
     }
 
 // find Employee
-private static void findEmployee(){
-    ArrayList<Employee> listEmployee = FuncWriteAndReadFileCSV.getEmployeeFromCSV();
+private static void findEmployee() {
     System.out.println("\n---------------------------------------------------------");
     System.out.println("--------------------Find Employee-----------------------");
+    System.out.println("1. Find by id ." +
+                    "\n2. Find by name ." +
+                    "\n0. Back to main menu ." +
+                    "\nPlease choice one function below : ");
+    Scanner scanner = new Scanner(System.in);
+    switch (scanner.nextLine()) {
+        case "1":
+            findById();
+            break;
+        case "2":
+            findByName();
+            break;
+        case "0":
+            System.out.print("Back To Main Menu !!!");
+            backMainMenu();
+        default:
+            System.out.println("\nError!!!Back To Menu Find Employee...");
+            findEmployee();
+    }
 
+
+}
+private static void findById(){
     int idFind=0;
     boolean check=false;
+    System.out.println();
+    System.out.println("-----------------Find by Id-------------------");
 
+    ArrayList<Employee> listEmployee = FuncWriteAndReadFileCSV.getEmployeeFromCSV();
     do {
         try {
             System.out.println("Enter id employee need to find (enter 0 to back to find menu) : ");
@@ -900,25 +939,77 @@ private static void findEmployee(){
             idFind=scanner.nextInt();
             if (0<idFind&&idFind<11){
                 check=true;
+            }else if (idFind==0){
+                System.out.println("Back to menu find employee !!!");
+                findEmployee();
             }else {
                 System.out.println("Not found !!! Please try again !");
+                System.out.println();
             }
         }catch (Exception e){
             System.out.println("Not found !!! Please try again !");
+            System.out.println();
         }
     }while (!check);
 
-    System.out.println("-----------------------------------------------");
+    System.out.println("-------------------- "+idFind+" ----------------------");
     System.out.println(listEmployee.get(idFind-1).showInformation());
     System.out.println("-----------------------------------------------");
     System.out.println();
-    System.out.println("Enter back to main menu .... ");
+    System.out.print("Enter back to find menu .... ");
     Scanner scanner=new Scanner(System.in);
     scanner.nextLine();
-    displayMainMenu();
-
+   findEmployee();
 }
 
+//find by name
+    private  static void findByName() {
+        ArrayList<Employee> listEmployee = FuncWriteAndReadFileCSV.getEmployeeFromCSV();
+
+        System.out.println();
+        System.out.println("-----------------Find by Name-------------------");
+        boolean check = false;
+        String nameFind = "";
+        int count = 0;
+
+        do {
+            try {
+                System.out.println("Enter the search name (Enter 0 back to find menu): ");
+                Scanner scanner = new Scanner(System.in);
+                nameFind = scanner.nextLine();
+                nameFind=nameFind.toLowerCase();
+                if (nameFind.equals("0")) {
+                    System.out.println("Back to find menu ...");
+                    findEmployee();
+                } else {
+                    for (int i = 0; i < listEmployee.size(); i++) {
+                        if (nameFind.equals(listEmployee.get(i).getName().toLowerCase())) {
+                            System.out.println();
+                            System.out.println("----------------------"+(i+1)+"----------------------");
+                            System.out.println(listEmployee.get(i).showInformation());
+                            System.out.println("-----------------------------------------------");
+                            count++;
+                        }
+                    }
+                    if (count == 0) {
+                        System.out.println("Not found !!! Please try again !");
+                        System.out.println();
+                    } else {
+                        check = true;
+                    }
+                }
+                }catch(Exception e){
+                    System.out.println("Not found !!! Please try again !");
+                System.out.println();
+                }
+            } while (!check) ;
+
+        System.out.println();
+        System.out.print("Back to find menu !!! Enter to continue ...");
+        Scanner scanner=new Scanner(System.in);
+        scanner.nextLine();
+        findEmployee();
+    }
 // back main menu
     private static void backMainMenu() {
         System.out.println();

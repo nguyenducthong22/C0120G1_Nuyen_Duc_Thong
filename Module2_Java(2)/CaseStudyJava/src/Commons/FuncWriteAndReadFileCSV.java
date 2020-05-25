@@ -21,6 +21,7 @@ public class FuncWriteAndReadFileCSV {
     private static final String pathRoom = "src/Data/Room.csv";
     private static final String pathCustomer="src/Data/Customer.csv";
     private static final String pathEmployee="src/Data/Employee.csv";
+    private static final String pathBooking="src/Data/Booking.csv";
 
     private static String[] headerRecordVilla= new String[]{
             "id", "nameService", "area", "rentCost", "maxNumberOfPeople", "typeRent",
@@ -39,6 +40,9 @@ public class FuncWriteAndReadFileCSV {
     };
     private static String[] getHeaderRecordEmployee= new String[]{
             "id", "name", "Date", "gender", "passPort", "phoneNumber", "Email", "academicLevel", "position", "salary"
+    };
+    private static String[] getHeaderRecordBooking= new String[]{
+            "idCustomer", "name", "Date", "typeService", "idService", "nameService"
     };
     private static final int NUM_OF_LINE_SKIP = 1;
 
@@ -310,5 +314,25 @@ public class FuncWriteAndReadFileCSV {
         return (ArrayList<Employee>) csvToBean.parse();
     }
 
+    public static  void writeBookingToFileCSV(Customer customer , Services services) {
+        try(Writer writer = new FileWriter(pathBooking);
+            CSVWriter csvWriter = new CSVWriter(writer,
+                    CSVWriter.DEFAULT_SEPARATOR,
+                    CSVWriter.NO_QUOTE_CHARACTER,
+                    CSVWriter.DEFAULT_ESCAPE_CHARACTER,
+                    CSVWriter.DEFAULT_LINE_END)){
+            csvWriter.writeNext(getHeaderRecordBooking);
+
+                csvWriter.writeNext(new String[]{
+                        customer.getName(),
+                        customer.getDate(),
+                        String.valueOf(customer.getTypeService()),
+                        services.getId(),
+                        services.getNameService(),
+                });
+        } catch (IOException ex){
+            System.out.print(ex.getMessage());
+        }
+    }
 
 }
