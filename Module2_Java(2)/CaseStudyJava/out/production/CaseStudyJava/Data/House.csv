@@ -1,0 +1,5 @@
+id,nameService,area,rentCost,maxNumberOfPeople,typeRent,roomStandard,description,floor
+a2a1031e19c14b72976bda08949a2280,Housepro,31.0,20.0,20,A,A,A,10
+64df4013c18242dd9198bd20e372c0d2,Ngh,66.0,5.0,12,a,a,a,2
+3a339d792ab44f85a2f4d1c479c8a7be,Housek,50.0,5.0,5,b,b,b,5
+45ec3d1f47ba4883911d44d47349ee91,Housepro,55.0,55.0,8,a,a,a,5

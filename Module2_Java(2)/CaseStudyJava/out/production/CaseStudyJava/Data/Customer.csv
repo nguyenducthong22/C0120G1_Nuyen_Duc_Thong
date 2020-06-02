@@ -1,0 +1,5 @@
+name,date,gender,passPort,phoneNumber,email,typeCustomer,address,typeService,idContract,startDay,endDay,depositAmount,totalMoney
+Nguyen Duc Thong,22/07/2000,male,201 108 890,201 810 890,Thong220700@gamil.com,platinum,as,house,f96729a9c979462b9e5972a01c7b31ef,22/07/2000,28/05/2020,10.0,100.0
+Nguyen Van Teo,11/11/2002,male,201 108 890,201 810 890,Teo220700@gamil.com,platinum,as,house,n96729a9c979462b9e5872a01c7b31eg,22/11/2002,28/05/2022,10.0,101.0
+Nguyen B,22/11/2001,female,123 789 456,102,ada@asdsa.cas,gold,a,room,,,,0.0,0.0
+Nguyen B,22/01/2000,male,201 102 101,123456789,asdsadd@dasdas.ca,member,asds,room,,,,0.0,0.0

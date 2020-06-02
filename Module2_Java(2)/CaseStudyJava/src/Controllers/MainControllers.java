@@ -97,7 +97,6 @@ public class MainControllers {
                 addNewServices();
         }
     }
-    // exit menu add new service--------------------------------------------------------------
 
     // add new Service (Shared for villa,house,room)------------------------------------------
     private static Services addNewServices(Services services) {
@@ -148,7 +147,6 @@ public class MainControllers {
         }
         return services;
     }
-    // exit add new Service (Shared for villa,house,room)-----------------------------------
 
     // (1.1) add new Villa -----------------------------------------------------------------------
     private static void addNewVilla() {
@@ -194,7 +192,6 @@ public class MainControllers {
         scanner.nextLine();
         addNewServices();
     }
-    //(1.1) exit add new villa-------------------------------------------------------------
 
     // (1.2) add new house------------------------------------------------------------------
     private static void addNewHouse() {
@@ -230,7 +227,6 @@ public class MainControllers {
         scanner.nextLine();
         addNewServices();
     }
-    //(1.2)exit add new house------------------------------------------------------------------
 
     //(1.3) add new room-----------------------------------------------------------------------
     private static void addNewRoom() {
@@ -867,7 +863,6 @@ private static void  buyCinemaTicket4D(){
                 System.out.println("Choose customer is failed !!! Please try again ! ");
             }
         } while (!check);
-
 
         System.out.println("-----------------------------------------------------");
         System.out.println("Complete !!!!");

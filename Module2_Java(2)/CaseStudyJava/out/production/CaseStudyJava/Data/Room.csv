@@ -1,0 +1,5 @@
+id,nameService,area,rentCost,maxNumberOfPeople,typeRent,bonus
+56bb39b35e2a4ab3acb130f2e48b1006,Lp,35.0,2.0,3,P,food
+bcda9815eee24fc6b8d0a44224fe23a1,Room,35.0,20.0,3,A,food
+9d4b1497e14e4b8eba441e4ffb29aac2,Troom,33.0,3.0,3,c,car
+5d5b8f8a47c74bacb89ac8be5e3fafd2,Room,99.0,55.0,6,A,drink

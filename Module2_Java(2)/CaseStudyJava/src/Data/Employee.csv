@@ -1,0 +1,11 @@
+id,name,Date,gender,passPort,phoneNumber,Email,academicLevel,position,salary
+1,Megu Fujiura,1/1/1911,female,111 111 111,111111111,111@111.com,high school,employee,1111111
+2,Shion Utsunomiya,2/2/1922,female,222 222 222,222222222,222@222.com,high school,employee,2222222
+3,Hai Truong,3/3/1933,female,333 333 333,333333333,333@333.com,high school,employee,3333333
+4,Rola Misaki,4/4/1944,female,444 444 444,444444444,444@444.com,high school,employee,4444444
+5,Ria Sakurai,5/5/1955,female,555 555 555,555555555,555@555.com,high school,employee,5555555
+6,Shimiken,6/6/1966,male,666 666 666,666666666,666@666.com,high school,employee,6666666
+7,Shigeo Tokuda,7/7/1977,male,777 777 777,777777777,777@777.com,high school,employee,7777777
+8,Yuna Hatona,8/8/1988,male,888 888 888,888888888,888@888.com,high school,employee,8888888
+9,Thao Teacher,9/9/1999,female,999 999 999,999999999,999@999.com,high school,employee,9999999
+10,Hai Truong,10/10/2020,male,101 101 101,101010101,101@101.com,high school,boss,10101010
