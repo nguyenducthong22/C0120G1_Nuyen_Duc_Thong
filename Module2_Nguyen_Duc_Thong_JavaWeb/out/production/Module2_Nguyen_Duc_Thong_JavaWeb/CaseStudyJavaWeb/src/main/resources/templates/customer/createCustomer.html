@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Customer</title>
+</head>
+<body>
+<div>
+    <a href="/menu" style="color: black">Back to Menu</a>
+    <a href="/customers" style="color: black">List Customer</a>
+    <h1> Create Customer</h1>
+    <form th:action="@{createCustomer}" method="post" th:object="${customer}">
+
+        <table>
+            <td>TypeCustomer:</td>
+            <td>
+                <select th:field="*{type_customer}" onchange="change(this)">
+                    <option th:value="1" th:text="Diamond"></option>
+                    <option th:value="2" th:text="Platinium"></option>
+                    <option th:value="3" th:text="Gold"></option>
+                    <option th:value="4" th:text="Silver"></option>
+                    <option th:value="5" th:text="Member"></option>
+                </select>
+            </td>
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" th:field="*{fullName}"></td>
+            </tr>
+            <tr>
+                <td>Birth:</td>
+                <td><input type="text" th:field="*{birth}"></td>
+            </tr>
+            <tr>
+                <td>IdNumber:</td>
+                <td><input type="text" th:field="*{idNumber}"></td>
+            </tr>
+            <tr>
+                <td>PhoneNumber:</td>
+                <td><input type="text" th:field="*{phoneNumber}"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" th:field="*{email}"></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" th:field="*{address}"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Create Customer"></td>
+            </tr>
+        </table>
+
+    </form>
+</div>
+</body>
+</html>
