@@ -1,7 +1,7 @@
-drop database if exists furama_resort_NguyenDucThong;
-create database furama_resort_NguyenDucThong;
-use furama_resort_NguyenDucThong;
--- Task 1:Tạo Bảng
+drop database if exists casestudy_database;
+create database casestudy_database;
+use casestudy_database;
+
 CREATE TABLE vi_tri (
   id_vi_tri int NOT NULL AUTO_INCREMENT,
   ten_vi_tri varchar(30) NOT NULL,
@@ -22,12 +22,11 @@ CREATE TABLE trinh_do (
   UNIQUE KEY id_trinh_do (id_trinh_do)
 ) ;
 CREATE TABLE dich_vu_di_kem (
-  id_dich_vu_di_kem int NOT NULL AUTO_INCREMENT,
+  id_dich_vu_di_kem int NOT NULL AUTO_INCREMENT primary key,
   ten_dich_vu_di_kem varchar(50) NOT NULL,
   gia int NOT NULL,
   don_vi int NOT NULL,
   trang_thai_kha_dung varchar(30) NOT NULL,
-  PRIMARY KEY (id_dich_vu_di_kem),
   UNIQUE KEY id_dich_vu_di_kem (id_dich_vu_di_kem)
 ) ;
 CREATE TABLE kieu_thue (
@@ -96,7 +95,7 @@ CREATE TABLE nhan_vien (
 CREATE TABLE khach_hang (
   id_khach_hang int NOT NULL AUTO_INCREMENT,
   id_loai_khach int NOT NULL,
-  ho_ten_khach_hang varchar(30) NOT NULL,
+  ho_ten_khach_hang nvarchar(30) NOT NULL,
   ngay_sinh_khach_hang date NOT NULL,
   so_CMND_khach_hang varchar(30) NOT NULL,
   SDT_khach_hang varchar(30) NOT NULL,
@@ -139,9 +138,8 @@ CREATE TABLE hop_dong_chi_tiet (
   CONSTRAINT hop_dong_chi_tiet_ibfk_2 FOREIGN KEY (id_dich_vu_di_kem) REFERENCES dich_vu_di_kem (id_dich_vu_di_kem) on delete cascade
 );
 
--- task 2
--- them du lieu
--- Lệnh truy xuất
+-- task 1
+-- 1.	Thêm mới thông tin cho tất cả các bảng có trong CSDL để có thể thõa mãn các yêu cầu bên dưới.
 
 INSERT INTO bo_phan VALUES (1,'bán hàng'),(2,'quản lý'),(3,'bán hàng'),(4,'quản lý'),(5,'quản lý'),(6,'bán hàng'),(7,'bán hàng'),(8,'bảo vệ');
 INSERT INTO vi_tri VALUES (1,'nhân viên bán hàng'),(2,'giám đốc'),(3,'nhân viên bán hàng'),(4,'giám đốc'),(5,'bảo vệ'),(6,'lao công');
@@ -149,170 +147,125 @@ INSERT INTO trinh_do VALUES (1,'đại học'),(2,'cao đẳng'),(3,'đại họ
 INSERT INTO dich_vu_di_kem VALUES (1,'massage',1,1000,'trạng thái không biết'),(2,'karaoke',2,1000,'trạng thái không biết'),(3,'thức ăn',3,1000,'trạng thái không biết'),(4,'nước uống',4,1000,'trạng thái không biết'),(5,'thuê xe di chuyển tham quan resort',5,1000,'trạng thái không biết'),(6,'nothing',6,1000,'trạng thái không biết');
 INSERT INTO kieu_thue VALUES (1,'thuê theo năm',3650),(2,'thuê theo tháng',300),(3,'thuê theo ngày',10),(4,'thuê theo giờ',1),(5,'thuê theo  phút',32),(6,'thuê theo giaay',34);
 INSERT INTO loai_dich_vu VALUES (1,'Villa'),(2,'House'),(3,'Room'),(4,'Nhà nghỉ'),(5,'Khách sạn'),(6,'Hotel');
-INSERT INTO loai_khach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Gold'),(4,'Silver'),(5,'Member'),(6,'Sắt');
-INSERT INTO dich_vu VALUES (1,'dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'dịch vụ 3',30,15,'3','3',3,3,'trống'),(4,'dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'dịch vụ 6',60,9,'6','6',6,6,'trống');
+INSERT INTO loai_khach VALUES (1,'Diamond'),(2,'Platinium'),(3,'Silver'),(4,'Diamond'),(5,'Platium'),(6,'gold'),(7,'Diamond');
+INSERT INTO dich_vu VALUES (1,'dịch vụ 1',10,5,'1','1',1,1,'trống'),(2,'dịch vụ 2',20,10,'2','2',2,2,'trống'),(3,'dịach vụ 3',30,15,'3','3',3,3,'trống'),(4,'dịch vụ 4',40,4,'4','4',4,4,'trống'),(5,'dịch vụ 5',50,7,'5','5',5,5,'trống'),(6,'dịch vụ 6',60,9,'6','6',6,6,'trống');
 INSERT INTO nhan_vien VALUES (1,'Nguyen Văn Tèo',1,1,1,'1990-10-10','123456789','10000000','123456789','nguyenvana@gmail.com','da nang'),(2,'Hò Văn Tèo',2,2,2,'1995-10-10','123456789','10000000','123456789','nguyenvanb@gmail.com','da nang'),(3,'Đỗ Văn Tí',3,3,3,'1985-10-10','123456789','10000000','123456789','nguyenvanc@gmail.com','vinh'),(4,'Bùi Công Thành',4,4,4,'1992-10-10','123456789','10000000','123456789','nguyenvand@gmail.com','quang ngai'),(5,'Khổng thi lệ',5,5,5,'1990-10-10','123123123','20000000','123456789','nguyenvane@gmail.com','da nang'),(6,'Pham Công Minh',6,6,6,'1981-10-10','123123123','22222222','123455454','nguyenvanh@gmail.com','Quang Tri');
-INSERT INTO khach_hang VALUES (1,1,'Nguyễn Anh Đức','2019-09-09','123456781','123456781','hovanquoca@gmail.com','da nang'),(2,2,'Trần Ngọc Tân','1990-11-10','123456721','123456782','hovanquocb@gmail.com','quang tri'),(3,3,'Nguyễn Đức Thông','1900-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Lê Đình Quốc','1990-11-10','123456784','123456784','hovan@gmail.com','quang tri'),(5,5,'Nguyễn Đình Hòa','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'Dao Xuân Luộc','1994-11-10','123123123','123232321','dãouanloc@gmail.com','đồng nai');
-INSERT INTO hop_dong VALUES (1,1,1,1,'2019-10-09','2021-03-12',10,1000),(2,2,2,2,'2019-08-1','2019-04-12',22,1000),(3,3,3,3,'2020-03-1','2019-02-12',23,2000),(4,4,4,4,'2017-03-12','2019-09-09',99,3000),(5,5,5,5,'2018-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-02-02',44,4444);
+INSERT INTO khach_hang VALUES (1,1,'Nguyễn Anh Đức','2000-09-09','123456781','123456781','hovanquoca@gmail.com','Đà nẵng'),(2,2,'Trần Ngọc Tân','1999-11-10','123456721','123456782','hovanquocb@gmail.com','Quảng trị'),(3,3,'Nguyễn Đức Thông','2000-11-10','123456783','123456783','hovanquocv@gmail.com','da nang'),(4,4,'Lê Đình Quốc','1990-11-10','123456784','123456784','hovan@gmail.com','Quảng trị'),(5,5,'Nguyễn Anh Đức','1991-11-10','123456785','123456785','hovanquocd@gmail.com','trần cao vân việt nam'),(6,6,'Dao Xuân Luộc','1994-11-10','123123123','123232321','dãouanloc@gmail.com','đồng nai');
+INSERT INTO hop_dong VALUES (1,1,1,1,'2018-10-09','2018-03-12',10,1000),(2,2,2,2,'2019-01-12','2019-04-12',22,1001),(3,3,3,3,'2020-03-1','2019-02-12',23,2000),(4,4,4,4,'2019-09-12','2019-09-09',99,3000),(5,5,5,5,'2019-03-12','2019-04-18',34,3333),(6,6,6,6,'2014-03-12','2015-02-02',44,4444);
 INSERT INTO hop_dong_chi_tiet VALUES (1,1,1,2),(2,2,2,4),(3,3,3,2),(4,4,4,3),(5,5,5,4),(6,6,6,6);
 
-SELECT 
-    *
-FROM
-    nhan_vien
-WHERE
-    (ho_ten_nhan_vien LIKE 'H%'
-        OR ho_ten_nhan_vien LIKE 'T%'
-        OR ho_ten_nhan_vien LIKE 'K%')
-        AND LENGTH(ho_ten_nhan_vien) <= 15;
--- task 3  
--- Lệnh truy xuất
-SELECT 
-    *
-FROM
-    khach_hang
-WHERE
-    dia_chi_khach_hang IN ('da nang' , 'quang tri')
-        AND (((YEAR(now()) - YEAR(khach_hang.ngay_sinh_khach_hang)) > 18)
-        and ((YEAR(now()) - YEAR(khach_hang.ngay_sinh_khach_hang)) < 50));
+
+--  task 2
+-- 2.	Hiển thị thông tin của tất cả nhân viên có trong hệ thống có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K” và có tối đa 15 ký tự.
+select * from nhan_vien
+where ho_ten_nhan_vien  like "H%" or ho_ten_nhan_vien like "K%" or ho_ten_nhan_vien like "T%" and length(ho_ten_nhan_vien)<=15;
+
+-- task 3
+-- 3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
+select * from khach_hang
+where  (year(now())- year(khach_hang.ngay_sinh_khach_hang))>18
+	and (year(now())- year(khach_hang.ngay_sinh_khach_hang))<50
+    and dia_chi_khach_hang in ("Đà nẵng","Quảng trị");
 
 -- task 4
--- Lệnh hiển thị tất cả thông tin nối các bảng hợp đồng,khách hàng, loại khách
--- Lệnh truy xuất
+-- 4.	Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần. Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của 
+--      khách hàng. Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
 SELECT 
     khach_hang.ho_ten_khach_hang,
-    count(hop_dong.id_hop_dong) AS so_lan_dat_phong
+    count(hop_dong.id_hop_dong) AS so_lan_dat_phong,
+    loai_khach.ten_loai_khach
 FROM
-    khach_hang
-        INNER JOIN
-    hop_dong ON (khach_hang.id_khach_hang = hop_dong.id_khach_hang)
-        INNER JOIN
-    loai_khach ON (khach_hang.id_loai_khach = loai_khach.id_loai_khach)
+		khach_hang
+        INNER JOIN hop_dong 
+		ON (khach_hang.id_khach_hang = hop_dong.id_khach_hang)
+        INNER JOIN loai_khach
+		ON (khach_hang.id_loai_khach = loai_khach.id_loai_khach)
 WHERE
     loai_khach.ten_loai_khach = 'Diamond'
 GROUP BY khach_hang.id_khach_hang
-ORDER BY so_lan_dat_phong;
+ORDER BY so_lan_dat_phong;         
 
--- task 5 
--- Lệnh truy xuất
-SELECT 
-    khach_hang.id_khach_hang,
-    khach_hang.ho_ten_khach_hang,
-    loai_khach.ten_loai_khach,
-    hop_dong.id_hop_dong,
-    dich_vu.ten_dich_vu,
-    hop_dong.ngay_lam_hop_dong,
-    hop_dong.ngay_ket_thuc,
-    dich_vu.chi_phi_thue,
-    SUM(dich_vu.chi_phi_thue + hop_dong_chi_tiet.so_luong * dich_vu_di_kem.Gia) AS 'tong tien'
-FROM
-    khach_hang
-        LEFT JOIN
-    loai_khach ON khach_hang.id_loai_khach = loai_khach.id_loai_khach
-        LEFT JOIN
-    hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
-        LEFT JOIN
-    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
-        LEFT JOIN
-    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
-        LEFT JOIN
-    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
-group by hop_dong.id_hop_dong;
+-- task5
+-- 5.	Hiển thị IDKhachHang, HoTen, TenLoaiKhach, IDHopDong, TenDichVu, NgayLamHopDong, NgayKetThuc, TongTien 
+-- (Với TongTien được tính theo công thức như sau: ChiPhiThue + SoLuong*Gia, với SoLuong và Giá là từ bảng DichVuDiKem) 
+-- cho tất cả các Khách hàng đã từng đặt phỏng. (Những Khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).
+select khach_hang.id_khach_hang, 
+		khach_hang.ho_ten_khach_hang, 
+        loai_khach.ten_loai_khach, 
+        hop_dong.id_hop_dong, 
+        dich_vu.ten_dich_vu,
+		hop_dong.ngay_lam_hop_dong, 
+        hop_dong.ngay_ket_thuc ,	
+        sum(dich_vu.chi_phi_thue+dich_vu_di_kem.gia*hop_dong_chi_tiet.so_luong) as "Tong tien"
+from khach_hang
+	left join hop_dong
+		on (khach_hang.id_khach_hang=hop_dong.id_khach_hang)
+     left join dich_vu
+		on(hop_dong.id_dich_vu=dich_vu.id_dich_vu)
+     left join hop_dong_chi_tiet	
+		on(hop_dong.id_hop_dong=hop_dong_chi_tiet.id_hop_dong)
+    left join  dich_vu_di_kem
+		on(hop_dong_chi_tiet.id_dich_vu_di_kem=dich_vu_di_kem.id_dich_vu_di_kem)
+    left join loai_khach
+		on(khach_hang.id_loai_khach=khach_hang.id_loai_khach)
+ group by  hop_dong.id_hop_dong;      
 
-
--- Task 6
--- Hiển thị IDDichVu, TenDichVu, DienTich, ChiPhiThue, TenLoaiDichVu của tất cả các loại Dịch vụ 
+-- task 6
+-- 6.	Hiển thị IDDichVu, TenDichVu, DienTich, ChiPhiThue, TenLoaiDichVu của tất cả các loại Dịch vụ 
 -- chưa từng được Khách hàng thực hiện đặt từ quý 1 của năm 2019 (Quý 1 là tháng 1, 2, 3).
 
-SELECT 
-    dich_vu.id_dich_vu,
-    dich_vu.ten_dich_vu,
-    dich_vu.dien_tich,
-    dich_vu.so_nguoi_toi_da,
-    dich_vu.chi_phi_thue,
-    loai_dich_vu.ten_loai_dich_vu
-FROM
-    dich_vu
-        JOIN
-    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
-WHERE
-    NOT EXISTS( SELECT 
-            hop_dong.id_dich_vu
-        FROM
-            hop_dong
-        WHERE
-            (hop_dong.ngay_lam_hop_dong BETWEEN '2019-03-01' AND '2019-12-31')
-                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
-         
-         
--- Task 7              
--- Hiển thị thông tin IDDichVu, TenDichVu, DienTich, SoNguoiToiDa, ChiPhiThue, TenLoaiDichVu của tất cả các loại dịch vụ đã từng được Khách hàng đặt phòng trong năm 2018
---  nhưng chưa từng được Khách hàng đặt phòng  trong năm 2019.
+select dich_vu.id_dich_vu,
+dich_vu.ten_dich_vu,
+dich_vu.dien_tich,
+dich_vu.chi_phi_thue,
+loai_dich_vu.ten_loai_dich_vu,
+hop_dong.ngay_lam_hop_dong
+from dich_vu 
+	join loai_dich_vu on (dich_vu.id_loai_dich_vu=loai_dich_vu.id_loai_dich_vu)
+    join hop_dong on (hop_dong.id_dich_vu=dich_vu.id_dich_vu)
+where  hop_dong.ngay_lam_hop_dong  < "2019-01-01" or hop_dong.ngay_lam_hop_dong >"2019-03-31";
 
-SELECT 
-    dich_vu.id_dich_vu,
-    dich_vu.ten_dich_vu,
-    dich_vu.dien_tich,
-    dich_vu.so_nguoi_toi_da,
-    dich_vu.chi_phi_thue,
-    loai_dich_vu.ten_loai_dich_vu
-FROM
-    dich_vu
-        JOIN
-    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
-WHERE
-    EXISTS( SELECT 
-            hop_dong.id_dich_vu
-        FROM
-            hop_dong
-        WHERE
-            (hop_dong.ngay_lam_hop_dong BETWEEN '2018-01-01' AND '2018-12-31')
-                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu)
-        AND NOT EXISTS( SELECT 
-            hop_dong.id_dich_vu
-        FROM
-            hop_dong
-        WHERE
-            (hop_dong.ngay_lam_hop_dong BETWEEN '2019-01-01' AND '2019-12-31')
-                AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
-
-
--- Task 8
--- Hiển thị thông tin HoTenKhachHang có trong hệ thống, với yêu cầu HoThenKhachHang không trùng nhau.
+-- task7
+-- 7.	Hiển thị thông tin IDDichVu, TenDichVu, DienTich, SoNguoiToiDa, ChiPhiThue, TenLoaiDichVu của tất cả các loại dịch vụ 
+-- đã từng được Khách hàng đặt phòng trong năm 2018 nhưng chưa từng được Khách hàng đặt phòng  trong năm 2019.
+select dich_vu.id_dich_vu,
+		dich_vu.ten_dich_vu,
+        dich_vu.dien_tich,
+        dich_vu.chi_phi_thue,
+        loai_dich_vu.ten_loai_dich_vu
+from dich_vu
+			join loai_dich_vu on (dich_vu.id_loai_dich_vu=loai_dich_vu.id_loai_dich_vu)
+where   exists (
+				select hop_dong.id_dich_vu
+				from hop_dong
+				where hop_dong.ngay_lam_hop_dong between "2018-01-01" and "2018-12-31"
+				AND hop_dong.id_dich_vu = dich_vu.id_dich_vu)
+		and not exists(	
+                select hop_dong.id_dich_vu
+				from hop_dong
+				where hop_dong.ngay_lam_hop_dong between "2019-01-01" and "2019-12-31"
+				AND hop_dong.id_dich_vu = dich_vu.id_dich_vu);
+          
+-- task 8
+-- 8.	Hiển thị thông tin HoTenKhachHang có trong hệ thống, với yêu cầu HoThenKhachHang không trùng nhau.
 -- Học viên sử dụng theo 3 cách khác nhau để thực hiện yêu cầu trên
+--     Cach 1 : distinct
+select DISTINCT khach_hang.ho_ten_khach_hang from khach_hang;
+--    cach 2: ground by
+select  khach_hang.ho_ten_khach_hang from khach_hang
+group by khach_hang.ho_ten_khach_hang;
+--   cach 3: union
+select  khach_hang.ho_ten_khach_hang from khach_hang
+union 
+select  khach_hang.ho_ten_khach_hang from khach_hang;
 
--- Cách 1: Nhóm lại dùng Group by
-SELECT 
-    ho_ten_khach_hang as Ho_Ten_Khach_Hang
-FROM
-    khach_hang
-GROUP BY ho_ten_khach_hang;
-
--- Cách 2: Dùng Distinct
-SELECT DISTINCT
-    ho_ten_khach_hang as Ho_Ten_Khach_Hang
-FROM
-    khach_hang;
-
--- Cách 3: Dùng union
-SELECT 
-    ho_ten_khach_hang
-FROM
-    khach_hang
-UNION SELECT 
-    ho_ten_khach_hang
-FROM
-    khach_hang;
-
-
--- Task 9:
--- Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2019 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
-
--- Hiển Thị những tháng có khách
+-- task 9
+-- 9.	Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2019 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
+-- hien thi nhung thang co khach
 SELECT 
     MONTH(ngay_lam_hop_dong) AS Thang,
-    COUNT(MONTH(ngay_lam_hop_dong)) AS So_Luong_Khach,
-    ngay_lam_hop_dong AS Ngay_lam_Hop_ong
+    COUNT(MONTH(ngay_lam_hop_dong)) AS So_luong_hop_dong,
+    ngay_lam_hop_dong AS Ngay_lam_hop_dong
 FROM
     hop_dong
 WHERE
@@ -346,7 +299,7 @@ union
 select 11 as Month
 union
 select 12 as Month;
-Select Month, count(month(ngay_lam_hop_dong)) as So_Lan_Dat
+Select Month as Thang, count(month(ngay_lam_hop_dong)) as So_Lan_Dat,ngay_lam_hop_dong
 From Temp
 Left join hop_dong on month(ngay_lam_hop_dong) = Month
 and year(ngay_lam_hop_dong) = 2019
@@ -371,105 +324,75 @@ WHERE
     hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
 GROUP BY hop_dong.id_hop_dong; 
 
+-- task 11
+-- 11.	Hiển thị thông tin các Dịch vụ đi kèm đã được sử dụng bởi những Khách hàng có TenLoaiKhachHang là “Diamond” 
+--      và có địa chỉ là “Vinh” hoặc “Quảng Ngãi”.
 
--- Task 11:
--- Hiển thị thông tin các Dịch vụ đi kèm đã được sử dụng bởi những Khách hàng có TenLoaiKhachHang là “Diamond”
--- và có địa chỉ là “Vinh” hoặc “Quảng Ngãi”.
+select dich_vu.ten_dich_vu ,
+		dich_vu_di_kem.ten_dich_vu_di_kem,
+        dich_vu_di_kem.gia,
+        dich_vu_di_kem.don_vi,
+        khach_hang.dia_chi_khach_hang,
+        loai_khach.ten_loai_khach
+from dich_vu
+		join hop_dong on(hop_dong.id_dich_vu=dich_vu.id_dich_vu)
+        join hop_dong_chi_tiet on(hop_dong_chi_tiet.id_hop_dong=hop_dong.id_hop_dong)
+        join dich_vu_di_kem on (hop_dong_chi_tiet.id_dich_vu_di_kem=dich_vu_di_kem.id_dich_vu_di_kem)
+        join khach_hang on (khach_hang.id_khach_hang=hop_dong.id_khach_hang)
+        join loai_khach on (khach_hang.id_loai_khach=loai_khach.id_loai_khach)
+Where khach_hang.dia_chi_khach_hang in ("Quảng Trị", "Vinh")    and      loai_khach.ten_loai_khach ="diamond";
+        
+ --    task 12
+--  12.	Hiển thị thông tin IDHopDong, TenNhanVien, TenKhachHang, SoDienThoaiKhachHang, TenDichVu, SoLuongDichVuDikem
+--  (được tính dựa trên tổng Hợp đồng chi tiết), TienDatCoc của tất cả các dịch vụ đã từng được khách hàng đặt vào 3 tháng cuối năm 2019
+--  nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2019.
+	select hop_dong.id_hop_dong,
+			nhan_vien.ho_ten_nhan_vien,
+            khach_hang.ho_ten_khach_hang,
+            khach_hang.SDT_khach_hang,
+            dich_vu.ten_dich_vu,
+            hop_dong_chi_tiet.so_luong as so_luong_dich_vu_di_kem,
+            hop_dong.tien_dat_coc ,
+            hop_dong.ngay_lam_hop_dong as ngay_dat_coc
+  from hop_dong
+		join dich_vu on(hop_dong.id_dich_vu=dich_vu.id_dich_vu)
+        join hop_dong_chi_tiet on(hop_dong_chi_tiet.id_hop_dong=hop_dong.id_hop_dong)
+        join dich_vu_di_kem on (hop_dong_chi_tiet.id_dich_vu_di_kem=dich_vu_di_kem.id_dich_vu_di_kem)
+        join khach_hang on (khach_hang.id_khach_hang=hop_dong.id_khach_hang)
+        join nhan_vien on (nhan_vien.id_nhan_vien=hop_dong.id_nhan_vien)  
+  where not exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-01-01' and '2019-06-31')
+  and exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-09-01' and '2019-12-31');
+            
+-- task 13
+-- 13.	Hiển thị thông tin các Dịch vụ đi kèm được 
+-- sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng. (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
 
-SELECT DISTINCT
-    dich_vu_di_kem.ten_dich_vu_di_kem,
-    dich_vu_di_kem.gia,
-    dich_vu_di_kem.don_vi
-FROM
-    hop_dong
-        INNER JOIN
-    hop_dong_chi_tiet ON hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
-        INNER JOIN
-    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
-        INNER JOIN
-    khach_hang ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
-        INNER JOIN
-    loai_khach ON khach_hang.id_loai_khach = loai_khach.id_loai_khach
-WHERE
-    loai_khach.ten_loai_khach = 'Diamond'
-        AND khach_hang.dia_chi_khach_hang IN ('Da Nang' , 'Quang Tri'); 
+	select dich_vu_di_kem.* ,count(hop_dong_chi_tiet.id_dich_vu_di_kem) as so_lan_su_dung
+    from dich_vu_di_kem 
+    left join hop_dong_chi_tiet on (hop_dong_chi_tiet.id_dich_vu_di_kem=dich_vu_di_kem.id_dich_vu_di_kem)
+	group by dich_vu_di_kem.id_dich_vu_di_kem
+    order by so_lan_su_dung desc;
+   
 
+-- task 14
+-- 14.	Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất. Thông tin hiển thị bao gồm 
+-- IDHopDong, TenLoaiDichVu, TenDichVuDiKem, SoLanSuDung.
 
--- Task 12:
--- Hiển thị thông tin IDHopDong, TenNhanVien, TenKhachHang, SoDienThoaiKhachHang, TenDichVu, SoLuongDichVuDikem 
--- (được tính dựa trên tổng Hợp đồng chi tiết), TienDatCoc của tất cả các dịch vụ đã từng được khách hàng đặt vào 3
--- tháng cuối năm 2019 nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2019.
-
-SELECT 
-    hop_dong.id_hop_dong,
-    nhan_vien.ho_ten_nhan_vien,
-    khach_hang.ho_ten_khach_hang,
-    khach_hang.SDT_khach_hang,
-    dich_vu.ten_dich_vu,
-    COUNT(hop_dong_chi_tiet.id_dich_vu_di_kem) AS so_lan_su_dung
-FROM
-    hop_dong
-        INNER JOIN
-    nhan_vien ON hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien
-        INNER JOIN
-    khach_hang ON hop_dong.id_khach_hang = khach_hang.id_khach_hang
-        INNER JOIN
-    dich_vu ON hop_dong.id_dich_vu = dich_vu.id_dich_vu
-        INNER JOIN
-    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
-where not exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-01-01' and '2019-06-31')
-and exists(select hop_dong.id_hop_dong where hop_dong.ngay_lam_hop_dong between '2019-09-01' and '2020-12-31');
-
-
--- Task 13
--- Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng. 
--- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
-
-
-SELECT 
-    hop_dong.id_hop_dong,
-    loai_dich_vu.ten_loai_dich_vu,
-    dich_vu_di_kem.ten_dich_vu_di_kem,
-    COUNT(hop_dong_chi_tiet.id_dich_vu_di_kem) AS so_lan_su_dung_dich_vu
-FROM
-    hop_dong
-        INNER JOIN
-    dich_vu ON dich_vu.id_dich_vu = hop_dong.id_dich_vu
-        INNER JOIN
-    loai_dich_vu ON dich_vu.id_loai_dich_vu = loai_dich_vu.id_loai_dich_vu
-        INNER JOIN
-    hop_dong_chi_tiet ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong
-        INNER JOIN
-    dich_vu_di_kem ON hop_dong_chi_tiet.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
-GROUP BY (dich_vu_di_kem.ten_dich_vu_di_kem)
-HAVING so_lan_su_dung_dich_vu = 1;
-
-
--- Task 14
--- Hiển thị thông tin tất cả các Dịch vụ đi kèm chỉ mới được sử dụng một lần duy nhất.
--- Thông tin hiển thị bao gồm IDHopDong, TenLoaiDichVu, TenDichVuDiKem, SoLanSuDung.
-
-SELECT 
-    *
-FROM
-    ((dich_vu_di_kem
-    JOIN hop_dong_chi_tiet ON dich_vu_di_kem.id_dich_vu_di_kem = hop_dong_chi_tiet.id_dich_vu_di_kem)
-    JOIN hop_dong ON hop_dong_chi_tiet.id_hop_dong = hop_dong.id_hop_dong)
-        JOIN
-    khach_hang ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
-WHERE
+	select dich_vu_di_kem.* ,count(hop_dong_chi_tiet.id_dich_vu_di_kem) as so_lan_su_dung
+    from dich_vu_di_kem 
+    left join hop_dong_chi_tiet on (hop_dong_chi_tiet.id_dich_vu_di_kem=dich_vu_di_kem.id_dich_vu_di_kem)
+	WHERE
     dich_vu_di_kem.id_dich_vu_di_kem IN (SELECT 
             id_dich_vu_di_kem
         FROM
             hop_dong_chi_tiet
         GROUP BY id_dich_vu_di_kem
-        HAVING COUNT(id_dich_vu_di_kem) = 1);
-
- 
--- Task 15
--- Hiển thi thông tin của tất cả nhân viên bao gồm IDNhanVien, HoTen, TrinhDo, TenBoPhan, SoDienThoai, DiaChi mới chỉ lập được tối đa 
--- 3 hợp đồng từ năm 2018 đến 2019.          
-
+        HAVING COUNT(id_dich_vu_di_kem) = 1)
+     group by    dich_vu_di_kem.id_dich_vu_di_kem;
+     
+-- task15
+-- 15.	Hiển thi thông tin của tất cả nhân viên bao gồm IDNhanVien, HoTen, TrinhDo, TenBoPhan, SoDienThoai, DiaChi mới chỉ lập được tối đa 
+-- 3 hợp đồng từ năm 2018 đến 2019.
 SELECT 
     nhan_vien.id_nhan_vien,
     nhan_vien.ho_ten_nhan_vien,
@@ -490,44 +413,48 @@ WHERE
 GROUP BY nhan_vien.ho_ten_nhan_vien
 HAVING so_lan_lap_hop_dong < 4;
 
+-- task 16
+-- 16.	Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019.
 
--- Task 16
- --  Xóa những Nhân viên chưa từng lập được hợp đồng nào từ năm 2017 đến năm 2019.
-      
- SET SQL_SAFE_UPDATES = 0;
-DELETE FROM nhan_vien 
-WHERE
-    NOT EXISTS( SELECT 
-        nhan_vien.id_nhan_vien
-    FROM
-        hop_dong
-    
-    WHERE
-        hop_dong.ngay_lam_hop_dong BETWEEN '2017-01-01' AND '2019-12-31'
-        AND hop_dong.id_nhan_vien = nhan_vien.id_nhan_vien);
-        SET SQL_SAFE_UPDATES=1;      
-        
-        
--- 	Task 17
--- Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, chỉ cập nhật những khách 
--- hàng đã từng đặt phòng với tổng Tiền thanh toán trong năm 2019 là lớn hơn 10.000.000 VNĐ.
+SET SQL_SAFE_UPDATES = 0;
+delete from nhan_vien
+ where not exists (select 
+	nhan_vien.id_nhan_vien
+    from hop_dong
+    where hop_dong.ngay_lam_hop_dong between "2017-01-01" and "2019-12-31"
+    and nhan_vien.id_nhan_vien=hop_dong.id_hop_dong
+    );
+SET SQL_SAFE_UPDATES = 1;
+select nhan_vien.* from nhan_vien;    
+  
+--   task 17
+--   17.	Cập nhật thông tin những khách hàng có TenLoaiKhachHang từ  Platinium lên Diamond, chỉ cập nhật những khách hàng đã từng đặt phòng với 
+--   tổng Tiền thanh toán trong năm 2019 là lớn hơn 2000
 
-SET SQL_SAFE_UPDATES=0;
-DELETE FROM nhan_vien 
-WHERE
-    id_nhan_vien NOT IN (SELECT 
-        id_nhan_vien
-    FROM
-        hop_dong
-    
-    WHERE
-        YEAR(ngay_lam_hop_dong) BETWEEN 2017 AND 2019);
- SET SQL_SAFE_UPDATES=1; 
-        
+SET SQL_SAFE_UPDATES = 0;
+update loai_khach 
+set ten_loai_khach= "Diamond" 
+where ten_loai_khach= "Platium" and exists(
+	select hop_dong.id_khach_hang
+    from hop_dong
+	where hop_dong.tong_tien >2000 and year(hop_dong.ngay_lam_hop_dong)=2019
+);
+SET SQL_SAFE_UPDATES = 1;
+
+select	khach_hang.id_khach_hang,
+		khach_hang.ho_ten_khach_hang,
+		hop_dong.ngay_lam_hop_dong,
+        hop_dong.tong_tien,
+        loai_khach.ten_loai_khach
+from hop_dong
+		 right  join khach_hang on (hop_dong.id_khach_hang=khach_hang.id_khach_hang)
+         right join loai_khach on (loai_khach.id_loai_khach=khach_hang.id_loai_khach)
+where loai_khach.ten_loai_khach= "Diamond";
+-- xoa nhan vien xoa luon khach hang roi :(
 
 -- Task 18        
 -- Xóa những khách hàng có hợp đồng trước năm 2016 (chú ý ràng buộc giữa các bảng).
-
+SET SQL_SAFE_UPDATES=0; 
 DELETE khach_hang,hop_dong,hop_dong_chi_tiet FROM khach_hang inner join hop_dong ON khach_hang.id_khach_hang = hop_dong.id_khach_hang
 inner join hop_dong_chi_tiet on hop_dong.id_hop_dong = hop_dong_chi_tiet.id_hop_dong
 where not exists(
@@ -566,3 +493,11 @@ select   ho_ten_nhan_vien, email_nhan_vien, SDT_nhan_vien, ngay_sinh_nhan_vien, 
 from   nhan_vien
 join hop_dong on (hop_dong.id_nhan_vien=nhan_vien.id_nhan_vien)
 join khach_hang on(hop_dong.id_khach_hang=khach_hang.id_khach_hang)
+
+
+
+
+
+    
+
+

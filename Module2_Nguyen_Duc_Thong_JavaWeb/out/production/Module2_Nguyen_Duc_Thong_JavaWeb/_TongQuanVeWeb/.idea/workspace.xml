@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c2a8e3-2953-4877-ad25-1dc44a797de5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/classes/_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/classes/_TongQuanVeWeb/ThucHanh/SeverTimeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/artifacts/Module2_Nguyen_Duc_Thong_JavaWeb_war_exploded/index.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2_Nguyen_Duc_Thong_JavaWeb/_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../out/production/Module2_Nguyen_Duc_Thong_JavaWeb/_TongQuanVeWeb/ThucHanh/SeverTimeServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../_1TongQuanVeWeb/BaiTap/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ThucHanh.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/artifacts/Login_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/libraries/Mojarra_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/Login.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/lib/javax.faces-2.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/classes/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/Welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/artifacts/Login_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/out/production/Login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/src/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/web/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/web/Welcome.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeverTimeServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/WEB-INF/faces-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Database(2)/MySQL/CaseStudy.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_Database(2)/MySQL/CaseStudy.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +13,7 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -76,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,6 +47,7 @@
       <workItem from="1585622323889" duration="316000" />
       <workItem from="1585622684890" duration="67000" />
       <workItem from="1585622926963" duration="486000" />
+      <workItem from="1591171291099" duration="40000" />
     </task>
     <servers />
   </component>
@@ -98,10 +55,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1585623406629">
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591171316543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585623406629" />
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1591171316543" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1591171329737">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591171329737" />
     <state x="65" y="0" key="new project wizard" timestamp="1585623411986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
