@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c9540a-98bb-481c-966a-dd89cc3cdf2b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bCodsYKyNfijD6d2OKSYCBwIT8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\Module2_Nguyen_Duc_Thong_JavaWeb\src\CaseSutdy\src\main\java\com\codegym" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\Module2_Nguyen_Duc_Thong_JavaWeb\src\CaseSutdy\src\main\resources" />
+      <recent name="C:\Users\HP\Downloads\Compressed\project codegym 2\Module2_Nguyen_Duc_Thong_JavaWeb\src\CaseSutdy\src\main\java\com\codegym\demo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CaseSutdy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c9540a-98bb-481c-966a-dd89cc3cdf2b" name="Default Changelist" comment="" />
+      <created>1588145526141</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588145526141</updated>
+      <workItem from="1588145532311" duration="2388000" />
+      <workItem from="1588148381781" duration="2273000" />
+      <workItem from="1588900282990" duration="30000" />
+      <workItem from="1588900360341" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588145695920">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588145695920" />
+    <state x="488" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1588146679014">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588146679014" />
+    <state x="114" y="281" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588147306156">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="114" y="281" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1588147306156" />
+    <state x="474" y="234" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1588147308791">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="474" y="234" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1588147308791" />
+    <state x="362" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588148794050">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="362" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1588148794050" />
+    <state width="1323" height="416" key="GridCell.Tab.0.bottom" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.0.center" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.0.left" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.0.right" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.1.bottom" timestamp="1588148971166">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588148971166" />
+    <state width="1323" height="416" key="GridCell.Tab.1.center" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.1.left" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="1323" height="416" key="GridCell.Tab.1.right" timestamp="1588148971165">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="416" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1588148971165" />
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1588145762298">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1588145762298" />
+    <state x="65" y="63" key="new project wizard" timestamp="1588147386940">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="63" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1588147386940" />
+  </component>
+</project>

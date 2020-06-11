@@ -1,0 +1,5 @@
+id,nameService,area,rentCost,maxNumberOfPeople,typeRent,roomStandard,description,poolArea,floor
+ec21b3b9309d4955b7312f48cb54c267,Thong,31.0,2.0,10,Thong,Thong,food,31.0,10
+588a794fd9e544d29d6923b6113c0b1a,Thong,31.0,10.0,10,Aa,To,To,10.0,10
+ca2a370b54c9455e8bc1e96e25d3f61d,Thng,31.0,10.0,10,Aa,A,A,10.0,2
+c0afdf90c12e4214b2b00c903162973f,Thong,31.0,10.0,10,A,A,10,10.0,1

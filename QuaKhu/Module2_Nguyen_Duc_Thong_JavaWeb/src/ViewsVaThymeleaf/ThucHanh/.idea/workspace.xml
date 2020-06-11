@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b07b37ef-50f7-4b57-b70f-ad5580ab9e57" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/build/libs/KiemTraEmailGrandle-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/build/libs/KiemTraEmailGrandle-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringController/BaiTap/KiemTraEmailGrandle/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/untitled1/untitled1/untitled1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/untitled1/untitled1/untitled1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/untitled1/untitled1/untitled1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/BaiTap/untitled1/untitled1/untitled1/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/modules/GioTrenTheGioi.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/build/classes/java/main/controller/TimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/build/libs/GioTrenTheGioi-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/src/main/java/controller/TimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringController/ThucHanh/untitled2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/java/com/codegym/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/dispatcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SDThymeleaf/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1abVKY6g7c9t2motQ8ivHsJL2KY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemothymleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ThucHanh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codegym.demothymleaf.DemothymleafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b07b37ef-50f7-4b57-b70f-ad5580ab9e57" name="Default Changelist" comment="" />
+      <created>1587004216229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587004216229</updated>
+      <workItem from="1587004225194" duration="991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="65" y="63" key="new project wizard" timestamp="1587005379731">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="63" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587005379731" />
+  </component>
+</project>

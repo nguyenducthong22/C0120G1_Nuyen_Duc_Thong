@@ -1,0 +1,3 @@
+id,nameService,areaUsed,rentalCosts,maxNumberOfPeople,typeRent,roomStandard,conventDescription,areaPool,numberOfFloor
+c14d743e34ac49bc8d2690a4f5202c22,Thong B,31.0,0.0,1,A,A,,1.0,1
+d3a47fd880eb4d1fbfc962ecab1e0944,Nguyen A,31.0,1.0,1,A,A,A,1.0,1
