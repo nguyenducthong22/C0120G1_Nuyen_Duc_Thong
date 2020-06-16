@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 <body>
-<h2>Gia vị đã chọn:${condiment}</h2>
+<h2>Gia vị đã chọn: ${condiment}</h2>
 <a href="/home" class="btn btn-primary">Back</a>
 
 

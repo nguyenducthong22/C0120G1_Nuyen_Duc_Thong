@@ -2,14 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bang ke soc/sda.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bang kick doi mau/asdas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/Anh/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/Anh/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/Anh/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nhap/Anh/sda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/artifacts/MayTinhDonGian1_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/MayTinhDonGian1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/src/com/codegym/controllers/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/views/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/MayTinhDonGian.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-web-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-webmvc-5.2.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/build/libs/SandWich-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/build/libs/SandWich-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/views/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/views/select.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/ThucHanh/KiemTraEmailBangMaven/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/ThucHanh/KiemTraEmailBangMaven/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bang ke soc/sda.html" beforeDir="false" afterPath="$PROJECT_DIR$/bang ke soc/sda.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +189,7 @@
       <workItem from="1589611311729" duration="1520000" />
       <workItem from="1591326798342" duration="6534000" />
       <workItem from="1591339389696" duration="3594000" />
+      <workItem from="1591928837123" duration="8516000" />
     </task>
     <task id="LOCAL-00027" summary="may tinh">
       <created>1579077488224</created>
