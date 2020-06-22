@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c5dec8c-926a-4de1-8b11-83178814a1a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/bang ke soc/sda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/bang kick doi mau/asdas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/nhap/Anh/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/nhap/Anh/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/nhap/Anh/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/nhap/Anh/sda.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/artifacts/Product_Disconut_Calculator_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/Product Disconut Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/out/artifacts/Product_Disconut_Calculator_war_exploded/WEB-INF/classes/DiscountCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/out/artifacts/Product_Disconut_Calculator_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/out/artifacts/Product_Disconut_Calculator_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/out/production/Product Disconut Calculator/DiscountCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/src/DiscountCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/BaiTap/Product Disconut Calculator/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/artifacts/ChuyenDoiTienTe_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/ChuyenDoiTienTe.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/out/artifacts/ChuyenDoiTienTe_war_exploded/WEB-INF/classes/ChuyenDoiServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/out/artifacts/ChuyenDoiTienTe_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/out/artifacts/ChuyenDoiTienTe_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/out/production/ChuyenDoiTienTe/ChuyenDoiServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/src/ChuyenDoiServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/ChuyenDoiTienTe/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/artifacts/SeverTime_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/SeverTime.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/out/artifacts/SeverTime_war_exploded/WEB-INF/classes/SeverTimeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/out/artifacts/SeverTime_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/out/artifacts/SeverTime_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/out/production/SeverTime/SeverTimeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/src/SeverTimeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/SeverTime/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/artifacts/Simple_Login_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/Simple_Login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/out/artifacts/Simple_Login_war_exploded/WEB-INF/classes/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/out/artifacts/Simple_Login_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/out/artifacts/Simple_Login_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/out/production/Simple_Login/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/src/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/Simple_Login/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/artifacts/TuDien_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/TuDien.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/out/artifacts/TuDien_war_exploded/WEB-INF/classes/TuDien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/out/artifacts/TuDien_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/out/artifacts/TuDien_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/out/production/TuDien/TuDien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/src/TuDien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_1Tong Quan_Ung_Dung_Web/ThucHanh/TuDien/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/Module2_Nguyen_Duc_Thong_JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/Module2_Nguyen_Duc_Thong_JavaWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/spx1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/spx2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/spx3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/spx4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/blog/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/category/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/category/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/category/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/templates/category/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/out/production/Module2_Nguyen_Duc_Thong_JavaWeb/CaseSutdy/src/main/resources/tải xuống.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/controller/BlogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/model/Blog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/model/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/repository/BlogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/service/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/service/impl/BlogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/java/com/codegym/demo/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/spx1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/spx2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/spx3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/spx4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/blog/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/category/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/category/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/category/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/templates/category/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/main/resources/tải xuống.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/CaseSutdy/src/test/java/com/codegym/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/Controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/Controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/service/CustomerServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Module2_Nguyen_Duc_Thong_JavaWeb/src/MVC_Model/ThucHanh/UngDungQuanLiKhachHang/src/service/CustomerServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../module1_Nguyen_Duc_Thong/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1d42zVnr6ZT08HMS2fU3R2Pti8d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CRUD_Customer" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c5dec8c-926a-4de1-8b11-83178814a1a9" name="Default Changelist" comment="" />
+      <created>1591670306416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591670306416</updated>
+      <workItem from="1591670308289" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591670340426">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="526" y="254" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1591670340426" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1591670354981">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591670354981" />
+  </component>
+</project>
