@@ -1,4 +1,4 @@
-package com.codegym.customer.Model;
+package com.codegym.casestudy.model;
 
 import javax.persistence.*;
 import java.util.List;
@@ -8,23 +8,14 @@ import java.util.List;
 public class TypeCustomer {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "type_customer_id")
+    @Column(name = "id_type_customer")
     private long id;
-    @Column(name = "name")
+
+    @Column(name = "type_customer")
     private String name;
-    @Column(name = "description")
-    private String description;
 
     @OneToMany(targetEntity = Customer.class)
-    private List<Customer>customers;
-
-    public List<Customer> getCustomers() {
-        return customers;
-    }
-
-    public void setCustomers(List<Customer> customers) {
-        this.customers = customers;
-    }
+    private List<Customer> customers;
 
     public TypeCustomer() {
     }
@@ -45,11 +36,11 @@ public class TypeCustomer {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public List<Customer> getCustomers() {
+        return customers;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setCustomers(List<Customer> customers) {
+        this.customers = customers;
     }
 }

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Order Details Table with Search Filter</title>
+    <title>Customer</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -270,9 +270,9 @@
                 <td th:text="${customer.phoneNumber}"></td>
                 <td th:text="${customer.typeCustomer.name}"></td>
                 <td>
-                    <a th:href="@{/edit-customer/__${customer.id}__ }"  class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
-                    <a th:href="@{/delete-customer/__${customer.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a th:href="@{/view-customer/__${customer.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                    <a th:href="@{/view-customer/__${customer.id}__ }"  class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                    <a th:href="@{/edit-customer/__${customer.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a th:href="@{/delete-customer/__${customer.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                 </td>
             </tr>
             </tbody>

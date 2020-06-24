@@ -1,24 +1,21 @@
-package com.codegym.demo2.controller;
+package com.codegym.casestudy.controller;
 
-import com.codegym.demo2.model.Customer;
-import com.codegym.demo2.service.CustomerService;
-import com.codegym.demo2.service.TypeCustomerService;
+import com.codegym.casestudy.model.Customer;
+import com.codegym.casestudy.model.TypeCustomer;
+import com.codegym.casestudy.service.CustomerService;
+import com.codegym.casestudy.service.TypeCustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Optional;
 
 @Controller
 public class CustomerController {
-
     @Autowired
     CustomerService customerService;
     @Autowired
@@ -59,7 +56,6 @@ public class CustomerController {
                 modelAndView.addObject("customers", customerService.findAllOderByName(pageable));
             }
         }
-
         return modelAndView;
     }
 
@@ -74,6 +70,7 @@ public class CustomerController {
 
     @PostMapping("/create-customer")
     public String saveCustomer(Customer customer) {
+        customer.setTypeCustomer(typeCustomerService.findById(1));
         customerService.save(customer);
         return "redirect:";
     }
@@ -108,8 +105,7 @@ public class CustomerController {
 
     @PostMapping("/delete-customer")
     public String deletedCustomer(Customer customer) {
-        customerService.remove(customer.getId());
+        customerService.deleteById(customer.getId());
         return "redirect:";
     }
-
 }

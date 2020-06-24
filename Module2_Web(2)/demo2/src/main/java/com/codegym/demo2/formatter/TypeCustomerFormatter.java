@@ -27,6 +27,6 @@ public class TypeCustomerFormatter implements Formatter<TypeCustomer> {
 
     @Override
     public TypeCustomer parse(String text, Locale locale) throws ParseException {
-        return typeCustomerService.findById(Long.parseLong(text));
+            return typeCustomerService.findById(Long.parseLong(text));
     }
 }

@@ -10,6 +10,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Transactional
 @Service
@@ -41,5 +42,10 @@ public class TypeCustomerServiceImpl implements TypeCustomerService {
     @Override
     public Page<TypeCustomer> findAllByName(String name, Pageable pageable) {
         return typeCustomerRepository.findAllByNameContaining(name,pageable);
+    }
+
+    @Override
+    public List<TypeCustomer> findAll() {
+        return (List<TypeCustomer>) typeCustomerRepository.findAll();
     }
 }

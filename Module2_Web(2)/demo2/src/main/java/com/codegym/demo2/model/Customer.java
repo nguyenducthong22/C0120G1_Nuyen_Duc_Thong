@@ -12,12 +12,8 @@ public class Customer {
     private String lastName;
     @ManyToOne
     @JoinColumn(name = "type_customer_id")
-    private TypeCustomer typeCustomer;
 
-    public Customer(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    private TypeCustomer typeCustomer;
 
     public Customer() {
     }
