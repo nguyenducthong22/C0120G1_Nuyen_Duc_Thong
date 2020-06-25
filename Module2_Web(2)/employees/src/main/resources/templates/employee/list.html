@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Customer</title>
+    <title>Employee</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <style type="text/css">
         body {
             color: #566787;
@@ -121,7 +122,7 @@
             vertical-align: middle;
         }
         table.table tr th:first-child {
-            width: 60px;
+            width: 100px;
         }
         table.table tr th:last-child {
             width: 80px;
@@ -226,11 +227,12 @@
         <div class="table-title">
             <div class="row">
                 <div class="col-sm-4">
-                    <h2>Customer <b>Details</b></h2>
+                    <h2>Employee <b>Details</b></h2>
                 </div>
                 <div class="col-sm-8">
-                    <a th:href="@{/list-type-customer}" class="btn btn-primary"><i class="material-icons">&#xE863;</i> <span>Show List Type Customer</span></a>
-                    <a th:href="@{/create-customer}" class="btn btn-info"><i class="material-icons">&#xE24D;</i> <span>Add New Customer</span></a>
+                    <a th:href="@{/list-level-employee}" class="btn btn-primary"><i class="material-icons">&#xE863;</i> <span>Show List Level </span></a>
+                    <a th:href="@{/list-position-employee}" class="btn btn-primary"><i class="material-icons">&#xE863;</i> <span>Show List  Position</span></a>
+                    <a th:href="@{/create-employee}" class="btn btn-info"><i class="material-icons">&#xE24D;</i> <span>Add New Employee</span></a>
                 </div>
             </div>
         </div>
@@ -240,6 +242,7 @@
                     <div class="show-entries">
                     </div>
                 </div>
+
                 <div class="col-sm-9">
                     <form class="filter-group">
                         <label>Name : </label>
@@ -249,66 +252,45 @@
                 </div>
             </div>
         </div>
-<!--        <div class="table-container">-->
-<!--            <div class="row">-->
-<!--                <div class="col-sm-5">-->
-<!--                    <form>-->
-<!--                        <label>Search: </label>-->
-<!--                        <input type="text" name="search" placeholder="Search by name...">-->
-<!--                        <input type="submit" value="Search">-->
-<!--                    </form>-->
-<!--                </div>-->
-<!--                <div class="col-sm-7">-->
-<!--                    <form action="/" method="post">-->
-<!--                        <label>Sort by: </label>-->
-<!--                        <select style="width: 200px;height: 28px" name="sortBy">-->
-<!--                            <option style="width: 200px;height: 26px">Sort by Id</option>-->
-<!--                            <option style="width: 200px;height: 26px">Sort by First Name</option>-->
-<!--                            <input type="submit" value="Order">-->
-<!--                        </select>-->
-<!--                    </form>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
 
         <table class="table table-striped table-hover">
             <thead>
             <tr>
-                <th>Name</th>
+                <th>Full Name</th>
                 <th>Birthday</th>
                 <th>Email</th>
                 <th>Phone Number</th>
-                <th>Type Customer</th>
+                <th>Position</th>
                 <th>Action</th>
             </tr>
             </thead>
             <tbody>
-            <tr th:each="customer,iterStat : ${customers} " th:class="${iterStat.odd}? 'odd'">
-                <td th:text="${customer.firstName}"></td>
-                <td th:text="${customer.birthDay}"></td>
-                <td th:text="${customer.email}"></td>
-                <td th:text="${customer.phoneNumber}"></td>
-                <td th:text="${customer.typeCustomer.name}"></td>
+            <tr th:each="employee,iterStat : ${employees} " th:class="${iterStat.odd}? 'odd'">
+                <td th:text="${employee.lastName}+' '+${employee.firstName}"></td>
+                <td th:text="${employee.birthDay}"></td>
+                <td th:text="${employee.email}"></td>
+                <td th:text="${employee.phoneNumber}"></td>
+                <td th:text="${employee.position.name}"></td>
                 <td>
-                    <a th:href="@{/view-customer/__${customer.id}__ }"  class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
-                    <a th:href="@{/edit-customer/__${customer.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a th:href="@{/delete-customer/__${customer.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                    <a th:href="@{/view-employee/__${employee.id}__ }" class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                    <a th:href="@{/edit-employee/__${employee.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a th:href="@{/delete-employee/__${employee.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                 </td>
             </tr>
             </tbody>
         </table>
         <div class="clearfix">
             <ul class="pagination">
-                <li class="page-item "><a th:href="@{'/'(page=${customers.number - 1},search=${search})}"
-                                          th:if="${customers.hasPrevious()}">Previous</a></li>
-                <li class="page-item active"><a th:text="${customers.number+1}" class="page-link">1</a></li>
+                <li class="page-item "><a th:href="@{'/'(page=${employees.number - 1},search=${search})}"
+                                          th:if="${employees.hasPrevious()}">Previous</a></li>
+                <li class="page-item active"><a th:text="${employees.number+1}" class="page-link">1</a></li>
                 <li class="page-item"><a class="page-link">/</a></li>
-                <li class="page-item"><a class="page-link" th:text="${customers.totalPages}">/</a></li>
-                <li class="page-item"><a th:href="@{'/'(page=${customers.number + 1},search=${search})}" th:if="${customers.hasNext()}"
+                <li class="page-item"><a class="page-link" th:text="${employees.totalPages}">/</a></li>
+                <li class="page-item"><a th:href="@{'/'(page=${employees.number + 1},search=${search})}" th:if="${employees.hasNext()}"
                                          class="page-link">Next</a></li>
             </ul>
         </div>
     </div>
-    </div>
+</div>
 </body>
 </html>

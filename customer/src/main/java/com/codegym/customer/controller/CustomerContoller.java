@@ -10,14 +10,15 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
+
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import javax.swing.text.html.Option;
+
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -26,6 +27,11 @@ public class CustomerContoller {
     CustomerService customerService;
     @Autowired
     TypeCustomerService typeCustomerService;
+
+    @ModelAttribute("typeCustomers")
+    public List<TypeCustomer> getAllType(){
+        return typeCustomerService.findAll();
+    }
 
     @GetMapping("/")
     public ModelAndView home(@RequestParam(name = "search", required = false) Optional<String> search, @PageableDefault(value = 5) Pageable pageable) {
@@ -41,44 +47,47 @@ public class CustomerContoller {
     }
 
 
+    // có thể sắp được nhưng có 1 số lỗi
+
 //    @PostMapping("/")
 //    public ModelAndView order(@RequestParam(name = "sortBy") String sortBy, @RequestParam(name = "search", required = false) Optional<String> search,
 //                              @PageableDefault(value = 7) Pageable pageable) {
 //        ModelAndView modelAndView = new ModelAndView("customer/list");
 //        if (sortBy.equals("Sort by Id")) {
-//            if (search.isPresent()) {
-//                Page<Customer> customers = customerService.findAllByName(search.get(), pageable);
-//                modelAndView.addObject("customers", customers);
-//                modelAndView.addObject("search", search.get());
-//            } else {
+////            if (search.isPresent()) {
+////                Page<Customer> customers = customerService.findAllByName(search.get(), pageable);
+////                modelAndView.addObject("customers", customers);
+////                modelAndView.addObject("search", search.get());
+////            } else {
 //                modelAndView.addObject("customers", customerService.findAll(pageable));
-//            }
+////            }
 //        } else {
-//            if (search.isPresent()) {
-//                Page<Customer> customers = customerService.findAllByName(search.get(), pageable);
-//                modelAndView.addObject("customers", customers);
-//                modelAndView.addObject("search", search.get());
-//            } else {
+////            if (search.isPresent()) {
+////                Page<Customer> customers = customerService.findAllByName(search.get(), pageable);
+////                modelAndView.addObject("customers", customers);
+////                modelAndView.addObject("search", search.get());
+////            } else {
 //                modelAndView.addObject("customers", customerService.findAllOderByName(pageable));
-//            }
+////            }
 //        }
 //
 //        return modelAndView;
 //    }
 
     @GetMapping("/create-customer")
-    public ModelAndView createCustomer(Pageable pageable    ) {
+    public ModelAndView createCustomer() {
         ModelAndView modelAndView;
         modelAndView = new ModelAndView("customer/create");
         modelAndView.addObject("customer", new Customer());
-        modelAndView.addObject("typeCustomers", typeCustomerService.findAll(pageable));
+//        modelAndView.addObject("typeCustomers", typeCustomerService.findAll());
         return modelAndView;
     }
 
     @PostMapping("/save-customer")
-    public String saveCustomer(@Validated Customer customer, BindingResult result  ) {
+    public String saveCustomer(@Validated Customer customer, BindingResult result, Model model) {
         new CustomerValidation().validate(customer,result);
         if (result.hasFieldErrors()){
+//            model.addAttribute("typeCustomers", typeCustomerService.findAll());
             return "customer/create";
         }
         customerService.save(customer);

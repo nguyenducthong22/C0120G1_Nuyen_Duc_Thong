@@ -135,8 +135,9 @@
         <div class="form-group">
             <label>Type Customer </label>T
             <select class="form-control" name="typeCustomer" required="required">
-                <option th:each="typeCustomer:${typeCustomers}" th:value="${typeCustomer.getId()}"
-                        th:text="${typeCustomer.name} "></option>
+                <th:block th:each="typeCustomer:${typeCustomers}" >
+                <option th:value="${typeCustomer.getId()}" th:text="${typeCustomer.name} "></option>
+                </th:block>
             </select>
         </div>
         <div class="form-group">
