@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-sm-8">
                     <a th:href="@{/list-type-customer}" class="btn btn-primary"><i class="material-icons">&#xE863;</i> <span>Show List Type Customer</span></a>
-                    <a th:href="@{/create-customer}" class="btn btn-info"><i class="material-icons">&#xE24D;</i> <span>Add New Customer</span></a>
+                    <a th:href="@{/customer/create-customer}" class="btn btn-info"><i class="material-icons">&#xE24D;</i> <span>Add New Customer</span></a>
                 </div>
             </div>
         </div>
@@ -243,7 +243,7 @@
                 <div class="col-sm-9">
                     <form class="filter-group">
                         <label>Name : </label>
-                        <input type="text" name="search" class="form-control">
+                        <input type="text" name="search" class="form-control" placeholder="Search by name...">
                         <button type="submit" value="Search" class="btn btn-primary"><i class="fa fa-search"></i></button>
                     </form>
                 </div>
@@ -283,28 +283,28 @@
             </tr>
             </thead>
             <tbody>
-            <tr th:each="customer,iterStat : ${customers} " th:class="${iterStat.odd}? 'odd'">
+            <tr th:each="customer,iterStat : ${customers} " th:class="${iterStat.odd}? 'odd'">'
                 <td th:text="${customer.firstName}"></td>
                 <td th:text="${customer.birthDay}"></td>
                 <td th:text="${customer.email}"></td>
                 <td th:text="${customer.phoneNumber}"></td>
                 <td th:text="${customer.typeCustomer.name}"></td>
                 <td>
-                    <a th:href="@{/view-customer/__${customer.id}__ }"  class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
-                    <a th:href="@{/edit-customer/__${customer.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
-                    <a th:href="@{/delete-customer/__${customer.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                    <a th:href="@{/customer/view-customer/__${customer.id}__ }"  class="view" title="View" data-toggle="tooltip"><i class="material-icons">&#xE417;</i></a>
+                    <a th:href="@{/customer/edit-customer/__${customer.id}__ }" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                    <a th:href="@{/customer/delete-customer/__${customer.id}__ }" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
                 </td>
             </tr>
             </tbody>
         </table>
         <div class="clearfix">
             <ul class="pagination">
-                <li class="page-item "><a th:href="@{'/'(page=${customers.number - 1},search=${search})}"
+                <li class="page-item "><a th:href="@{'/customer'(page=${customers.number - 1},search=${search})}"
                                           th:if="${customers.hasPrevious()}">Previous</a></li>
-                <li class="page-item active"><a th:text="${customers.number+1}" class="page-link">1</a></li>
+                <li class="page-item active"><a th:text="${customers.number+1}" class="page-link"></a></li>
                 <li class="page-item"><a class="page-link">/</a></li>
-                <li class="page-item"><a class="page-link" th:text="${customers.totalPages}">/</a></li>
-                <li class="page-item"><a th:href="@{'/'(page=${customers.number + 1},search=${search})}" th:if="${customers.hasNext()}"
+                <li class="page-item"><a class="page-link" th:text="${customers.totalPages}"></a></li>
+                <li class="page-item"><a th:href="@{'/customer'(page=${customers.number + 1},search=${search})}" th:if="${customers.hasNext()}"
                                          class="page-link">Next</a></li>
             </ul>
         </div>

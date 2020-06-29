@@ -40,14 +40,4 @@ public class EmployeeServiceImpl implements EmployeeService {
     public Page<Employee> findAllByName(String search, Pageable pageable) {
         return employeeRepository.findAllByFirstNameContaining(search,pageable);
     }
-
-    @Override
-    public Page<Employee> oderByLevel(Pageable pageable) {
-        return employeeRepository.findAllByOrderByLevel(pageable);
-    }
-
-    @Override
-    public Page<Employee> oderByPosition(Pageable pageable) {
-        return employeeRepository.findAllByOrderByPosition(pageable);
-    }
 }

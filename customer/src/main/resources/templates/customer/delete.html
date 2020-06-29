@@ -99,7 +99,7 @@
 <body>
 <div class="signup-form">
 
-    <form action="/delete-customer" method="post" th:object="${customer}">
+    <form action="/customer/delete-customer" method="post" th:object="${customer}">
         <h2>Delete Customer</h2>
         <hr>
         <div class="form-group">
@@ -143,7 +143,7 @@
             <button style="color: red" type="submit" class="btn btn-primary btn-block btn-lg">Delete</button>
         </div>
         <div class="form-group">
-            <a style="color: whitesmoke" href="/" class="btn btn-danger btn-block btn-lg">Cancel</a>
+            <a style="color: whitesmoke" href="/customer/" class="btn btn-danger btn-block btn-lg">Cancel</a>
         </div>
     </form>
 

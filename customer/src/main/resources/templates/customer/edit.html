@@ -99,7 +99,7 @@
 <body>
 <div class="signup-form">
 
-    <form action="/edit-customer" method="post" th:object="${customer}">
+    <form action="/customer/edit-customer" method="post" th:object="${customer}">
         <h2>Edit Customer</h2>
         <hr>
         <div class="form-group">
@@ -107,10 +107,12 @@
             <label>First Name </label>
             <input type="text" class="form-control" name="firstName" required="required"
                    th:field="${customer.firstName}">
+            <p th:if="${#fields.hasErrors('firstName')}" th:each="e:${#fields.errors('firstName')}" th:text="${e} " style="color: red">
         </div>
         <div class="form-group">
             <label>Last Name </label>
             <input type="text" class="form-control" name="lastName" required="required" th:field="${customer.lastName}">
+            <p th:if="${#fields.hasErrors('lastName')}" th:each="e:${#fields.errors('lastName')}" th:text="${e} " style="color: red">
         </div>
         <div class="form-group">
             <label>Address </label>
@@ -119,10 +121,12 @@
         <div class="form-group">
             <label>Email </label>
             <input type="email" class="form-control" name="email" required="required" th:field="${customer.email}">
+            <p th:if="${#fields.hasErrors('email')}" th:each="e:${#fields.errors('email')}" th:text="${e} " style="color: red">
         </div>
         <div class="form-group">
             <label>Phone Number </label>
             <input type="text" class="form-control" name="lastName" required="required" th:field="${customer.phoneNumber}">
+            <p th:if="${#fields.hasErrors('phoneNumber')}" th:each="e:${#fields.errors('phoneNumber')}" th:text="${e} " style="color: red">
         </div>
         <div class="form-group">
             <label>Id Card </label>
@@ -144,7 +148,7 @@
             <button type="submit" class="btn btn-primary btn-block btn-lg">Edit</button>
         </div>
         <div class="form-group">
-            <a style="color: whitesmoke" href="/" class="btn btn-danger btn-block btn-lg">Cancel</a>
+            <a style="color: whitesmoke" href="/customer/" class="btn btn-danger btn-block btn-lg">Cancel</a>
         </div>
     </form>
 

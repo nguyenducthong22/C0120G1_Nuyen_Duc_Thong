@@ -4,17 +4,20 @@ import com.codegym.employees.Service.EmployeeService;
 import com.codegym.employees.Service.LevelService;
 import com.codegym.employees.Service.PositionService;
 import com.codegym.employees.model.Employee;
+import com.codegym.employees.model.Level;
+import com.codegym.employees.model.Position;
+import com.codegym.employees.validation.EmployeeValidation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.List;
 import java.util.Optional;
 
 @Controller
@@ -25,8 +28,16 @@ public class EmployeeController {
     LevelService levelService;
     @Autowired
     PositionService positionService;
+    @ModelAttribute("levels")
+    public List<Level> getAllLevel(){
+        return levelService.findAll();
+    }
+    @ModelAttribute("positions")
+    public List<Position> getAllPosition(){
+        return positionService.findAll();
+    }
 
-    @GetMapping("/")
+    @GetMapping("/employee")
     public ModelAndView employeeHome(@RequestParam(name = "search", required = false) Optional<String> search, @PageableDefault(value = 6) Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("employee/list");
         if (search.isPresent()) {
@@ -39,43 +50,45 @@ public class EmployeeController {
         return modelAndView;
     }
 
-    @GetMapping("/create-employee")
+    @GetMapping("employee/create-employee")
     public ModelAndView createEmployee(Pageable pageable){
         ModelAndView modelAndView =new ModelAndView("employee/create");
         modelAndView.addObject("employee", new Employee());
-        modelAndView.addObject("levels",levelService.findAll(pageable));
-        modelAndView.addObject("positions",positionService.findAll(pageable));
         return modelAndView;
     }
 
-    @PostMapping("/create-employee")
-    public  String saveEmployee(Employee employee){
+    @PostMapping("employee/create-employee")
+    public  String saveEmployee(@Validated Employee employee, BindingResult result){
+        new EmployeeValidation().validate(employee,result);
+        if (result.hasFieldErrors()){
+            return "employee/create";
+        }
         employeeService.save(employee);
-        return "redirect:";
+        return "redirect:/employee";
     }
 
-    @GetMapping("/edit-employee/{id}")
+    @GetMapping("employee/edit-employee/{id}")
     public ModelAndView editEmployee(@PathVariable long id,Pageable pageable){
         Employee employee=employeeService.findById(id);
         ModelAndView modelAndView=new ModelAndView("employee/edit");
         modelAndView.addObject("employee",employee);
-        modelAndView.addObject("levels",levelService.findAll(pageable));
-        modelAndView.addObject("positions",positionService.findAll(pageable));
         return modelAndView;
     }
 
-    @PostMapping("/edit-employee")
-    public String updateEmployee(Employee employee){
+    @PostMapping("employee/edit-employee")
+    public String updateEmployee(@Validated Employee employee,BindingResult result){
+        new EmployeeValidation().validate(employee,result);
+        if (result.hasFieldErrors()){
+            return "employee/edit";
+        }
         employeeService.save(employee);
-        return "redirect:";
+        return "redirect:/employee";
     }
 
-    @GetMapping("/view-employee/{id}")
+    @GetMapping("employee/view-employee/{id}")
     public ModelAndView viewEmployee(@PathVariable long id){
         return new ModelAndView("employee/view","employee",employeeService.findById(id));
     }
-
-
 
 
 }

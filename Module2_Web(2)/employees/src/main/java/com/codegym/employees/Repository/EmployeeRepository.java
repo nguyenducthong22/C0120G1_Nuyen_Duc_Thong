@@ -7,6 +7,4 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 public interface EmployeeRepository extends PagingAndSortingRepository <Employee,Long>{
     Page<Employee> findAllByFirstNameContaining(String search, Pageable pageable);
-    Page<Employee> findAllByOrderByPosition(Pageable pageable);
-    Page<Employee> findAllByOrderByLevel(Pageable pageable);
 }

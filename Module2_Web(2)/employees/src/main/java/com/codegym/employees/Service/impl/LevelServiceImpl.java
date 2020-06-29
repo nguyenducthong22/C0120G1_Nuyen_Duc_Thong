@@ -9,6 +9,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 @Transactional
 @Service
@@ -24,5 +25,10 @@ public class LevelServiceImpl implements LevelService {
     @Override
     public Level findById(long id) {
         return levelRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Level> findAll() {
+        return (List<Level>) levelRepository.findAll();
     }
 }

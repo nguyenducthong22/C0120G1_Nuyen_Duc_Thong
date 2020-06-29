@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Controller
+@RequestMapping("/customer")
 public class CustomerContoller {
     @Autowired
     CustomerService customerService;
@@ -33,7 +34,7 @@ public class CustomerContoller {
         return typeCustomerService.findAll();
     }
 
-    @GetMapping("/")
+    @GetMapping("")
     public ModelAndView home(@RequestParam(name = "search", required = false) Optional<String> search, @PageableDefault(value = 5) Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("customer/list");
         if (search.isPresent()) {
@@ -84,7 +85,7 @@ public class CustomerContoller {
     }
 
     @PostMapping("/save-customer")
-    public String saveCustomer(@Validated Customer customer, BindingResult result, Model model) {
+    public String saveCustomer(@Validated Customer customer, BindingResult result) {
         new CustomerValidation().validate(customer,result);
         if (result.hasFieldErrors()){
 //            model.addAttribute("typeCustomers", typeCustomerService.findAll());
@@ -97,11 +98,11 @@ public class CustomerContoller {
 
     //edit
     @GetMapping("/edit-customer/{id}")
-    public ModelAndView editCustomer(@PathVariable long id, Pageable pageable) {
+    public ModelAndView editCustomer(@PathVariable long id ) {
         Customer customer = customerService.findById(id);
         ModelAndView modelAndView = new ModelAndView("customer/edit");
         modelAndView.addObject("customer", customer);
-        modelAndView.addObject("typeCustomers", typeCustomerService.findAll(pageable));
+        modelAndView.addObject("typeCustomers", typeCustomerService.findAll());
         return modelAndView;
     }
 
@@ -118,11 +119,10 @@ public class CustomerContoller {
 
     //delete
     @GetMapping("/delete-customer/{id}")
-    public ModelAndView deleteCustomer(@PathVariable long id, Pageable pageable) {
+    public ModelAndView deleteCustomer(@PathVariable long id ) {
         Customer customer = customerService.findById(id);
         ModelAndView modelAndView = new ModelAndView("customer/delete");
         modelAndView.addObject("customer", customer);
-        modelAndView.addObject("typeCustomers", typeCustomerService.findAll(pageable));
         return modelAndView;
     }
 
@@ -136,6 +136,4 @@ public class CustomerContoller {
     public ModelAndView viewCustomer(@PathVariable long id){
         return new ModelAndView("customer/view","customer",customerService.findById(id));
     }
-
-
 }
