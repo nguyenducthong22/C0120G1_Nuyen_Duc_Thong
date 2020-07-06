@@ -17,6 +17,9 @@ public class EmployeeValidation implements Validator {
             final String lastName=employee.getLastName();
             final String email=employee.getEmail();
             final String address=employee.getAddress();
+            final String birthDay= employee.getBirthDay()+"";
+            final int age=2020-Integer.parseInt(birthDay.substring(0,4));
+        System.out.println(age);
 
         if (!(firstName.matches("^[A-Z][a-z]*$"))) {
             errors.rejectValue("firstName", "employee.firstName.length"
@@ -31,6 +34,10 @@ public class EmployeeValidation implements Validator {
         }
         if (address.matches("^\\ +$")){
             errors.rejectValue("address","employee.address.inValid");
+        }
+
+        if (!(age<200&&age>=18)){
+         errors.rejectValue("age","employee.birthDay.inValid");
         }
     }
 }

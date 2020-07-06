@@ -99,42 +99,46 @@
         <div class="form-group">
             <div class="row">
                 <div class="col"><label>
-                    <input type="text" class="form-control" name="firstName" placeholder="First Name" required="required">
+                    <input type="text" class="form-control" name="firstName" placeholder="First Name" required="required" th:field="${employee.firstName}">
                     <p th:if="${#fields.hasErrors('firstName')}" th:each="e:${#fields.errors('firstName')}" th:text="${e} " style="color: red">
 
                 </label></div>
                 <div class="col"><label>
-                    <input type="text" class="form-control" name="lastName" placeholder="Last Name" required="required">
+                    <input type="text" class="form-control" name="lastName" placeholder="Last Name" required="required" th:field="${employee.lastName}">
                     <p th:if="${#fields.hasErrors('lastName')}" th:each="e:${#fields.errors('lastName')}" th:text="${e} " style="color: red">
 
                 </label></div>
             </div>
         </div>
         <div class="form-group">
-            <input type="email" class="form-control" name="email" placeholder="Email" required="required">
+            <input type="email" class="form-control" name="email" placeholder="Email" required="required" th:field="${employee.email}">
             <p th:if="${#fields.hasErrors('email')}" th:each="e:${#fields.errors('email')}" th:text="${e} " style="color: red">
 
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="address" placeholder="Address" required="required">
+            <input type="text" class="form-control" name="address" placeholder="Address" required="required" th:field="${employee.address}">
             <p th:if="${#fields.hasErrors('address')}" th:each="e:${#fields.errors('address')}" th:text="${e} " style="color: red">
 
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number" required="required">
+            <input type="text" class="form-control" name="phoneNumber" placeholder="Phone Number" required="required" th:field="${employee.phoneNumber}">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="idCard" placeholder="Id Card" required="required">
+            <input type="text" class="form-control" name="idCard" placeholder="Id Card" required="required" th:field="${employee.idCard}">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" name="salary" placeholder="Salary" required="required">
+            <input type="text" class="form-control" name="salary" placeholder="Salary" required="required" th:field="${employee.salary}">
         </div>
         <div class="form-group">
-            <input type="date" class="form-control" name="birthDay" placeholder="Birth Day" required="required">
+            <input type="date" class="form-control" name="birthDay" placeholder="Birth Day" required="required" th:field="${employee.birthDay}">
+<!--            <p th:if="${#fields.hasErrors('birthDay')}" th:each="e:${#fields.errors('age')}" th:text="${e} " style="color: red">-->
+<!--          <p  class="error" th:if="${#fields.hasErrors('birthDay')}"-->
+<!--            th:each="e:${#fields.errors('birthDay')}"-->
+<!--            th:text="${e}"></p>-->
         </div>
         <div class="form-group">
             <label>Level :  </label>
-            <select class="form-control" name="level" required="required" th:field="${employee.level}">
+            <select class="form-control" name="level" required="required" th:field="${employee.level}" >
                 <option th:each="level:${levels}" th:value="${level.getId()}"
                         th:text="${level.name} "></option>
             </select>

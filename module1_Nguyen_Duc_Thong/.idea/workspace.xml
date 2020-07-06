@@ -2,59 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="878eb53a-9858-417a-9ef5-49666852f3f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/artifacts/MayTinhDonGian1_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/MayTinhDonGian1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/src/com/codegym/controllers/CalculatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/views/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian1/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/MayTinhDonGian.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/aopalliance-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-aop-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-aspects-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-beans-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-context-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-context-support-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-core-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-expression-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-instrument-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-jdbc-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-jms-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-messaging-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-orm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-oxm-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-test-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-tx-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-web-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/lib/spring-webmvc-5.2.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/MayTinhDonGian/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/build/libs/SandWich-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/build/libs/SandWich-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/views/select.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/BaiTap/SandWich/src/main/webapp/WEB-INF/views/select.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/ThucHanh/KiemTraEmailBangMaven/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_JavaWeb(2)/5_SpringController/ThucHanh/KiemTraEmailBangMaven/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nhap/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/com/codegym/student/model/Classification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../student/src/main/java/com/codegym/student/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/controller/ImageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/model/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/repository/ImageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/service/ImageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/service/impl/ImageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/java/com/codegym/demo/service/impl/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/detail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/spx1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/spx2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/spx3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/spx4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/static/image/sp/tải xuống.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Image/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/cart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/error.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/Product/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/main/resources/templates/asda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/GioHang/src/test/java/com/codegym/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/java/com/codegym/employees/validation/EmployeeValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/java/com/codegym/employees/validation/EmployeeValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/resources/templates/employee/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Module2_Web(2)/employees/src/main/resources/templates/employee/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/controller/CustomerContoller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/controller/CustomerContoller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/service/impl/CusTomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/service/impl/CusTomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/validation/CustomerValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/codegym/customer/validation/CustomerValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bang ke soc/sda.html" beforeDir="false" afterPath="$PROJECT_DIR$/bang ke soc/sda.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +99,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bang ke soc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -190,6 +196,7 @@
       <workItem from="1591326798342" duration="6534000" />
       <workItem from="1591339389696" duration="3594000" />
       <workItem from="1591928837123" duration="8516000" />
+      <workItem from="1594001846049" duration="2881000" />
     </task>
     <task id="LOCAL-00027" summary="may tinh">
       <created>1579077488224</created>
@@ -582,6 +589,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="155" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1591330678068" />
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1594017200578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1594017200578" />
     <state width="1345" height="201" key="GridCell.Tab.0.bottom" timestamp="1591338856929">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

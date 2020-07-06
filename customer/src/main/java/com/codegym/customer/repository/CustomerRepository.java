@@ -9,5 +9,6 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 public interface CustomerRepository extends PagingAndSortingRepository<Customer,Long> {
         Page<Customer> findAllByFirstNameContaining(String name, Pageable pageable);
         Page<Customer> findAllByOrderByFirstName(Pageable pageable);
+        Page<Customer> findAllByFirstNameContainingOrAddressContaining(String firstName, String address, Pageable pageable);
 
 }

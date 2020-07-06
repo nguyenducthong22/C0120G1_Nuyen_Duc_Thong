@@ -11,4 +11,5 @@ public interface CustomerService   {
     void save(Customer t);
     Page<Customer> findAllByName(String name,Pageable pageable);
     Page<Customer> findAllOderByName(Pageable pageable);
+    Page<Customer> findAllByNameOrAddress(String search,String address,Pageable pageable);
 }

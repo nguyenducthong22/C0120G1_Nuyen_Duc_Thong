@@ -33,6 +33,7 @@ public class Customer {
     @Column(name = "phone_number")
     private String phoneNumber;
 
+
     @ManyToOne
     @JoinColumn(name = "type_customer_id")
     private TypeCustomer typeCustomer;
@@ -111,4 +112,5 @@ public class Customer {
     public void setTypeCustomer(TypeCustomer typeCustomer) {
         this.typeCustomer = typeCustomer;
     }
+
 }

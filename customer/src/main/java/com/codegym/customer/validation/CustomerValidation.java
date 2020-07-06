@@ -18,7 +18,8 @@ public class CustomerValidation implements Validator {
         final String firstName = customer.getFirstName();
         final String lastName = customer.getLastName();
         final String phoneNumber = customer.getPhoneNumber();
-//        final int age = 2020 - Integer.parseInt(customer.getBirthDay().substring(0,4));
+        final int age = 2020 - Integer.parseInt(customer.getBirthDay().substring(0,4));
+        System.out.println(age);
         final String email = customer.getEmail();
         if (!(firstName.matches("^[A-Z][a-z]*$"))) {
             errors.rejectValue("firstName", "customer.firstName.length",
