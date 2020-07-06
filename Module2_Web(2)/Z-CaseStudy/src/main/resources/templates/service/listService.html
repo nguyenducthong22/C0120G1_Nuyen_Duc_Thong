@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head">
+    <meta charset="UTF-8">
+    <title>Service List</title>
+</head>
+<body>
+
+<div th:replace="layout :: title"> </div>
+<div th:replace="layout :: columnLeft"> </div>
+
+
+<div class="column middle">
+
+<a href="/menu" style="color: black">Back to Menu</a>
+<a href="/createService" style="color: black">Create new Service</a>
+    <a href="/deleteAllServices" style="float: right"
+       onclick="return confirm('Are you sure you want to delete all services?')">Delete all services</a>
+<h1>Services</h1>
+    <th:block th:if="${message}">
+        <p style="color: red" th:text="${message}"></p>
+    </th:block>
+
+    <center>
+
+<form>
+    Search by name:
+    <input name="s" type="text"/>
+    <input type="submit" value="Search"/>
+</form><br/>
+<table border="1">
+    <tr>
+        <th>Name</th>
+
+        <th>Status</th>
+        <th>RentType</th>
+        <th>ServiceType</th>
+        <th colspan="5">Action</th>
+    </tr>
+
+    <th:block th:each="service : ${services}">
+        <tr>
+            <td th:text="${service.name}"></td>
+
+            <td th:text="${service.status}"></td>
+            <td th:text="${service.rentType.name}"></td>
+            <td th:text="${service.serviceType.name}"></td>
+            <td><a th:href="@{/editService/__${service.id}__ }" style="color: black">Edit</a></td>
+            <td><a th:href="@{/deleteService/__${service.id}__ }" style="color: black">Delete</a></td>
+            <td><a th:href="@{/viewService/__${service.id}__ }" style="color: black">View</a></td>
+            <td>
+                <a th:href="@{/listLike-add/__${service.id}__ }" style="color: black">Like</a>
+            </td>
+            <td>
+                <a th:href="@{/listLike-remove/__${service.id}__ }" style="color: red">Unlike</a>
+            </td>
+        </tr>
+
+    </th:block>
+</table>
+<div>
+    <a th:href="@{'/services'(page=${services.number - 1})}" th:if="${services.hasPrevious()}">Previous</a>
+    <span th:text="${services.number + 1}"></span>/<span th:text="${services.totalPages}"></span>
+    <a th:href="@{'/services'(page=${services.number + 1})}" th:if="${services.hasNext()}">Next</a>
+</div>
+        </center>
+</div>
+<div th:replace="layout :: columnRight"> </div>
+
+</body>
+</html>
+<!--<script>-->
+<!--    function listLike(id1,id2) {-->
+<!--        document.getElementById(id1).style.display = "none";-->
+<!--        document.getElementById(id2).style.display = "block";-->
+<!--    }-->
+<!--</script>-->
