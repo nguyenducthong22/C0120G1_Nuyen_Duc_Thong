@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background: black;
+        }
+
+        .head{
+            background: black;
+            height:35px;
+            width:100%;
+            border: 2px solid #ff9600;
+
+
+
+        }
+        .head  a{
+            margin-right: 15px;
+
+            margin-top: 10px;
+            margin-bottom:0px;
+            text-decoration: none;
+            color: #ff9600;
+
+            font-size: 12px;
+            float:left;
+        }
+        .head input{
+            position: relative;
+            margin-top: 8px;
+            background: black;
+            font-size: 10px;
+            color: white;
+
+        }
+        .logo1{
+            background-image:url("img/1.png");
+            height: 60%;
+            width: 14%;
+            float:left;
+            background-repeat: no-repeat;
+            margin-left:15px ;
+            background-size: 80px;
+            margin-top: 10px;
+
+        }
+        .login{
+            float: right;
+            font-size: 16px;
+
+        }
+        .login a{
+            border-right: 2px solid white ;
+            border-right-style: double;
+            padding-right: 10px;
+        }
+        .login a:last-child{
+            border-right: none;
+        }
+
+        .search {
+            float:left;
+        }
+        .search input{
+            float:left;
+            width: 80%;
+
+        }
+        .img{
+            height:20px;
+            width: 20px;
+            float:right;
+            background-image:url("img/3.png");
+            background-size: 14px;
+            background-repeat: no-repeat;
+            position: relative;
+            margin-top: 10px;
+            right:22px;
+
+
+        }
+        .head-logo{
+            clear: both;
+            margin-left: 80px;
+            margin-right: 80px;
+            background: black;
+            height: 80px;
+            top:0px;
+            border: white 1px outset;
+
+        }
+        .logoBig{
+            background-image: url("img/2.png");
+            background-size: 140px;
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 50%;
+            position: relative;
+            bottom: 8px;
+
+
+            margin-left: 30px;
+        }
+        .menu{
+
+            margin-left: 80px;
+            margin-right: 80px;
+            background:linear-gradient(#ff9600,black);
+            height: 30px;
+        }
+        .logo2{
+            background-image: url("img/4.png");
+            background-size: 30px;
+            background-repeat: no-repeat;
+            position: relative;
+            height: 50px;
+            width: 50px;
+            float: left;
+        }
+        .menu ul li a{
+            color: white;
+            padding: 8px 8px;
+            text-decoration: none;
+            position: relative;
+            top: 5px;
+
+            list-style-type: none;
+
+        }
+        .menu a{
+            color: white;
+            padding: 10px 10px;
+
+            top: 5px;
+            position: relative;
+        }
+        .menu a:hover{
+            color: blue;
+
+        }
+        .notification{
+            border: white 1px outset;
+            margin-left: 80px;
+            margin-right: 80px;
+            background: black;
+            height: 100px;
+        }
+        .notification a{
+            top:10px;
+            clear:both;
+            position: relative;
+            color: #02fb1f;
+        }
+        #a1{
+            color: #ff9600;
+            margin-left: 49px;
+        }
+        .advertisement{
+            border: white 1px outset;
+            margin-left: 80px;
+            margin-right: 80px;
+            background: black;
+            height: 100px;
+        }
+        .center{
+            margin-left: 80px;
+            margin-right: 80px;
+            width:1127px;
+            border: white 1px outset;
+            position: relative;
+            height: 760px;
+        }
+        .title{
+            color: #ff9600;
+        }
+
+        .title1 {
+            color: #f15b0e;
+            padding: 15px 15px;
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 25px;
+            margin-right: 40px;
+        }
+
+        .show1{
+            margin: 10px;
+            clear: both;
+            position: relative;
+            height: 220px;
+            width: 65%;
+            border: white 1px outset;
+
+        }
+
+        .show2{
+            background-image: url("img/5.png");
+            float: left;
+            position: relative;
+            height:180px ;
+            width:30%;
+            top:25px;
+            left:35px;
+
+            background-size:50% ;
+            background-repeat: no-repeat;
+        }
+        .show3{
+            float:right;
+            height:200px ;
+            position: relative;
+            width:70%;
+            font-size: 12px;
+        }
+
+        .show1 .show3 ul li{
+            color: #c1c2c3;
+            line-height: 20px;
+            font-size: 18px;
+            margin-top: 5px;
+            margin-left: -50px;
+
+        }
+        .show1 .show3 .show4 a{
+            color: #f15b0e;
+            position: relative;
+            top :10px;
+            left:120px;
+            font-size: 20px;
+        }
+        .show1 .show3 .show5{
+            color: #c1c2c3;
+            font-size: 16px;
+            margin-left: -5px;
+        }
+        .show6{
+            margin: 10px;
+            position: relative;
+            height: 420px;
+            width: 65%;
+            border: white 1px outset;
+        }
+        .imgP{
+            height:40%;
+            width:20%;
+            float:left;
+            position: relative;
+            right:21px;
+            margin-right: 20px;
+
+
+        }
+        .imgP img{
+            height:150px;
+            width:90px;
+            margin-left: 60px;
+
+        }
+        .imgQ{
+
+            position: relative;
+            font-size: 10px;
+            color: #f15b0e;
+            margin-left: 60px;
+
+
+        }
+        .imgO{
+            font-size: 10px;
+            color: gray;
+            margin-left: 60px;
+
+        }
+
+
+        .title2{
+            color: #f15b0e;
+            font-size: 10px;
+            width:500px;
+        }
+        .title3{
+            color: grey;
+            font-size: 10px;
+            width:25%;
+        }
+        .right{
+            margin: 10px;
+            position: relative;
+            left:750px;
+            height: 705px;
+            top:-355px;
+            width: 46%;
+            border: white 1px outset;
+        }
+
+        .right ul li a{
+            position: relative;
+            top:-310px;
+            color: #f15b0e;
+            font-size:14px;
+            right: 10px;
+        }
+
+        .right1 a{
+            float:left;
+            width: 130px;
+
+
+        }
+        .right1 .right3{
+            float: left;
+            color: gray;
+            right: -100px;
+            width: 10px;
+
+        }
+        .right4 {
+
+            position: relative;
+            top:10px;
+            margin-right: 10px;
+            color: grey;
+        }
+        .right ul li{
+            position: relative;
+            top: 5px;
+            width: 200px;
+
+            line-height: 30px;
+
+        }
+        .right ul li .right2{
+            border-bottom: 1px darkgray dotted;
+            width: 280px;
+            margin-bottom: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="logo1" > </div>
+    <a href="">Danh sách truyện </a>
+    <a href="">Đăng truyện </a>
+    <div class="search">
+        <input type="text" placeholder="Tìm truyện muốn đọc...">
+        <div class="img"></div>
+
+    </div>
+
+    <div class="login">
+        <a href="" >Đăng nhập</a>
+        <a href="" >Đăng ký</a>
+    </div>
+</div>
+<div class="head-logo">
+    <div class="logoBig"></div>
+</div>
+<div class="menu">
+    <div class="logo2"></div>
+    <a>Thể loại</a>
+    <a>Tryện hay</a>
+    <a>Đã hoàn thành</a>
+    <a>Yêu cầu truyện</a>
+    <a>Flappy Bird Online</a>
+
+
+</div>
+<div class="notification">
+    <a>Thông báo:</a><br>
+    <a>- Bạn muốn truyện ra chap nhanh hơn vui lòng ấn vào nút
+        <font color="#dfadf4">Like</font>
+        và
+        <font color="#dfadf4">g +1</font>
+        ở bên dưới nhé.</a><br>
+    <a id="a1">- Cách giải quyết khi không đọc được truyện tranh!!!</a>
+</div>
+<div class="advertisement">
+</div>
+
+<div class="center">
+    <div class="title">
+        <div class="title1" style="float:left">G I Ớ I T H I Ệ U</div>
+        <div class="title1" style="float: right">M Ớ I C Ậ P N H Ậ T</div>
+        <div class="title1" style="float: right">R S S</div>
+        <a></a>
+    </div>
+    <div class="show1">
+        <div class="show2"></div>
+        <div class="show3">
+            <div class="show4">
+                <a >Ranker's High</a>
+            </div>
+            <ul>
+                <li>Tên khác:</li>
+                <li>Thể loại: <font color="#ff4500">Action,Comedy,Drama,Ecchi,Shounen</font> </li>
+                <li>Đã có 13410 lượt xem</li>
+                <li>Nội dung:</li>
+            </ul>
+            <a class="show5">Để trả món nợ 500 triệu yên của bố mình,học sinh trung học Fuchigami Tatsuya phải đánh nhau
+                trong 1 giải đấu bạo lực,đấu không theo luật dưới lòng đất có tên MAD,giải đấu mà thường thì
+                thua cuộc đồng nghĩa cái chết.</a>
+
+        </div>
+    </div>
+    <div class="title1">T R U Y Ệ N Đ A N G H O T </div>
+    <div class="show6">
+        <ul>
+            <li>
+                <div class="imgP">
+                    <img src="img/6.png" >
+                    <center><a class="imgQ">Kingdom-Vương...</a></center>
+                    <center><a class="imgO">cập nhật 20.03</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/7.png" >
+                    <center><a class="imgQ">Tân Tác Long...</a></center>
+                    <center><a class="imgO">cập nhật 29.12</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/8.png" >
+                    <center><a class="imgQ">Toriko</a></center>
+                    <center><a class="imgO">cập nhật 18.11</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/9.png" >
+                    <center><a class="imgQ">Người Trong ...</a></center>
+                    <center><a class="imgO">cập nhật 25.12</a></center>
+                </div>
+            </li>
+
+
+            <li>
+                <div class="imgP">
+                    <img src="img/10.png" >
+                    <center><a class="imgQ">One Piece</a></center>
+                    <center><a class="imgO">cập nhật 08.07</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/11.png" >
+                    <center><a class="imgQ">Đấu phá...</a></center>
+                    <center><a class="imgO">cập nhật 09.07</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/12.png" >
+                    <center><a class="imgQ">Hiệp khách...</a></center>
+                    <center><a class="imgO">cập nhật 30.03</a></center>
+                </div>
+                <div class="imgP">
+                    <img src="img/13.png" >
+                    <center><a class="imgQ">Higanjima</a></center>
+                    <center><a class="imgO">cập nhật 02.03</a></center>
+                </div>
+            </li>
+
+        </ul>
+        <div class="right">
+            <ul>
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+
+                <li class="right1">
+                    <a>Y Đội Rồng 12345678</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+                <li class="right1">
+                    <a>Y Đội Rồng</a>
+                    <a class="right3">09.07</a>
+                    <a class="right2">Update chap 172</a>
+                </li>
+
+
+
+            </ul>
+
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
