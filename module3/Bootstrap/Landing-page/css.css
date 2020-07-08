@@ -1,0 +1,70 @@
+.menu img{
+    height: 35px;
+    float: left;
+    margin-left: 70px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.menu h3{
+    color: black;
+    float:left;
+    margin-left: 25px;
+    border-left: black 3px solid ;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.navbar ul li a{
+    color: grey;
+    margin-top: 9px;
+
+}
+
+#icon1,#icon2,#icon3 {
+    font-size: 30px;
+    margin-top:15px;
+    margin-right: 0px;
+}
+#icon3{
+    margin-right: 50px;
+}
+.right{
+    padding-right: 30px;
+}
+
+
+
+
+
+.dropdown-submenu {
+
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.carousel-inner div img{
+    width: 800px;
+    margin-left:350px ;
+}
+.x1{
+    float: left;
+}
+
+.x1 a img{
+    margin-top:60px;
+    width: 250px;
+    height: 90px;
+    list-style-type: none;
+
+    padding-left: 150px;
+    margin-left: 50px;
+}
+.x1 div{
+    margin-left: 140px;
+    font-size: 18px;
+    color: dodgerblue;
+
+}
