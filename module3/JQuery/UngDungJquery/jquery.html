@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Layout</title>
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $("#draggable").click(function () {
+            document.getElementById("content").innerText = "Draggable : \n" + "- Enable dr  aggable functionality on any DOM element. Move the draggable object" +
+                "by clicking on it with the mouse and dragging it anywhere within the viewport."
+        });
+        $("#droppable").click(function () {
+            document.getElementById("content").innerText = "Droppable : \n" + "- Enable any DOM element to be droppable, a target for draggable elements."
+        });
+        $("#resizeable").click(function () {
+            document.getElementById("content").innerText = "Resizeable : \n" + "- Enable any DOM element to be resizable. With the cursor grab the right or bottom border and drag to the desired width or height"
+        });
+        $("#selectable").click(function () {
+            document.getElementById("content").innerText = "Selectable : \n" + "- Enable a DOM element (or group of elements) to be selectable. Draw a box with your cursor to select items." +
+                " Hold down the Ctrl key to make multiple non-adjacent selections."
+        });
+        $("#sortable").click(function () {
+            document.getElementById("content").innerText = "Sortable : \n" + "- Enable a group of DOM elements to be sortable. Click on and drag an element to a new spot within the list, and the other items will adjust to fit." +
+                " By default, sortable items share draggable properties."
+        });
+        $("#accordion").click(function () {
+            document.getElementById("content").innerText = "Accordion : \n" + "- Click headers to expand/collapse content that is broken into logical sections, much like tabs." +
+                " Optionally, toggle sections open/closed on mouseover."
+        });
+        $("#autocomplete").click(function () {
+            document.getElementById("content").innerText = "Autocomplete : \n" + "- The Autocomplete widgets provides suggestions while you type into the field." +
+                " Here the suggestions are tags for programming languages, give \"ja\" (for Java or JavaScript) a try.\n" +
+                "\n" +
+                "- The datasource is a simple JavaScript array, provided to the widget using the source-option."
+        });
+        $("#button").click(function () {
+            document.getElementById("content").innerText = "Button : \n" + "- Examples of the markup that can be used for buttons: A button element, an input of type submit and an anchor.\n" +
+                "\n" +
+                "- Buttons can be styled via the button widget or by adding the classes yourself. This avoids the JavaScript overhead if you don't need any of the methods provided by the button widget."
+        });
+        $("#tabs").click(function () {
+            document.getElementById("content").innerText = "Tabs : \n" + "- Click tabs to swap between content that is broken into logical sections."
+        });
+        $("#addClass").click(function () {
+            document.getElementById("content").innerText = "Add Class : \n" + "- This demo adds a class which animates: text-indent, letter-spacing, width, height, padding, margin, and font-size."
+        });
+        $("#animation").click(function () {
+            document.getElementById("content").innerText = "Color Animation : \n" + "- jQuery UI bundles the jQuery Color plugins which provides color animations as well as many utility functions for working with colors"
+        });
+        $("#easing").click(function () {
+            document.getElementById("content").innerText = "Easing : \n" + "- All easings provided by jQuery UI are drawn above, using an HTML canvas element. Click a diagram to see the easing in action."
+        });
+        $("#hide").click(function () {
+            document.getElementById("content").innerText = "Hide : \n" + "- Hide effect"
+        });
+        $("#show").click(function () {
+            document.getElementById("content").innerText = "Show : \n" + "Show effect"
+        });
+        $("#toggle").click(function () {
+            document.getElementById("content").innerText = "Toggle : \n" + "???????????????????????????????"
+        });
+    })
+</script>
+<div class="container" style="height: auto">
+    <header class="row">
+        <div class="shopping-mall">
+            <h1 style="font-family: Arial,serif;color: darkslategrey">JQuery</h1>
+            <h4 style="font-family: 'Poor Richard','Times New Roman',serif;font-weight: bold">User interface</h4>
+        </div>
+        <img src="images/jquery.png" class="pull-right" width="220">
+    </header>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapse" data-target="#bs-example-navbar-collapse-1"
+                        aria-expanded="false">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="glyphicon glyphicon-home"></span>
+                    Trang chủ
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-list-alt"></span>
+                            Giới thiệu
+                            <span class="sr-only">
+                        </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-earphone"></span>
+                            Liên Hệ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                            Góp ý
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="glyphicon glyphicon-question-sign"></span>
+                            Hỏi đáp
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                           href="#">
+                            <span class="glyphicon glyphicon-user"></span>
+                            Tài khoản
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">Đăng nhập</a>
+                            </li>
+                            <li>
+                                <a href="#">Quên mật khẩu</a>
+                            </li>
+                            <li role="separator" class="divider"></li>
+                            <li>
+                                <a href="#">Đăng Kí</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Tiếng Việt</a>
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <aside class="col-sm-2">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list"></span>
+                <strong>Interactions</strong>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#" id="draggable">Draggable</a>
+                </li>
+                <li>
+                    <a href="#" id="droppable">Droppable</a>
+                </li>
+                <li>
+                    <a href="#" id="resizeable">Resizeable</a>
+                </li>
+                <li>
+                    <a href="#" id="selectable">Selectable</a>
+                </li>
+                <li>
+                    <a href="#" id="sortable">Sortable</a>
+                </li>
+            </ul>
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list"></span>
+                <strong>Widgets</strong>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#" id="accordion">Accordion</a>
+                </li>
+                <li>
+                    <a href="#" id="autocomplete">Autocomplete</a>
+                </li>
+                <li>
+                    <a href="#" id="button">Button</a>
+                </li>
+                <li>
+                    <a href="#" id="tabs">Tabs</a>
+                </li>
+            </ul>
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list"></span>
+                <strong>Effects</strong>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#" id="addClass">Add Class</a>
+                </li>
+                <li>
+                    <a href="#" id="animation">Color animation</a>
+                </li>
+                <li>
+                    <a href="#" id="easing">Easing</a>
+                </li>
+                <li>
+                    <a href="#" id="hide">Hide</a>
+                </li>
+                <li>
+                    <a href="#" id="show">Show</a>
+                </li>
+                <li>
+                    <a href="#" id="toggle">Toggle</a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <aside class="col-sm-7">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-check"></span>
+                <strong>Nội dung</strong>
+            </div>
+            <div class="content" id="content">
+                Welcome !!!
+            </div>
+        </div>
+    </aside>
+    <aside class="col-sm-3">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <form>
+                    <label>
+                        <input placeholder="search" class="form-control">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-book"></span>
+                <strong>Khác</strong>
+            </div>
+            <div class="panel-group">
+                <a class="list-group-item" href="http://google.com"><img src="images/google2.png" width="40"> Google
+                </a>
+                <a class="list-group-item" href="http://facebook.com"><img src="images/facebook.png" width="40">
+                    Facebook </a>
+                <a class="list-group-item" href="https://getbootstrap.com/"><img src="images/bootstrap.png" width="40">
+                    Bootstrap </a>
+                <a class="list-group-item" href="https://codegym.vn/"><img src="images/tải%20xuống%20(2).png" width="40"
+                                                                           alt=""> Codegym </a>
+            </div>
+        </div>
+    </aside>
+</div>
+</body>
+</html>

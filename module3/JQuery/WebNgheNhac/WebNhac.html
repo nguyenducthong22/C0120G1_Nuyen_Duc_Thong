@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ListMusic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="file.css">
+
+</head>
+
+<body>
+<div class="head" >
+    <marquee width="100%"><p id="head" style="color:Black;font-size: 35px">Music</p></marquee>
+    <ul class="nav navbar-nav navbar-right" style="font-family: Arial,serif;font-size: 18px;">
+        <li>
+            <a href="#">Tiếng Việt</a>
+        </li>
+        <li>
+            <a href="#">English</a>
+        </li>
+    </ul>
+</div>
+<div class="row main">
+    <div class="col-md-4 left">
+        <img id="img" src="images/khang viet.png">
+        <p id="showText">Muốn cùng anh nói chuyện yêu đương</p>
+        <audio id="showAudio" controls autoplay loop>
+            <source  src="music/Anh Chang Sao Ma - Khang Viet.mp3">
+        </audio>
+    </div>
+
+    <div class="col-md-3 right" >
+        <div class="box1">
+            <p  style="color: black" class="title1"><span class="glyphicon glyphicon-music"></span> Play List/Album</p>
+            <ol id="selectable">
+                <li><a href="#" onclick="click1()">Muốn cùng anh nói chuyện yêu đương</a></li>
+                <li ><a href="#" onclick="click2()">Dành cho em </a></li>
+                <li ><a href="#" onclick="click3()">Dừng lại đây thôi</a></li>
+                <li ><a href="#" onclick="click4()">Nếu không thể đến với nhau</a></li>
+                <li ><a href="#" onclick="click5()">Thích thì đến</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+<ul class="nav navbar-nav navbar-right" style="font-family: Arial,serif;font-size: 18px;margin-right: 20px">
+    <li>
+        <a  href="https://mp3.zing.vn/"><img src="images/zing mp3.png" width="30">Zing MP3</a>
+    </li>
+    <li>
+        <a href="https://www.nhaccuatui.com/"><img src="images/nhac cua tui.png" width="30">Nhac Cua Tui</a>
+    </li>
+</ul>
+
+<script>
+    function click1() {
+        document.getElementById("showText").innerText = "Anh chang Sao Ma";
+        document.getElementById("head").innerText = "Anh chang Sao Ma";
+        document.getElementById("showAudio").src = "music/Anh Chang Sao Ma - Khang Viet.mp3";
+        document.getElementById("img").src="images/khang viet.png"
+
+    }
+    function click2() {
+        document.getElementById("showText").innerText = "        Danh cho em       ";
+        document.getElementById("head").innerText = "        Danh cho em       ";
+        document.getElementById("showAudio").src = "music/Danh Cho Em - Hoang Ton.mp3";
+        document.getElementById("img").src="images/hoang ton.png"
+    }
+    function click3() {
+        document.getElementById("showText").innerText = "Dừng lại đây thôi";
+        document.getElementById("head").innerText = "Dừng lại đây thôi";
+        document.getElementById("showAudio").src = "music/Dung Lai Day Thoi Remix_ - Hoa Vinh_ Htr.mp3";
+        document.getElementById("img").src="images/hoa vinh.png"
+    }
+    function click4() {
+        document.getElementById("showText").innerText = "Neu Khong The Den Voi Nhau";
+        document.getElementById("head").innerText = "Neu Khong The Den Voi Nhau";
+        document.getElementById("showAudio").src = "music/Neu Khong The Den Voi Nhau - Trinh Dinh.mp3";
+        document.getElementById("img").src="images/trinh dinh.png"
+    }
+    function click5() {
+
+        document.getElementById("showText").innerText = "         Thich Thi Den          ";
+        document.getElementById("head").innerText = "         Thich Thi Den          ";
+        document.getElementById("showAudio").src = "music/Thich Thi Den - Le Bao Binh.mp3";
+        document.getElementById("img").src="images/le bao binh.png"
+    }
+</script>
+</body>
+</html>

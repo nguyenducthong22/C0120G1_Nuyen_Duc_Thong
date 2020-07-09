@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(sandybrown,wheat);
+}
+.head{
+    font-weight: bold;
+    font-family:Gabriola, serif;
+    height: 100px;
+    border-radius: 10px;
+    border: white 2px double;
+    margin: auto;
+}
+.main{
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+    border: white 2px double;
+    margin: auto;
+
+}
+.left{
+    width: 30%;
+    height: 420px;
+    border-radius: 10px;
+    border: white 2px double;
+    margin-left:30px;
+    margin-top: 10px;
+    float:left;
+
+
+}
+
+#img{
+    width: 300px;
+    height: 230px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.left p{
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.right{
+    float:right;
+    width: 60%;
+    height: 420px;
+    margin-right:30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: white 2px double;
+}
+.right div p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#selectable .ui-selecting { background: aliceblue; }
+#selectable .ui-selected { background: palegoldenrod; color: white; }
+#selectable { list-style-type: none; margin-left: 100px; width: 60%; }
+
+
+
+#selectable li { padding: 0.4em; font-size: 1.4em; height: 40px;
+    margin-top: 27px;
+    background: white;
+    text-align: center;
+}
