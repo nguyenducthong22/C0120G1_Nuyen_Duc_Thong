@@ -1,0 +1,15 @@
+<div *ngIf="studentDetail">
+  <h3>
+    Detail Student
+  </h3>
+<p>{{studentDetail.id}}</p>
+<p>{{studentDetail.name}}</p>
+<p>{{studentDetail.address}}</p>
+<p>{{studentDetail.email}}</p>
+<p>{{studentDetail.batch}}</p>
+
+  <label>
+    Mark :
+    <input type="number" max="10" min="0" value="{{studentDetail.mark}}" (change)="setMark($event.target.value)">
+  </label>
+</div>
