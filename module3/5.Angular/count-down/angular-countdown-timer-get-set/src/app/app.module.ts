@@ -6,10 +6,10 @@ import { AppComponent } from './app.component';
 import { ConuntdouwnTimerGetSetComponent } from './conuntdouwn-timer-get-set/conuntdouwn-timer-get-set.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ConuntdouwnTimerGetSetComponent
-  ],
+    declarations: [
+        AppComponent,
+        ConuntdouwnTimerGetSetComponent,
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule
