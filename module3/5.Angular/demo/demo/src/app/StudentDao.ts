@@ -1,5 +1,5 @@
-import {IStudent} from "./IStudent";
-export const STUDENTS: IStudent[]=[
+import {IStudent} from './IStudent';
+export const STUDENTS: IStudent[] = [
   {
     id: 1,
     name: 'Nguyễn Văn A',

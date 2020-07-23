@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {STUDENTS} from "../StudentDao";
-import {IStudent} from "../IStudent";
+import {STUDENTS} from '../StudentDao';
+import {IStudent} from '../IStudent';
 
 @Component({
   selector: 'app-student-list',
@@ -8,17 +8,17 @@ import {IStudent} from "../IStudent";
   styleUrls: ['./student-list.component.css']
 })
 export class StudentListComponent implements OnInit {
-  students =STUDENTS;
+  students = STUDENTS;
   studentDetail: IStudent;
 
   constructor() { }
 
-  changeStudent(student :IStudent){
-    this.studentDetail=student;
+  changeStudent(student: IStudent){
+    this.studentDetail = student;
   }
 
-  getMark(value :any){
-    this.studentDetail.mark=value;
+  getMark(value: any){
+    this.studentDetail.mark = value;
   }
 
   ngOnInit(): void {
